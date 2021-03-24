@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017264037125c0b439251ca7cf5b2905, type: 3}
+  m_Name: Air
+  m_EditorClassIdentifier: 
+  elementalname: Air
+  icon: {fileID: 21300000, guid: fd40a3d87d23dc440b97619db6b741fa, type: 3}
+  Strongerthan: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
+  Weakerthan: {fileID: 11400000, guid: 0cadcbbb80e3f8842b62d8700b5ded94, type: 2}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050d909da8f293c4cac3351071715b4d, type: 3}
+  m_Name: CustomVariablesConfiguration
+  m_EditorClassIdentifier: 
+  PredefinedVariables:
+  - name: PlayerName
+    value: t_Name1
+  - name: Description
+    value: t_Name1
+  - name: Level
+    value: 0
+  - name: Experience
+    value: 0
+  - name: CharacterName
+    value: t_Name1
+  - name: ElementalType
+    value: t_Name1
+  - name: FighterClass
+    value: t_Name1
+  - name: HP
+    value: 0
+  - name: MP
+    value: 0
+  - name: ATK
+    value: 0
+  - name: DEF
+    value: 0
+  - name: SPD
+    value: 0
+  - name: INTEL
+    value: 0
+  - name: IntroText
+    value: t_Name1

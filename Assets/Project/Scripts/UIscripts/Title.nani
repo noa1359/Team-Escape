@@ -1,0 +1,5 @@
+
+@back CG/Rachel time:0
+@bgm "God and Demon Valse" loop:True
+@spawn SunShafts wait:false
+@stop

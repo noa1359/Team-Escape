@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dadebb73d32fed74db1630168c0d5f03, type: 3}
+  m_Name: Nature Gem Oval
+  m_EditorClassIdentifier: 
+  ItemName: Nature Gem Oval
+  ItemIcon: {fileID: 21300000, guid: 879556b6075b5b447bec757a445910e7, type: 3}

@@ -1,0 +1,326 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06386b10f29c770408fc88b031c4d7fd, type: 3}
+  m_Name: EditorResources
+  m_EditorClassIdentifier: 
+  resourceCategories:
+  - Id: TextPrinters/9a344e40-b4d4-41d2-8c5b-f4927033757c
+    Resources:
+    - Name: Dialogue
+      PathPrefix: TextPrinters
+      Guid: 0f47dfd9ea56955498afebe4ee6ebe32
+  - Id: TextPrinters/96d50a30-08e9-4894-9320-06e9ae86d045
+    Resources:
+    - Name: Fullscreen
+      PathPrefix: TextPrinters
+      Guid: 4cc6e9d6011ae3c4bae7520feab817ef
+  - Id: TextPrinters/37342174-93ce-4764-95af-bce9bcd17071
+    Resources:
+    - Name: Wide
+      PathPrefix: TextPrinters
+      Guid: 781828b806deb1e4cbf50ef9de41da10
+  - Id: TextPrinters/12b61591-fc6c-48f5-87c7-735625573a43
+    Resources:
+    - Name: Chat
+      PathPrefix: TextPrinters
+      Guid: 0126b92e4ff0f564aaa7a38eae3ef6e7
+  - Id: TextPrinters/916869c5-066f-4303-83f0-9e1bd7737892
+    Resources:
+    - Name: Bubble
+      PathPrefix: TextPrinters
+      Guid: b47d9659b2be5ee4e95a776f213c9d4b
+  - Id: TextPrinters/a73e252e-e129-4e6d-9a0f-8588c0a02715
+    Resources:
+    - Name: TMProDialogue
+      PathPrefix: TextPrinters
+      Guid: 5838611042eaced44954639c4ea4d81e
+  - Id: TextPrinters/2effabbf-923b-4026-ba9c-438db71728f3
+    Resources:
+    - Name: TMProFullscreen
+      PathPrefix: TextPrinters
+      Guid: a2aaa417785eeca409e78c404f333ee5
+  - Id: TextPrinters/4488a33f-1fed-4479-9102-93ab3fac1204
+    Resources:
+    - Name: TMProWide
+      PathPrefix: TextPrinters
+      Guid: 7860ef40eae6a3341be02586f7edd980
+  - Id: TextPrinters/f391116d-ef21-41ec-8aa6-8648e6b5200f
+    Resources:
+    - Name: TMProBubble
+      PathPrefix: TextPrinters
+      Guid: 18cfa78b5fc89b745ba69d51a6a8629a
+  - Id: ChoiceHandlers/1b7185f0-6e02-447e-bbe8-bb2a62d6049b
+    Resources:
+    - Name: ButtonList
+      PathPrefix: ChoiceHandlers
+      Guid: 1f6aa29000e839c409e6a9c0704adc96
+  - Id: ChoiceHandlers/11d3e885-a1d3-433c-9693-02a33699bb7d
+    Resources:
+    - Name: ButtonArea
+      PathPrefix: ChoiceHandlers
+      Guid: 4fa6d62f894ae6e4698bfa8af59e7942
+  - Id: Spawn
+    Resources:
+    - Name: Animate
+      PathPrefix: Spawn
+      Guid: 7bf06fa813bb9c34daf521998fa72ab1
+    - Name: DepthOfField
+      PathPrefix: Spawn
+      Guid: ea76638b26a915946b62907dd1e776fd
+    - Name: DigitalGlitch
+      PathPrefix: Spawn
+      Guid: be75a73ecccb90b4caa5c14edb9ac467
+    - Name: Rain
+      PathPrefix: Spawn
+      Guid: a9117e2fa90704d45b3e1461596c11ee
+    - Name: ShakeBackground
+      PathPrefix: Spawn
+      Guid: 9f56c556ba32fd54fae62347c25a8145
+    - Name: ShakeCamera
+      PathPrefix: Spawn
+      Guid: 1c5b86cf3cfbb1f44ae5641699077da4
+    - Name: ShakeCharacter
+      PathPrefix: Spawn
+      Guid: 1224d69e1592d624cbde93d0f7383d91
+    - Name: ShakePrinter
+      PathPrefix: Spawn
+      Guid: 2795040988e866646801c80024c50be1
+    - Name: Snow
+      PathPrefix: Spawn
+      Guid: 9f4e71cb27fffa04486737d2cf8d622d
+    - Name: SunShafts
+      PathPrefix: Spawn
+      Guid: c4bf810b9b6cc9f44a58fd670678ded4
+  - Id: UI
+    Resources:
+    - Name: ClickThroughPanel
+      PathPrefix: UI
+      Guid: 702c32b2de0c0784b9a66ec90601874f
+    - Name: BacklogUI
+      PathPrefix: UI
+      Guid: 7fba909c66b25324cb77db18679c2c96
+    - Name: CGGalleryUI
+      PathPrefix: UI
+      Guid: adb95b87b9c56494aaaf5370485d864a
+    - Name: ConfirmationUI
+      PathPrefix: UI
+      Guid: 1b296f8947af69a46974abbe38a7e7d8
+    - Name: ContinueInputUI
+      PathPrefix: UI
+      Guid: 1add671f8348e8443bcc56290e82fc5e
+    - Name: ExternalScriptsUI
+      PathPrefix: UI
+      Guid: 671ceb4f549ddf046913d7debf113469
+    - Name: LoadingUI
+      PathPrefix: UI
+      Guid: 503bc6e0e4bd407479dc520dab52d0f0
+    - Name: MovieUI
+      PathPrefix: UI
+      Guid: f9a211517d1cb1a44964dc2254463049
+    - Name: RollbackUI
+      PathPrefix: UI
+      Guid: a32c73a3aff4b274c85b3ff16c854b07
+    - Name: SaveLoadUI
+      PathPrefix: UI
+      Guid: 1f61af83d61f55241ba6924f1d1921ee
+    - Name: SceneTransitionUI
+      PathPrefix: UI
+      Guid: e3b234b4273b7f64ab3f1d9fe425ed23
+    - Name: SettingsUI
+      PathPrefix: UI
+      Guid: ab95db94ee4ef3a48b4ed5ef129b30f6
+    - Name: TipsUI
+      PathPrefix: UI
+      Guid: f5aae572225ee1b4c96d1a17fc5cb073
+    - Name: TitleUI
+      PathPrefix: UI
+      Guid: 30b2cd827b61a4047ba4b0196efde31c
+    - Name: VariableInputUI
+      PathPrefix: UI
+      Guid: cc18059e48f31ca4b8417fd64390d8c8
+    - Name: PauseUI
+      PathPrefix: UI
+      Guid: 480f5db62ea305c46b89a86496d2a0c9
+    - Name: Heartpopup
+      PathPrefix: UI
+      Guid: 878f896acc8e2804b8f46a6b396e5324
+    - Name: HomeScreen
+      PathPrefix: UI
+      Guid: 6487fa887c973444a92c3f5324cd4fa3
+    - Name: Inventory
+      PathPrefix: UI
+      Guid: 7d1eee6c83b86ba43a0a510bef6175f5
+    - Name: Store
+      PathPrefix: UI
+      Guid: 05151b01d13473e409db37c5347115be
+    - Name: CharacterPage
+      PathPrefix: UI
+      Guid: ed61ef7f8fbca3640983a4536aef3514
+    - Name: Text
+      PathPrefix: UI
+      Guid: 471944179dcada946a54b2bbb17e7fbe
+    - Name: Tutorial
+      PathPrefix: UI
+      Guid: 5bd7959cac1b1694dad141ffee3c399a
+  - Id: Scripts
+    Resources:
+    - Name: Home screen
+      PathPrefix: Scripts
+      Guid: 5d4317c0199b7a34183b40c802d16871
+    - Name: Title
+      PathPrefix: Scripts
+      Guid: 16eefa6a4375b054a8ecc219b8effee6
+    - Name: EXPCard1
+      PathPrefix: Scripts
+      Guid: 73fb5966b800ca145bcbef77d0db91b5
+    - Name: EXPCard2
+      PathPrefix: Scripts
+      Guid: 4c3e8971172fef948a5f8fa1d9c45a73
+    - Name: EXPCard3
+      PathPrefix: Scripts
+      Guid: ef23e62f48b0611488e2b7edff5ef8da
+    - Name: Evolving
+      PathPrefix: Scripts
+      Guid: c7dce7d0f8ab08c41bb93288ed314cb0
+    - Name: Start
+      PathPrefix: Scripts
+      Guid: 269607a1cf427aa4789fd2743cdd1b7a
+  - Id: Characters/56af1d31-e05c-46fe-9362-9e6357f21e95
+    Resources: []
+  - Id: Backgrounds/cb1e4217-d6cd-48c8-afec-7793ea07a464
+    Resources:
+    - Name: CG/Andrea
+      PathPrefix: Backgrounds/MainBackground
+      Guid: 57d3ebf59d51f934084a4e003d038d0c
+    - Name: CG/Rachel
+      PathPrefix: Backgrounds/MainBackground
+      Guid: 75abb26b94e46124da18221c05ab8320
+    - Name: YellowBG
+      PathPrefix: Backgrounds/MainBackground
+      Guid: eef5ba1aaa887ba449f76f4836ae85e3
+  - Id: Unlockables
+    Resources:
+    - Name: Andreacard
+      PathPrefix: Unlockables
+      Guid: 46a7a1e1254521d47a16ff15ecb25c94
+    - Name: Rachelcard
+      PathPrefix: Unlockables
+      Guid: b73c8d27134284f45a70a3f81d193679
+    - Name: Hillarycard
+      PathPrefix: Unlockables
+      Guid: 939dfd8fe365c20419570075083c2a56
+  - Id: Characters/184af713-b27e-40aa-86f9-4396ea7673d3
+    Resources: []
+  - Id: Characters/59e5ad5a-1efa-467c-bdb7-e7c438aa53b4
+    Resources: []
+  - Id: Characters/d08c86b0-18e2-4b7a-b5dd-6fb0e64128c7
+    Resources: []
+  - Id: Characters/285822da-c9bd-4b80-94c2-f6b4f011765e
+    Resources: []
+  - Id: Characters/5a5275a1-8819-49ef-95fe-2194e7c868d0
+    Resources: []
+  - Id: Characters/8932f6fb-80aa-4e8c-a605-6eae2628d221
+    Resources: []
+  - Id: Inventory
+    Resources:
+    - Name: Book
+      PathPrefix: Inventory
+      Guid: 960682e891906924bb51d7130b623583
+    - Name: Cards
+      PathPrefix: Inventory
+      Guid: 1fd82dc6c5e763e4f91c6e49bba4e94f
+    - Name: Crossbow
+      PathPrefix: Inventory
+      Guid: c7eb03859e663ca4695d143a716c8fdc
+    - Name: Earth Gem diamond
+      PathPrefix: Inventory
+      Guid: 086b8d91c1762ba4dad5f5f9e6d99e5e
+    - Name: Earth Gem drop
+      PathPrefix: Inventory
+      Guid: 639e2b8064ce1cc48af853171b8292ff
+    - Name: Earth Gem oval
+      PathPrefix: Inventory
+      Guid: 146ba11ae4566bf40967722bfb5c5735
+    - Name: Earth Gem round
+      PathPrefix: Inventory
+      Guid: bf0ad195484be364497f74ecd6af3c07
+    - Name: Fire Gem Diamond
+      PathPrefix: Inventory
+      Guid: 8187b0774e1d55a4aaa6c74d26f089a4
+    - Name: Fire Gem drop
+      PathPrefix: Inventory
+      Guid: d954778c5b07ad6439872f90e91d792f
+    - Name: Fire Gem oval
+      PathPrefix: Inventory
+      Guid: fff97a6b651195c4cbcd0b25a7740c9b
+    - Name: Fire Gem round
+      PathPrefix: Inventory
+      Guid: 93b144a05df84de4c8925796952b4051
+    - Name: Gun
+      PathPrefix: Inventory
+      Guid: 56fb904f74bb40f46a575e0a4ea62beb
+    - Name: Knife
+      PathPrefix: Inventory
+      Guid: 02bbd23450771d74aa4c82ee0848846d
+    - Name: Medicine
+      PathPrefix: Inventory
+      Guid: f93b1579651f98246b9f31881f76d44d
+    - Name: Nature Gem Diamond
+      PathPrefix: Inventory
+      Guid: 1d63b47004a0bfd42b366496b80f7464
+    - Name: Nature Gem drop
+      PathPrefix: Inventory
+      Guid: be4747d559390ee46baf7dfc6a89cdf4
+    - Name: Nature Gem oval
+      PathPrefix: Inventory
+      Guid: 835d6f8e47ede3d448ba8fb3f78aad09
+    - Name: Nature Gem round
+      PathPrefix: Inventory
+      Guid: 4c59972a2b703574dafa04ae42f7f5b7
+    - Name: Spear
+      PathPrefix: Inventory
+      Guid: 500d0d19c6260a34da2179d247fc58a6
+    - Name: Sword
+      PathPrefix: Inventory
+      Guid: e6be5dd9fc690f845bce95cdd92aa58b
+    - Name: Wand
+      PathPrefix: Inventory
+      Guid: 8d193360572535748a4b108314a40e73
+    - Name: Water Gem Diamond
+      PathPrefix: Inventory
+      Guid: 1ba0b7b458c57c344a071b244b0c58a2
+    - Name: Water Gem Drop
+      PathPrefix: Inventory
+      Guid: 38815bf5ee8b3884680ecd8c2409a60d
+    - Name: Water Gem oval
+      PathPrefix: Inventory
+      Guid: ae0ddabc111d05c4581ca8a5a905d223
+    - Name: Water Gem round
+      PathPrefix: Inventory
+      Guid: cab46060c1d4f7d4181099e39642ea71
+    - Name: EXP1
+      PathPrefix: Inventory
+      Guid: 682abdad3580f6d4ba1e13d371588ee8
+    - Name: EXP2
+      PathPrefix: Inventory
+      Guid: 66cff835229f9ed4fa78c87fdbd78135
+    - Name: EXP3
+      PathPrefix: Inventory
+      Guid: d1ba1e09cb3197749adf135b6a2be194
+  - Id: Audio
+    Resources:
+    - Name: God and Demon Valse
+      PathPrefix: Audio
+      Guid: f484c8ab0025abe4ca5ee1e60ec4f928
+    - Name: A Neverending Dream
+      PathPrefix: Audio
+      Guid: 6d772f7c51e19384c95fc2b0eadf4c38

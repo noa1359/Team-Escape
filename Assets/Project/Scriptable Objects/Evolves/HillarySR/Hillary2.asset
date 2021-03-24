@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e051a6e92471a3a4b9cab70dab56ba37, type: 3}
+  m_Name: Hillary2
+  m_EditorClassIdentifier: 
+  evolveAtLVL: 50
+  evolveItems:
+  - itemNeeded: {fileID: 11400000, guid: 7fe2c2d226102d248a781fab273ed0e3, type: 2}
+    evolveAmount: 8
+  - itemNeeded: {fileID: 11400000, guid: 519075175f7da164fbd5930b9e46139e, type: 2}
+    evolveAmount: 8
+  - itemNeeded: {fileID: 11400000, guid: 4718d51ff317a3f4dbfb4dd4bd597f5a, type: 2}
+    evolveAmount: 8
+  - itemNeeded: {fileID: 11400000, guid: a51b30b53f669e248b71dc10cea1c479, type: 2}
+    evolveAmount: 8
+  nextEvolve: {fileID: 11400000, guid: fd70f70bafb04b645ab4ee0b90f49d81, type: 2}

@@ -1,0 +1,12 @@
+
+@if "Experience < 100"
+@set "PlayerName = \"Player Name\""
+@set "Description = \"Hello!!\""
+@else
+@goto .Homescreenstart
+@endIf
+# Homescreenstart
+@showUI HomeScreen wait:True
+# LevelCheck
+@goto Start.Start
+@stop

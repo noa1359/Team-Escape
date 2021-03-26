@@ -7,6 +7,7 @@ using UnityEngine;
 public class weapons : ScriptableObject
 {
     public string WeaponName;
+    public Sprite WeaponImage;
     [TextArea(3, 10)]
     public string Description;
     [Header("Stats")]

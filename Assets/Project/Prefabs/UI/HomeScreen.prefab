@@ -5486,7 +5486,7 @@ GameObject:
   - component: {fileID: 3909694553979765622}
   - component: {fileID: 3880289380842381665}
   - component: {fileID: 5730133398998593967}
-  - component: {fileID: 7622907669712734841}
+  - component: {fileID: 3464043076788270556}
   m_Layer: 5
   m_Name: Items
   m_TagString: Untagged
@@ -5597,7 +5597,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7622907669712734841}
+      - m_Target: {fileID: 3464043076788270556}
         m_TargetAssemblyTypeName: Naninovel.PlayScript, Elringus.Naninovel.Runtime
         m_MethodName: Play
         m_Mode: 1
@@ -5628,7 +5628,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7622907669712734841
+--- !u!114 &3464043076788270556
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5641,7 +5641,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: '@showUI Inventory'
+  scriptText: '@hideUI HomeScreen
+
+    @showUI Inventory'
 --- !u!1 &6415300036866806977
 GameObject:
   m_ObjectHideFlags: 0

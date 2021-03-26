@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Sword
   m_EditorClassIdentifier: 
   WeaponName: Sword
+  WeaponImage: {fileID: 21300000, guid: bd9794d8202de5b439582865ac36d987, type: 3}
   Description: A nice sharp Sword.
   DamageAmount: 0
   weaponRange: 0

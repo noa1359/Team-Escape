@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2DCFEA20-AAB0-C114-EB4D-E98E88801CF6}</ProjectGuid>
+    <ProjectGuid>{864C6939-20F2-C41B-19DD-A9D72307A035}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -847,27 +847,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{ECC2CF3B-32BD-C28B-89F4-EBCBA154E7FB}</Project>
+      <Project>{D0F4CB44-4056-1F4C-13E8-0017865922AC}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Elringus.NaninovelInventory.Runtime.csproj">
-      <Project>{E49A4A69-ADB0-5631-B3DC-C897A53649D6}</Project>
+      <Project>{4C458A67-E472-56D5-5913-1E81B4AD4D40}</Project>
       <Name>Elringus.NaninovelInventory.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Elringus.NaninovelInventory.Editor.csproj">
-      <Project>{0B319A55-52D3-5FF2-E7BD-BC1598093DC1}</Project>
+      <Project>{A0E2AFDA-7036-F35E-2115-5438EE373CB4}</Project>
       <Name>Elringus.NaninovelInventory.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Elringus.Naninovel.Runtime.csproj">
-      <Project>{0D23B6B2-557F-B12B-49BE-C690540A859D}</Project>
+      <Project>{890F9146-CAE3-69C1-706C-F3A0AD565A48}</Project>
       <Name>Elringus.Naninovel.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Elringus.Naninovel.Editor.csproj">
-      <Project>{39356607-9D3D-A512-C192-4CE05409E0F1}</Project>
+      <Project>{670D8BF3-E694-293E-65A2-06F3493123FF}</Project>
       <Name>Elringus.Naninovel.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UniRx.Async.csproj">
-      <Project>{0A05F98B-2E88-3977-CC1F-FC5398F1CFA0}</Project>
+      <Project>{7285D91B-66D5-50E8-403C-54831CE6AD3F}</Project>
       <Name>UniRx.Async</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0D23B6B2-557F-B12B-49BE-C690540A859D}</ProjectGuid>
+    <ProjectGuid>{890F9146-CAE3-69C1-706C-F3A0AD565A48}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Elringus.Naninovel.Runtime</AssemblyName>
@@ -1144,7 +1144,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UniRx.Async.csproj">
-      <Project>{0A05F98B-2E88-3977-CC1F-FC5398F1CFA0}</Project>
+      <Project>{7285D91B-66D5-50E8-403C-54831CE6AD3F}</Project>
       <Name>UniRx.Async</Name>
     </ProjectReference>
   </ItemGroup>

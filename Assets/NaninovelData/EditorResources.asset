@@ -156,9 +156,6 @@ MonoBehaviour:
     - Name: HomeScreen
       PathPrefix: UI
       Guid: 6487fa887c973444a92c3f5324cd4fa3
-    - Name: Inventory
-      PathPrefix: UI
-      Guid: 7d1eee6c83b86ba43a0a510bef6175f5
     - Name: Store
       PathPrefix: UI
       Guid: 05151b01d13473e409db37c5347115be
@@ -171,6 +168,9 @@ MonoBehaviour:
     - Name: Tutorial
       PathPrefix: UI
       Guid: 5bd7959cac1b1694dad141ffee3c399a
+    - Name: Inventory
+      PathPrefix: UI
+      Guid: 7d1eee6c83b86ba43a0a510bef6175f5
   - Id: Scripts
     Resources:
     - Name: Home screen

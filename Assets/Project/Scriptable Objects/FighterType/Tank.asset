@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Tank
   m_EditorClassIdentifier: 
   fightclassname: Tank
-  HPGrowth: 10
-  MPGrowth: 1
-  ATKGrowth: 2
-  DEFGrowth: 10
-  SPDGrowth: 2
-  INTELGrowth: 1
+  HPGrowth: 5
+  MPGrowth: 10
+  ATKGrowth: 10
+  DEFGrowth: 5
+  SPDGrowth: 3
+  INTELGrowth: 2

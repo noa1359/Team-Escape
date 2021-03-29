@@ -53,6 +53,7 @@
     <UnityVersion>2021.1.0b1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Project\Scripts\UIscripts\InventoryUI.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\TimerButtonManager.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\PlaymakerSupport\GetRemainingTime.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\PlaymakerSupport\ShowAchievementsUI.cs" />
@@ -113,6 +114,7 @@
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\GameServices.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\LeaderboardNames.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\CalendarDayProperties.cs" />
+    <Compile Include="Assets\Project\Scripts\UIscripts\GridSlot.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\ScreenWriter.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\GameFlowSupport\SubmitAchievement.cs" />
     <Compile Include="Assets\Project\Scripts\GM.cs" />
@@ -137,8 +139,6 @@
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\GameFlowSupport\CheckIfBought.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\GameFlowSupport\GetStorePrice.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\PlaymakerSupport\TimerButtonClicked.cs" />
-    <Compile Include="Assets\Project\Scripts\UIscripts\InventoryUI.cs" />
-    <Compile Include="Assets\Project\Scripts\UIscripts\GridSlot.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Naninovel\ThirdParty\NLayer\NLayer.dll" />

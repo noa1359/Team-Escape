@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Project/Scenes/AfterBattle.unity
     guid: ea76a4f3a6af5df48b34df33c6c6f048
+  - enabled: 1
+    path: Assets/Project/Scenes/Battle.unity
+    guid: 2689f641f57299d4dbd28dcc8ecd1da4
+  - enabled: 1
+    path: Assets/Project/Scenes/Team Select.unity
+    guid: f6286dc6d70faf14d82d9d9c31c0af71
   m_configObjects: {}

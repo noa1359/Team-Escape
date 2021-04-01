@@ -25,6 +25,25 @@ public class CollectedEvolveItems
 }
 
 [System.Serializable]
+public class Card
+{
+    public Toggle toggle;
+    public Image cardImage;
+
+    public Text lvl;
+    public Text hp;
+    public Text mp;
+    public Text atk;
+    public Text def;
+    public Text spd;
+    public Text intel;
+
+    public GameObject misgeret;
+    public GameObject stats;
+}
+
+
+[System.Serializable]
 public class Character
 {
     public string characterName;
@@ -81,6 +100,7 @@ public class GM : MonoBehaviour
     [Header("Battle Info")]
     [Space(20)]
     public string LastBattleScene;
+    public List<Character> charactersInBattle = new List<Character>();
     public List<int> battleCharacters = new List<int>();
     public int currectCharacterInt = 0;
     public int playerEarnedEXP;

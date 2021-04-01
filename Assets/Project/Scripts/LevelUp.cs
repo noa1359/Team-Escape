@@ -17,7 +17,7 @@ public class LevelUp : MonoBehaviour
         int i = 0;
         foreach (int bcInt in GM.gm.battleCharacters)
         {
-           StartCoroutine(levelUp(GM.gm.availableCharacters[bcInt], i));
+           StartCoroutine(levelUp(GM.gm.charactersInBattle[bcInt], i));
             i++;
         }
         StartCoroutine(levelUpplayer());
@@ -29,7 +29,7 @@ public class LevelUp : MonoBehaviour
         List<bool> EXPfinished = new List<bool>();
         foreach (int bcInt in GM.gm.battleCharacters)
         {
-            if (GM.gm.availableCharacters[bcInt].earnedEXP == 0)
+            if (GM.gm.charactersInBattle[bcInt].earnedEXP == 0)
             {
                 EXPfinished.Add(true);
             }

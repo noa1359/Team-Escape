@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -52,7 +53,7 @@ public class Enemy : MonoBehaviour
                 }
             }
             spawnParticles();
-            Destroy(this.gameObject);
+            SceneManager.LoadScene("Team Select");
         }
     }
 

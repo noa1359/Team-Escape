@@ -285,7 +285,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 40a91cbe07a3c0246a47a1996ee68d86, type: 2}
   - {fileID: 11400000, guid: 7fe2c2d226102d248a781fab273ed0e3, type: 2}
   - {fileID: 11400000, guid: 4718d51ff317a3f4dbfb4dd4bd597f5a, type: 2}
-  ps: {fileID: 8671939184510966694, guid: c9234c5f7d8b7624f9972069b3f691b2, type: 3}
+  transitionAnim: {fileID: 0}
 --- !u!1001 &166736550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -399,7 +399,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 86c0c168f2d4aa2498c1d8affd52ccb8, type: 2}
   - {fileID: 11400000, guid: 334274f80271ef241877379c74bc5d71, type: 2}
   - {fileID: 11400000, guid: 0e761ef6fe14694448fd665cbc9236bf, type: 2}
-  ps: {fileID: 8671939184510966694, guid: c9234c5f7d8b7624f9972069b3f691b2, type: 3}
+  transitionAnim: {fileID: 0}
 --- !u!50 &174465057
 Rigidbody2D:
   serializedVersion: 4

@@ -24,21 +24,20 @@ public class AfterBattleController : MonoBehaviour
     {
         playAgain.interactable = false;
         Continue.interactable = false;
-        CharacterIconController firstCharacter = null;
-        foreach (int bcInt in GM.gm.battleCharacters)
+        foreach (BattleCharacters bcInt in GM.gm.charactersInBattle)
         {
             GameObject go = Instantiate(characterIconPrefab);
             go.transform.SetParent(contentArea.transform);
             go.GetComponent<RectTransform>().localScale = new Vector3(1,1,1);
             CharacterIconController CIC = go.GetComponent<CharacterIconController>();
-            CIC.profile.sprite = GM.gm.availableCharacters[bcInt].characterProfile;
-            CIC.element.sprite = GM.gm.availableCharacters[bcInt].elementalType.icon;
-            CIC.rarity.sprite = GM.gm.availableCharacters[bcInt].rarityIcon;
+            CIC.profile.sprite = GM.gm.availableCharacters[bcInt.originalCharacterInt].characterProfile;
+            CIC.element.sprite = GM.gm.availableCharacters[bcInt.originalCharacterInt].elementalType.icon;
+            CIC.rarity.sprite = GM.gm.availableCharacters[bcInt.originalCharacterInt].rarityIcon;
             CIC.EXPbar.fillAmount =
-                (GM.gm.availableCharacters[bcInt].charaEXP - GM.gm.availableCharacters[bcInt].lastLVLUp) /
-                (GM.gm.availableCharacters[bcInt].nextLVLUp - GM.gm.availableCharacters[bcInt].lastLVLUp);
-            CIC.level.text = GM.gm.availableCharacters[bcInt].charaLVL.ToString();
-            CIC.GMint = bcInt;
+                (GM.gm.availableCharacters[bcInt.originalCharacterInt].charaEXP - GM.gm.availableCharacters[bcInt.originalCharacterInt].lastLVLUp) /
+                (GM.gm.availableCharacters[bcInt.originalCharacterInt].nextLVLUp - GM.gm.availableCharacters[bcInt.originalCharacterInt].lastLVLUp);
+            CIC.level.text = GM.gm.availableCharacters[bcInt.originalCharacterInt].charaLVL.ToString();
+            CIC.GMint = bcInt.originalCharacterInt;
             CIC.ABC = this;
             characterList.Add(go);
         }

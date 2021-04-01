@@ -13,7 +13,6 @@ public class CharacterIconController : MonoBehaviour
     public int GMint;
     public CharacterPageController CPC;
     public AfterBattleController ABC;
-    public TeamSelectorScript TSS;
 
     public void ClickIcon()
     {

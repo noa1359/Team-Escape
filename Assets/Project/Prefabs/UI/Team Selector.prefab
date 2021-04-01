@@ -1261,7 +1261,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6649650397179661459}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4047317878845415873}
+        m_TargetAssemblyTypeName: TeamSelectorScript, Assembly-CSharp
+        m_MethodName: ClickPlay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &7709395423852155129
 Animator:
   serializedVersion: 3
@@ -8203,6 +8215,146 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7172589314e51c94883d922b46565cd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  availableCharacters: []
+  charactersInBattle:
+  - originalCharacterInt: 0
+    battleCharacter:
+      characterName: 
+      elementalType: {fileID: 0}
+      fighterClass: {fileID: 0}
+      rarity: 0
+      characterProfile: {fileID: 0}
+      CardImage: {fileID: 0}
+      rarityIcon: {fileID: 0}
+      profilePic: {fileID: 0}
+      charaLVL: 1
+      charaEXP: 0
+      lastLVLUp: 0
+      nextLVLUp: 110
+      HP: 0
+      MP: 0
+      ATK: 0
+      DEF: 0
+      SPD: 0
+      INTEL: 0
+      charEvolve: {fileID: 0}
+      EquippedWeapon: {fileID: 0}
+      earnedEXP: 0
+  - originalCharacterInt: 0
+    battleCharacter:
+      characterName: 
+      elementalType: {fileID: 0}
+      fighterClass: {fileID: 0}
+      rarity: 0
+      characterProfile: {fileID: 0}
+      CardImage: {fileID: 0}
+      rarityIcon: {fileID: 0}
+      profilePic: {fileID: 0}
+      charaLVL: 1
+      charaEXP: 0
+      lastLVLUp: 0
+      nextLVLUp: 110
+      HP: 0
+      MP: 0
+      ATK: 0
+      DEF: 0
+      SPD: 0
+      INTEL: 0
+      charEvolve: {fileID: 0}
+      EquippedWeapon: {fileID: 0}
+      earnedEXP: 0
+  - originalCharacterInt: 0
+    battleCharacter:
+      characterName: 
+      elementalType: {fileID: 0}
+      fighterClass: {fileID: 0}
+      rarity: 0
+      characterProfile: {fileID: 0}
+      CardImage: {fileID: 0}
+      rarityIcon: {fileID: 0}
+      profilePic: {fileID: 0}
+      charaLVL: 1
+      charaEXP: 0
+      lastLVLUp: 0
+      nextLVLUp: 110
+      HP: 0
+      MP: 0
+      ATK: 0
+      DEF: 0
+      SPD: 0
+      INTEL: 0
+      charEvolve: {fileID: 0}
+      EquippedWeapon: {fileID: 0}
+      earnedEXP: 0
+  - originalCharacterInt: 0
+    battleCharacter:
+      characterName: 
+      elementalType: {fileID: 0}
+      fighterClass: {fileID: 0}
+      rarity: 0
+      characterProfile: {fileID: 0}
+      CardImage: {fileID: 0}
+      rarityIcon: {fileID: 0}
+      profilePic: {fileID: 0}
+      charaLVL: 1
+      charaEXP: 0
+      lastLVLUp: 0
+      nextLVLUp: 110
+      HP: 0
+      MP: 0
+      ATK: 0
+      DEF: 0
+      SPD: 0
+      INTEL: 0
+      charEvolve: {fileID: 0}
+      EquippedWeapon: {fileID: 0}
+      earnedEXP: 0
+  - originalCharacterInt: 0
+    battleCharacter:
+      characterName: 
+      elementalType: {fileID: 0}
+      fighterClass: {fileID: 0}
+      rarity: 0
+      characterProfile: {fileID: 0}
+      CardImage: {fileID: 0}
+      rarityIcon: {fileID: 0}
+      profilePic: {fileID: 0}
+      charaLVL: 1
+      charaEXP: 0
+      lastLVLUp: 0
+      nextLVLUp: 110
+      HP: 0
+      MP: 0
+      ATK: 0
+      DEF: 0
+      SPD: 0
+      INTEL: 0
+      charEvolve: {fileID: 0}
+      EquippedWeapon: {fileID: 0}
+      earnedEXP: 0
+  - originalCharacterInt: 0
+    battleCharacter:
+      characterName: 
+      elementalType: {fileID: 0}
+      fighterClass: {fileID: 0}
+      rarity: 0
+      characterProfile: {fileID: 0}
+      CardImage: {fileID: 0}
+      rarityIcon: {fileID: 0}
+      profilePic: {fileID: 0}
+      charaLVL: 1
+      charaEXP: 0
+      lastLVLUp: 0
+      nextLVLUp: 110
+      HP: 0
+      MP: 0
+      ATK: 0
+      DEF: 0
+      SPD: 0
+      INTEL: 0
+      charEvolve: {fileID: 0}
+      EquippedWeapon: {fileID: 0}
+      earnedEXP: 0
   characterList: []
   contentArea: {fileID: 888035003117896472}
   characterIconPrefab: {fileID: 1269574224489313316, guid: e2de0d7d4b5a8b84dbf50bc7c42b015e,
@@ -9427,7 +9579,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8893880632510173189
 RectTransform:
   m_ObjectHideFlags: 0

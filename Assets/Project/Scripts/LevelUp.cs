@@ -15,9 +15,9 @@ public class LevelUp : MonoBehaviour
         ABC = go.GetComponent<AfterBattleController>();
         // start the EXP increase
         int i = 0;
-        foreach (int bcInt in GM.gm.battleCharacters)
+        foreach (BattleCharacters bcInt in GM.gm.charactersInBattle)
         {
-           StartCoroutine(levelUp(GM.gm.charactersInBattle[bcInt], i));
+           StartCoroutine(levelUp(GM.gm.availableCharacters[bcInt.originalCharacterInt], i));
             i++;
         }
         StartCoroutine(levelUpplayer());
@@ -27,9 +27,9 @@ public class LevelUp : MonoBehaviour
     void Update()
     {
         List<bool> EXPfinished = new List<bool>();
-        foreach (int bcInt in GM.gm.battleCharacters)
+        foreach (BattleCharacters bcInt in GM.gm.charactersInBattle)
         {
-            if (GM.gm.charactersInBattle[bcInt].earnedEXP == 0)
+            if (GM.gm.availableCharacters[bcInt.originalCharacterInt].earnedEXP == 0)
             {
                 EXPfinished.Add(true);
             }

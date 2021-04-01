@@ -9,38 +9,41 @@ public class CharacterTeamController : MonoBehaviour
     public Image element;
     public Image rarity;
     public Text level;
-    public Image EXPbar;
-    public int GMint;
+    public BattleCharacters BC;
     public TeamSelectorScript TSS;
 
     public void ClickIcon()
     {
-        Character thisCharacter = GM.gm.availableCharacters[GMint];
+        //Character thisCharacter = TSS.availableCharacters[GMint];
         for (int i = 0; i < TSS.cards.Count; i++)
         {   
             if (TSS.cards[i].toggle.isOn)
             {
+                if (TSS.charactersInBattle[i].battleCharacter.characterName != "")
+                {
+                    TSS.availableCharacters.Add(TSS.charactersInBattle[i]);
+                }
+
                 TSS.cards[i].misgeret.SetActive(true);
                 TSS.cards[i].stats.SetActive(true);
 
                 TSS.cards[i].cardImage.enabled = true;
-                TSS.cards[i].cardImage.sprite = thisCharacter.CardImage;
+                TSS.cards[i].cardImage.sprite = BC.battleCharacter.CardImage;
                 
-                TSS.cards[i].lvl.text = thisCharacter.charaLVL.ToString();
-                TSS.cards[i].hp.text = thisCharacter.HP.ToString();
-                TSS.cards[i].mp.text = thisCharacter.MP.ToString();
-                TSS.cards[i].atk.text = thisCharacter.ATK.ToString();
-                TSS.cards[i].def.text = thisCharacter.DEF.ToString();
-                TSS.cards[i].spd.text = thisCharacter.SPD.ToString();
-                TSS.cards[i].intel.text = thisCharacter.INTEL.ToString();
+                TSS.cards[i].lvl.text = BC.battleCharacter.charaLVL.ToString();
+                TSS.cards[i].hp.text = BC.battleCharacter.HP.ToString();
+                TSS.cards[i].mp.text = BC.battleCharacter.MP.ToString();
+                TSS.cards[i].atk.text = BC.battleCharacter.ATK.ToString();
+                TSS.cards[i].def.text = BC.battleCharacter.DEF.ToString();
+                TSS.cards[i].spd.text = BC.battleCharacter.SPD.ToString();
+                TSS.cards[i].intel.text = BC.battleCharacter.INTEL.ToString();
 
-                GM.gm.charactersInBattle.Add(thisCharacter);
-                GM.gm.battleCharacters.Add(i);
+                TSS.availableCharacters.Remove(BC);
+                TSS.charactersInBattle[i] = BC;
+                break;
             }
-
-            ///if character is put on the team already, you can't put it again.
-            ///if character is replaced by another character,
-            ///then you remove her from battleCharacters and characters in battle and you can put it on the team again.
         }
+        TSS.clearCharacterList();
+        TSS.FillCharacterList();
     }
 }

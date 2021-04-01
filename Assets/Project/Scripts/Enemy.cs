@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     public int gold;
     public int gems;
     public List<EvolveItem> gainedItems = new List<EvolveItem>();
-    public GameObject ps;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,13 +52,7 @@ public class Enemy : MonoBehaviour
                     GM.gm.earnedEvItems.Add(new CollectedEvolveItems(item, 1));
                 }
             }
-            spawnParticles();
             SceneManager.LoadScene("Team Select");
         }
-    }
-
-    void spawnParticles()
-    {
-        Instantiate(ps, transform.position, transform.rotation);
     }
 }

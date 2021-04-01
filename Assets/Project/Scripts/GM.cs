@@ -42,6 +42,17 @@ public class Card
     public GameObject stats;
 }
 
+[System.Serializable]
+public class BattleCharacters
+{
+    public int originalCharacterInt;
+    public Character battleCharacter;
+    public BattleCharacters(int oc, Character bc)
+    {
+        this.originalCharacterInt = oc;
+        this.battleCharacter = bc;
+    }
+}
 
 [System.Serializable]
 public class Character
@@ -100,7 +111,7 @@ public class GM : MonoBehaviour
     [Header("Battle Info")]
     [Space(20)]
     public string LastBattleScene;
-    public List<Character> charactersInBattle = new List<Character>();
+    public List<BattleCharacters> charactersInBattle = new List<BattleCharacters>();
     public List<int> battleCharacters = new List<int>();
     public int currectCharacterInt = 0;
     public int playerEarnedEXP;

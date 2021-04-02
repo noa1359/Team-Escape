@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TeamSelectorScript : MonoBehaviour
 {
@@ -29,14 +30,14 @@ public class TeamSelectorScript : MonoBehaviour
         {
             bool foundInBattle = false;
             BattleCharacters bc = new BattleCharacters(i, GM.gm.availableCharacters[i]);
-            /*foreach (BattleCharacters item in charactersInBattle)
+            foreach (BattleCharacters item in charactersInBattle)
             {
-                *if (item.originalCharacterInt == i)
+                if (item.originalCharacterInt == i && item.battleCharacter.characterName != "")
                 {
                     foundInBattle = true;
                     break;
                 }
-            }*/
+            }
 
             if (foundInBattle)
             {
@@ -126,6 +127,7 @@ public class TeamSelectorScript : MonoBehaviour
             }
             GM.gm.charactersInBattle.Add(item);
         }
+        SceneManager.LoadScene("Battle");
     }
 
     public void FillCardList(int i, BattleCharacters BC)

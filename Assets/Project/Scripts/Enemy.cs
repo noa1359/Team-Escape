@@ -11,6 +11,8 @@ public class Enemy : MonoBehaviour
     public int gems;
     public List<EvolveItem> gainedItems = new List<EvolveItem>();
 
+    public Animator transitionAnim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,7 +54,14 @@ public class Enemy : MonoBehaviour
                     GM.gm.earnedEvItems.Add(new CollectedEvolveItems(item, 1));
                 }
             }
-            SceneManager.LoadScene("Team Select");
+            StartCoroutine(LoadingScene());
         }
+    }
+
+    IEnumerator LoadingScene()
+    {
+        transitionAnim.SetTrigger("end");
+        SceneManager.LoadScene("Team Select");
+        yield return new WaitForSeconds(1.5f);
     }
 }

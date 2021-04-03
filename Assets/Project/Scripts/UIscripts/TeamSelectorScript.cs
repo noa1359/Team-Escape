@@ -16,6 +16,8 @@ public class TeamSelectorScript : MonoBehaviour
 
     public List<Card> cards = new List<Card>();
 
+    public Animator transitionAnim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -127,7 +129,7 @@ public class TeamSelectorScript : MonoBehaviour
             }
             GM.gm.charactersInBattle.Add(item);
         }
-        SceneManager.LoadScene("Battle");
+        StartCoroutine(LoadingScene());
     }
 
     public void FillCardList(int i, BattleCharacters BC)
@@ -145,5 +147,12 @@ public class TeamSelectorScript : MonoBehaviour
         cards[i].def.text = BC.battleCharacter.DEF.ToString();
         cards[i].spd.text = BC.battleCharacter.SPD.ToString();
         cards[i].intel.text = BC.battleCharacter.INTEL.ToString();
+    }
+
+    IEnumerator LoadingScene()
+    {
+        transitionAnim.SetTrigger("end");
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene("Battle");
     }
 }

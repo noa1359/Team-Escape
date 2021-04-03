@@ -112,6 +112,69 @@ MonoBehaviour:
     charEvolve: {fileID: 11400000, guid: f5b3e209a3ad5e742a9a19bb6ba8308c, type: 2}
     EquippedWeapon: {fileID: 0}
     earnedEXP: 0
+  - characterName: GIACINTO TREVISAN
+    elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
+    fighterClass: {fileID: 11400000, guid: fe969553f9a17004e801e53fca2dd3d1, type: 2}
+    rarity: 0
+    characterProfile: {fileID: 21300000, guid: 6db96f6df017a3b4ebb35544f43999e9, type: 3}
+    CardImage: {fileID: 21300000, guid: b3699ae6c9e9ab745b92d33acca6fc4b, type: 3}
+    rarityIcon: {fileID: 21300000, guid: 96725537585675d449423b40d588d785, type: 3}
+    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
+    charaLVL: 1
+    charaEXP: 0
+    lastLVLUp: 0
+    nextLVLUp: 110
+    HP: 108
+    MP: 168
+    ATK: 30
+    DEF: 56
+    SPD: 30
+    INTEL: 62
+    charEvolve: {fileID: 0}
+    EquippedWeapon: {fileID: 0}
+    earnedEXP: 0
+  - characterName: ASHLEY LINDSAY BARNES
+    elementalType: {fileID: 11400000, guid: 08347b90609b51543a607f6799179516, type: 2}
+    fighterClass: {fileID: 11400000, guid: 12c8ab5e72b01454ba473a16534e5c39, type: 2}
+    rarity: 0
+    characterProfile: {fileID: 21300000, guid: 4bdbbc0706532ae469e0d618d3817a8c, type: 3}
+    CardImage: {fileID: 21300000, guid: 7ddcf1fec62fa714089431dbede9eb3d, type: 3}
+    rarityIcon: {fileID: 21300000, guid: 96725537585675d449423b40d588d785, type: 3}
+    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
+    charaLVL: 1
+    charaEXP: 0
+    lastLVLUp: 0
+    nextLVLUp: 110
+    HP: 156
+    MP: 182
+    ATK: 114
+    DEF: 48
+    SPD: 46
+    INTEL: 66
+    charEvolve: {fileID: 0}
+    EquippedWeapon: {fileID: 0}
+    earnedEXP: 0
+  - characterName: LILY AMBER COLLINS
+    elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
+    fighterClass: {fileID: 11400000, guid: 12c8ab5e72b01454ba473a16534e5c39, type: 2}
+    rarity: 0
+    characterProfile: {fileID: 21300000, guid: e3315d7419a41e84d9917a98b6e758a7, type: 3}
+    CardImage: {fileID: 21300000, guid: fe84b2d6fdb2c7847b1c8aaa85f435a6, type: 3}
+    rarityIcon: {fileID: 21300000, guid: 96725537585675d449423b40d588d785, type: 3}
+    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
+    charaLVL: 1
+    charaEXP: 0
+    lastLVLUp: 0
+    nextLVLUp: 110
+    HP: 114
+    MP: 162
+    ATK: 108
+    DEF: 82
+    SPD: 78
+    INTEL: 72
+    charEvolve: {fileID: 0}
+    EquippedWeapon: {fileID: 0}
+    earnedEXP: 0
   availableCharacters:
   - characterName: ANDREA CLARK
     elementalType: {fileID: 11400000, guid: 0cadcbbb80e3f8842b62d8700b5ded94, type: 2}
@@ -153,6 +216,27 @@ MonoBehaviour:
     SPD: 58
     INTEL: 42
     charEvolve: {fileID: 11400000, guid: efdc4ffe42727974290c946d3d61f935, type: 2}
+    EquippedWeapon: {fileID: 0}
+    earnedEXP: 0
+  - characterName: RACHEL SHIPMAN
+    elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
+    fighterClass: {fileID: 11400000, guid: fe969553f9a17004e801e53fca2dd3d1, type: 2}
+    rarity: 2
+    characterProfile: {fileID: 21300000, guid: 1087ca187e0cb2a40b7b4d176eb717b2, type: 3}
+    CardImage: {fileID: 21300000, guid: b73c8d27134284f45a70a3f81d193679, type: 3}
+    rarityIcon: {fileID: 21300000, guid: ac7b627d681188f4190793fcf619f177, type: 3}
+    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
+    charaLVL: 1
+    charaEXP: 0
+    lastLVLUp: 0
+    nextLVLUp: 110
+    HP: 110
+    MP: 135
+    ATK: 64
+    DEF: 80
+    SPD: 92
+    INTEL: 86
+    charEvolve: {fileID: 11400000, guid: f5b3e209a3ad5e742a9a19bb6ba8308c, type: 2}
     EquippedWeapon: {fileID: 0}
     earnedEXP: 0
   gold: 0

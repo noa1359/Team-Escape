@@ -524,7 +524,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1731029677079423452}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3973706029028092755}
+        m_TargetAssemblyTypeName: AfterBattleController, Assembly-CSharp
+        m_MethodName: ContinueExploring
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1655124063033002560
 GameObject:
   m_ObjectHideFlags: 0
@@ -2601,6 +2613,7 @@ MonoBehaviour:
   gems: {fileID: 6935004487489463444}
   playAgain: {fileID: 1859764778028580751}
   Continue: {fileID: 7666315269023115424}
+  transitionAnim: {fileID: 0}
 --- !u!1 &8274329898744313931
 GameObject:
   m_ObjectHideFlags: 0

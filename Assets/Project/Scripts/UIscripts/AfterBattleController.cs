@@ -19,9 +19,12 @@ public class AfterBattleController : MonoBehaviour
     public Button playAgain;
     public Button Continue;
 
+    public Animator transitionAnim;
+
     // Start is called before the first frame update
     void Start()
     {
+        transitionAnim = GameObject.Find("Panel").GetComponent<Animator>();
         playAgain.interactable = false;
         Continue.interactable = false;
         foreach (BattleCharacters bcInt in GM.gm.charactersInBattle)
@@ -45,6 +48,25 @@ public class AfterBattleController : MonoBehaviour
 
     public void PlayAgain()
     {
+        StartCoroutine(LoadingBattleScene());
+    }
+
+    public void ContinueExploring()
+    {
+        StartCoroutine(LoadingScene());
+    }
+
+    IEnumerator LoadingBattleScene()
+    {
+        transitionAnim.SetTrigger("end");
+        yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene(GM.gm.LastBattleScene);
+    }
+
+    IEnumerator LoadingScene()
+    {
+        transitionAnim.SetTrigger("end");
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene(GM.gm.LastExplorationScene);
     }
 }

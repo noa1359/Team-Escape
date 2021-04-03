@@ -309,9 +309,9 @@
     <Compile Include="Assets\Naninovel\Runtime\Common\Utilities\ParseUtils.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\TextPrinter\RevealableTMProText.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\Collections\IntRange.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Actor\SpriteActor.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\UI\ContinueInput\ContinueInputUI.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\Utilities\TextureUtils.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\UI\ContinueInput\ContinueInputUI.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Actor\SpriteActor.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\IUIManager.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Audio\StopBgm.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\Utilities\ResourceUtils.cs" />

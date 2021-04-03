@@ -102,6 +102,7 @@ public class GM : MonoBehaviour
     public float playerNextLVLUp = 100f;
     public List<Character> charactersDatabase = new List<Character>();
     public List<Character> availableCharacters = new List<Character>();
+    public string LastExplorationScene;
     [Header("Inventory")]
     [Space(20)]
     public int gold;

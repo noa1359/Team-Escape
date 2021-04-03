@@ -13,10 +13,45 @@ MonoBehaviour:
   m_Name: ScriptGraphState
   m_EditorClassIdentifier: 
   NodesState:
-  - ScriptName: Test
+  - ScriptName: Home screen
+    Position:
+      serializedVersion: 2
+      x: 313
+      y: -3
+      width: 171
+      height: 173
+  - ScriptName: Title
     Position:
       serializedVersion: 2
       x: 0
       y: 0
       width: 72
       height: 77
+  - ScriptName: EXPCard1
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 77
+      width: 103
+      height: 77
+  - ScriptName: EXPCard2
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 154
+      width: 104
+      height: 77
+  - ScriptName: EXPCard3
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 231
+      width: 105
+      height: 77
+  - ScriptName: Start
+    Position:
+      serializedVersion: 2
+      x: 131
+      y: 2
+      width: 147
+      height: 125

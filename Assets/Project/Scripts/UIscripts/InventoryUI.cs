@@ -15,8 +15,7 @@ public class InventoryUI : MonoBehaviour
     public Toggle evolveItems;
     public Toggle loreItems;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {        
         if (evolveItems.isOn)
         {

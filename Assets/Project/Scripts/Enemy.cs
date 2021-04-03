@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        GM.gm.LastExplorationScene = SceneManager.GetActiveScene().name;
     }
 
     // Update is called once per frame
@@ -61,7 +61,7 @@ public class Enemy : MonoBehaviour
     IEnumerator LoadingScene()
     {
         transitionAnim.SetTrigger("end");
+        yield return new WaitForSeconds(1.0f);
         SceneManager.LoadScene("Team Select");
-        yield return new WaitForSeconds(1.5f);
     }
 }

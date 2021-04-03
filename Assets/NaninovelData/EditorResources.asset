@@ -168,9 +168,6 @@ MonoBehaviour:
     - Name: Tutorial
       PathPrefix: UI
       Guid: 5bd7959cac1b1694dad141ffee3c399a
-    - Name: Inventory
-      PathPrefix: UI
-      Guid: 7d1eee6c83b86ba43a0a510bef6175f5
   - Id: Scripts
     Resources:
     - Name: Home screen
@@ -188,9 +185,6 @@ MonoBehaviour:
     - Name: EXPCard3
       PathPrefix: Scripts
       Guid: ef23e62f48b0611488e2b7edff5ef8da
-    - Name: Evolving
-      PathPrefix: Scripts
-      Guid: c7dce7d0f8ab08c41bb93288ed314cb0
     - Name: Start
       PathPrefix: Scripts
       Guid: 269607a1cf427aa4789fd2743cdd1b7a

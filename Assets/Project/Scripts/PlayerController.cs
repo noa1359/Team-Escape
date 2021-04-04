@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public Joystick joystick;
+
     private Rigidbody2D rb;
-    public float speed;
     public float jumpForce;
+    public float speed = 48f;
     private float moveInput;
 
     private bool isGrounded;
@@ -26,16 +28,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(Input.GetKey(KeyCode.LeftShift)||Input.GetKey(KeyCode.RightShift))
-        {
-            speed = 88;
-        }
-        else
-        {
-            speed = 48;
-        }
-
-        moveInput = Input.GetAxisRaw("Horizontal");
+        moveInput = joystick.Horizontal;
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
     }
 
@@ -52,14 +45,14 @@ public class PlayerController : MonoBehaviour
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
         
-        if(isGrounded == true && Input.GetKeyDown(KeyCode.UpArrow))
+        if(isGrounded == true && joystick.Vertical > 0f)
         {
             isJumping = true;
             jumpTimeCounter = jumpTime;
             rb.velocity = Vector2.up * jumpForce;
         }
 
-        if(Input.GetKey(KeyCode.UpArrow) && isJumping == true)
+        if(joystick.Vertical > 0f && isJumping == true)
         {
             if(jumpTimeCounter > 0)
             {
@@ -73,7 +66,7 @@ public class PlayerController : MonoBehaviour
             
         }
 
-        if(Input.GetKeyUp(KeyCode.UpArrow))
+        if(joystick.Vertical <= 0f)
         {
             isJumping = false;
         }

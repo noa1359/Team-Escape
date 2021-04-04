@@ -1,7 +1,0 @@
-@loadScene Prototype wait:True
-@goto "Home screen"
-
-# Start
-
-
-@stop

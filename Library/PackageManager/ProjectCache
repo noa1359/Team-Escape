@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637510491877556937
-    m_Hash: 2987830727
+      ticks: 637531157925452920
+    m_Hash: 4578197
   m_LockFileStatus:
     m_FilePath: C:/Users/noasg/Team Escape/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637526804344257435
-    m_Hash: 4115009893
+      ticks: 637531157960388120
+    m_Hash: 1740626215
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -597,12 +597,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.ads@3.5.2
+- packageId: com.unity.ads@3.7.0
   testable: 0
   isDirectDependency: 1
-  version: 3.5.2
+  version: 3.7.0
   source: 1
-  resolvedPath: C:\Users\noasg\Team Escape\Library\PackageCache\com.unity.ads@3.5.2
+  resolvedPath: C:\Users\noasg\Team Escape\Library\PackageCache\com.unity.ads@3.7.0
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement
@@ -686,13 +686,13 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637409002530000000
+  datePublishedTicks: 637521215730000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ads.git
-    revision: 67dd808cf50e07dea4a3cec97b04f2ca5a9d0f13
+    revision: 93718d053ef024d72422d84b2e429d7f54100072
     path: 
   unityLifecycle:
     version: 
@@ -1377,12 +1377,14 @@ m_ResolvedPackages:
     - 3.0.0-pre.5
     - 3.0.0-pre.6
     - 3.0.1
+    - 3.0.2
     compatible:
     - 3.0.0-pre.4
     - 3.0.0-pre.5
     - 3.0.0-pre.6
     - 3.0.1
-    verified: 3.0.1
+    - 3.0.2
+    verified: 3.0.2
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -4110,10 +4112,12 @@ m_ResolvedPackages:
     - 4.0.3
     - 5.0.0-pre.1
     - 5.0.0-pre.2
+    - 5.0.0
     compatible:
     - 4.0.3
     - 5.0.0-pre.1
     - 5.0.0-pre.2
+    - 5.0.0
     verified: 4.0.3
   dependencies:
   - name: com.unity.2d.sprite
@@ -4195,10 +4199,12 @@ m_ResolvedPackages:
     - 4.0.1
     - 5.0.0-pre.1
     - 5.0.0-pre.2
+    - 5.0.0
     compatible:
     - 4.0.1
     - 5.0.0-pre.1
     - 5.0.0-pre.2
+    - 5.0.0
     verified: 4.0.1
   dependencies: []
   resolvedDependencies: []

@@ -150,18 +150,12 @@ MonoBehaviour:
     - Name: PauseUI
       PathPrefix: UI
       Guid: 480f5db62ea305c46b89a86496d2a0c9
-    - Name: Heartpopup
-      PathPrefix: UI
-      Guid: 878f896acc8e2804b8f46a6b396e5324
     - Name: HomeScreen
       PathPrefix: UI
       Guid: 6487fa887c973444a92c3f5324cd4fa3
     - Name: Store
       PathPrefix: UI
       Guid: 05151b01d13473e409db37c5347115be
-    - Name: CharacterPage
-      PathPrefix: UI
-      Guid: ed61ef7f8fbca3640983a4536aef3514
     - Name: Text
       PathPrefix: UI
       Guid: 471944179dcada946a54b2bbb17e7fbe

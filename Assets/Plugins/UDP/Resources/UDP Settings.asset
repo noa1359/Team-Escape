@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: -107981364, guid: 7f448572ea9eb4f94a29da7a37eed74a, type: 3}
   m_Name: UDP Settings
   m_EditorClassIdentifier: 
-  UnityProjectID: 
-  UnityClientID: 
-  UnityClientKey: 
-  UnityClientRSAPublicKey: 
-  AppName: 
-  AppSlug: 
-  AppItemId: 
+  UnityProjectID: ae3ba703-643a-434c-a441-6d7f6f842570
+  UnityClientID: yNZXpirJw8sFASF9KOQVHQ
+  UnityClientKey: twij6C81SpgJC1wonkKQz6rZMC5sUiCcZ4UJGr4Q1iQ
+  UnityClientRSAPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiWEyBLVB5z1qlckfUzY9CGSME2xfytnPGm2cayx8iQ8y3NzvMJhzcWJUqBMAFL/vO6cvbeEhDGGx3FWapeq6n64DozsEaHb5DSjXutqJq/ARtgg0hW39Su85L9dH6sQF9j3Cr5tLZ3wwxYLFsD3uYoejzo5an4UR4FG7tT06Kg/Wj4JlCIxmBpKay+1/vEvwb5HP/vA95CfGxhSLHEAlwkdDFJt4PwPWyupfNR/bJy0jZpg3HtgP4GxUcg/uEyqHkrsDwCRfK+mmA21FzkBrW6Vrii1c1JNYWwssQeV6HoNJfte5K5DHQpgiC8au5hy2v+OIz7behqTt0EyOZkMu/wIDAQAB
+  AppName: Team Escape
+  AppSlug: 67f50d49-ca14-4038-bd6b-178c1fbc8c15
+  AppItemId: 606969f83bee57e979dc78f3
   Permission: 

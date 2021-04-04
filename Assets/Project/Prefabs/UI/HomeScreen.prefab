@@ -815,7 +815,6 @@ GameObject:
   - component: {fileID: 7023746047178861087}
   - component: {fileID: 7036481339200517904}
   - component: {fileID: 4505290399497492275}
-  - component: {fileID: 1660524791928355278}
   m_Layer: 5
   m_Name: Characters
   m_TagString: Untagged
@@ -926,9 +925,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1660524791928355278}
-        m_TargetAssemblyTypeName: Naninovel.PlayScript, Elringus.Naninovel.Runtime
-        m_MethodName: Play
+      - m_Target: {fileID: 6619577638791834162, guid: ed61ef7f8fbca3640983a4536aef3514,
+          type: 3}
+        m_TargetAssemblyTypeName: InstantiateGameObject, Assembly-CSharp
+        m_MethodName: instatiatePrefab
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -957,22 +957,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1660524791928355278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1678525326129902371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5975c9748a52c8d43b34c8d7c428cacd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scriptName: 
-  scriptText: '@hideUI HomeScreen
-
-    @ShowUI CharacterPage'
 --- !u!1 &1705175141698416356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,7 +1405,6 @@ GameObject:
   - component: {fileID: 4421447291856518792}
   - component: {fileID: 5280052761499083586}
   - component: {fileID: 2336881250657739686}
-  - component: {fileID: 4785904492767133239}
   m_Layer: 5
   m_Name: AddHearts
   m_TagString: Untagged
@@ -1531,9 +1514,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4785904492767133239}
-        m_TargetAssemblyTypeName: Naninovel.PlayScript, Elringus.Naninovel.Runtime
-        m_MethodName: Play
+      - m_Target: {fileID: 1955413418709690700, guid: 878f896acc8e2804b8f46a6b396e5324,
+          type: 3}
+        m_TargetAssemblyTypeName: InstantiateGameObject, Assembly-CSharp
+        m_MethodName: instatiatePrefab
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1543,20 +1527,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4785904492767133239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002464239613448843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5975c9748a52c8d43b34c8d7c428cacd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scriptName: 
-  scriptText: '@showUI Heartpopup'
 --- !u!1 &2051643107876551992
 GameObject:
   m_ObjectHideFlags: 0
@@ -1677,7 +1647,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6903273271525592244}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5751948945757843561, guid: 6a427d8f13771a04ca6f4c0fe9037442,
+          type: 3}
+        m_TargetAssemblyTypeName: InstantiateGameObject, Assembly-CSharp
+        m_MethodName: instatiatePrefab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2194046562634728228
 GameObject:
   m_ObjectHideFlags: 0

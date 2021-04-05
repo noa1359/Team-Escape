@@ -73,7 +73,6 @@
     <Compile Include="Assets\CodeMonkey\Utils\World_Bar.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\AchievementNames.cs" />
     <Compile Include="Assets\Project\Scripts\SOScripts\EvolveSO.cs" />
-    <Compile Include="Assets\Project\testing.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\GameFlowSupport\SubmitScore.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\GameFlowSupport\RestorePurchases.cs" />
     <Compile Include="Assets\Project\Scripts\SOScripts\FighterClass.cs" />
@@ -82,9 +81,11 @@
     <Compile Include="Assets\GridMap\Scripts\GridInt.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionUpdater.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\TimerProperties.cs" />
+    <Compile Include="Assets\Project\Scripts\BattleStateManager.cs" />
     <Compile Include="Assets\Project\Scripts\Player.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionTimer.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\Calendar.cs" />
+    <Compile Include="Assets\Project\Scripts\GachaSystem.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Example\TimerButtonExample.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\HomeScreenUIUpdate.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\StoreProduct.cs" />
@@ -147,6 +148,7 @@
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\ScreenWriter.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\BuyProduct.cs" />
     <Compile Include="Assets\Project\Scripts\LevelUp.cs" />
+    <Compile Include="Assets\Project\Scripts\PlayerStateManager.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\LogInManager.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\UI_Bar.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\BoltSupport\DailyRewardsBoltSupport.cs" />
@@ -164,6 +166,7 @@
     <Compile Include="Assets\CodeMonkey\Utils\UI_BarMultiple.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\ProfilePicController.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\TimerButton.cs" />
+    <Compile Include="Assets\Project\Scripts\EnemyStateManager.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\CalendarPopup.cs" />
     <Compile Include="Assets\GridMap\Scripts\Grid.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\GameFlowSupport\CheckIfBought.cs" />

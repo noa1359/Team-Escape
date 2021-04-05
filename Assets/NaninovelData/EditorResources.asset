@@ -150,12 +150,6 @@ MonoBehaviour:
     - Name: PauseUI
       PathPrefix: UI
       Guid: 480f5db62ea305c46b89a86496d2a0c9
-    - Name: HomeScreen
-      PathPrefix: UI
-      Guid: 6487fa887c973444a92c3f5324cd4fa3
-    - Name: Store
-      PathPrefix: UI
-      Guid: 05151b01d13473e409db37c5347115be
     - Name: Text
       PathPrefix: UI
       Guid: 471944179dcada946a54b2bbb17e7fbe

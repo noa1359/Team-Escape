@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    public Joystick joystick;
+    public Joystick joystickHorizontal;
+    public Joystick joysticVertical;
 
     private Rigidbody2D rb;
     public float jumpForce;
@@ -28,7 +30,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        moveInput = joystick.Horizontal;
+        moveInput = joystickHorizontal.Horizontal;
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
     }
 
@@ -45,14 +47,14 @@ public class PlayerController : MonoBehaviour
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
         
-        if(isGrounded == true && joystick.Vertical > 0f)
+        if(isGrounded == true && joysticVertical.Vertical > 0f)
         {
             isJumping = true;
             jumpTimeCounter = jumpTime;
             rb.velocity = Vector2.up * jumpForce;
         }
 
-        if(joystick.Vertical > 0f && isJumping == true)
+        if(joysticVertical.Vertical > 0f && isJumping == true)
         {
             if(jumpTimeCounter > 0)
             {
@@ -66,7 +68,7 @@ public class PlayerController : MonoBehaviour
             
         }
 
-        if(joystick.Vertical <= 0f)
+        if(joysticVertical.Vertical <= 0f)
         {
             isJumping = false;
         }

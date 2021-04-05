@@ -29,4 +29,4 @@ MonoBehaviour:
   CustomInitializationUI: {fileID: 0}
   ShowTitleUI: 1
   EnableDevelopmentConsole: 1
-  ToggleConsoleKey: 27
+  ToggleConsoleKey: 0

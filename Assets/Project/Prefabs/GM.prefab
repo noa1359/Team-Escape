@@ -239,8 +239,9 @@ MonoBehaviour:
     charEvolve: {fileID: 11400000, guid: f5b3e209a3ad5e742a9a19bb6ba8308c, type: 2}
     EquippedWeapon: {fileID: 0}
     earnedEXP: 0
+  LastExplorationScene: 
   gold: 0
-  gems: 0
+  gems: 10000
   collectedWeapons: []
   collectedEvolveItems: []
   LastBattleScene: 

@@ -197,48 +197,6 @@ MonoBehaviour:
     charEvolve: {fileID: 11400000, guid: 7d18393ea31a7004ba44e244dc445907, type: 2}
     EquippedWeapon: {fileID: 0}
     earnedEXP: 0
-  - characterName: HILLARY GRACE OPPER
-    elementalType: {fileID: 11400000, guid: 2b091f6bf2b991b4693fdab2aa88c907, type: 2}
-    fighterClass: {fileID: 11400000, guid: 968517d506feaa4409f734f0fe0d77c4, type: 2}
-    rarity: 1
-    characterProfile: {fileID: 21300000, guid: 723d5634f3fa19248810dc20bf0a03c6, type: 3}
-    CardImage: {fileID: 21300000, guid: 939dfd8fe365c20419570075083c2a56, type: 3}
-    rarityIcon: {fileID: 21300000, guid: 69724b97bf7d1654783e374d3443bc44, type: 3}
-    profilePic: {fileID: 21300000, guid: 3292babc98fcfda4a994bccc47dbd45f, type: 3}
-    charaLVL: 1
-    charaEXP: 0
-    lastLVLUp: 0
-    nextLVLUp: 110
-    HP: 122
-    MP: 176
-    ATK: 31
-    DEF: 97
-    SPD: 58
-    INTEL: 42
-    charEvolve: {fileID: 11400000, guid: efdc4ffe42727974290c946d3d61f935, type: 2}
-    EquippedWeapon: {fileID: 0}
-    earnedEXP: 0
-  - characterName: RACHEL SHIPMAN
-    elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
-    fighterClass: {fileID: 11400000, guid: fe969553f9a17004e801e53fca2dd3d1, type: 2}
-    rarity: 2
-    characterProfile: {fileID: 21300000, guid: 1087ca187e0cb2a40b7b4d176eb717b2, type: 3}
-    CardImage: {fileID: 21300000, guid: b73c8d27134284f45a70a3f81d193679, type: 3}
-    rarityIcon: {fileID: 21300000, guid: ac7b627d681188f4190793fcf619f177, type: 3}
-    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
-    charaLVL: 1
-    charaEXP: 0
-    lastLVLUp: 0
-    nextLVLUp: 110
-    HP: 110
-    MP: 135
-    ATK: 64
-    DEF: 80
-    SPD: 92
-    INTEL: 86
-    charEvolve: {fileID: 11400000, guid: f5b3e209a3ad5e742a9a19bb6ba8308c, type: 2}
-    EquippedWeapon: {fileID: 0}
-    earnedEXP: 0
   LastExplorationScene: 
   gold: 0
   gems: 10000

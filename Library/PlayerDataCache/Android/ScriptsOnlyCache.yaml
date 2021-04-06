@@ -243,9 +243,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 1570}
     - Class: 114
       Script: {instanceID: 1574}
     - Class: 114
@@ -318,9 +318,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 1570}
     - Class: 114
       Script: {instanceID: 1576}
     - Class: 114
@@ -377,9 +377,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 1570}
     - Class: 114
       Script: {instanceID: 1574}
     - Class: 114
@@ -448,9 +448,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 1570}
     - Class: 114
       Script: {instanceID: 1574}
     - Class: 114
@@ -950,9 +950,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 1570}
     - Class: 114
       Script: {instanceID: 1574}
     - Class: 114
@@ -1010,12 +1010,6 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: c1d728126ff1918728036c59106d32b2
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: RawImage
-  - hash:
-      serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1026,6 +1020,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
   - hash:
       serializedVersion: 2
       Hash: 699619b86d9359741a4f58540298c80b

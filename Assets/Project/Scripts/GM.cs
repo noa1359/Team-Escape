@@ -63,6 +63,7 @@ public class Character
     public _rarity rarity;
 
     public Sprite characterProfile;
+    public Sprite pic;
     public Sprite CardImage;
     public Sprite rarityIcon;
     public Sprite profilePic;

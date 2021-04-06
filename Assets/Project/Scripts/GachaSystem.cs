@@ -12,6 +12,9 @@ public class GachaSystem : MonoBehaviour
     public List<Character> SR = new List<Character>();
     public List<Character> SSR = new List<Character>();
 
+    public GameObject OneCardDraw;
+    public OneCard OC;
+
     void Start()
     {
         foreach (Character character in GM.gm.charactersDatabase)
@@ -54,8 +57,10 @@ public class GachaSystem : MonoBehaviour
 
                 if (isAvailable)
                 {
+                    //OC.character = R[index];
                     GM.gm.availableCharacters.Add(R[index]);
                     SRCount++;
+                    //GameObject go = Instantiate(OneCardDraw);
                 }
                 else
                 {
@@ -78,8 +83,10 @@ public class GachaSystem : MonoBehaviour
 
                 if (isAvailable)
                 {
+                    //OC.character = SR[index];
                     GM.gm.availableCharacters.Add(SR[index]);
                     SRCount = 0;
+                    //GameObject go = Instantiate(OneCardDraw);
                 }
                 else
                 {
@@ -102,8 +109,10 @@ public class GachaSystem : MonoBehaviour
 
                 if (isAvailable)
                 {
+                    //OC.character = SSR[index];
                     GM.gm.availableCharacters.Add(SSR[index]);
                     SRCount++;
+                    //GameObject go = Instantiate(OneCardDraw);
                 }
                 else
                 {
@@ -128,8 +137,10 @@ public class GachaSystem : MonoBehaviour
 
                 if (isAvailable)
                 {
+                    //OC.character = SR[index];
                     GM.gm.availableCharacters.Add(SR[index]);
                     SRCount = 0;
+                    //GameObject go = Instantiate(OneCardDraw);
                 }
                 else
                 {

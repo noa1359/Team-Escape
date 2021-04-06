@@ -1227,7 +1227,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8789027488918255984}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2947722694598237654}
+        m_TargetAssemblyTypeName: GachaSystemUI, Assembly-CSharp
+        m_MethodName: loadGachaScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &7116060604289969934
 Animator:
   serializedVersion: 3
@@ -5374,6 +5386,7 @@ GameObject:
   - component: {fileID: 6306036015961478117}
   - component: {fileID: 6306036015961478116}
   - component: {fileID: 3123453434272907360}
+  - component: {fileID: 2947722694598237654}
   m_Layer: 5
   m_Name: HomeScreen
   m_TagString: Untagged
@@ -5502,6 +5515,19 @@ MonoBehaviour:
   coins: {fileID: 4356257751437416386}
   gems: {fileID: 830578018829862371}
   profilePic: {fileID: 9114006901761679551}
+--- !u!114 &2947722694598237654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6306036015961478139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0ea2c14c2ce6447afbfe2f267f1860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionAnim: {fileID: 0}
 --- !u!1 &6309702233614044517
 GameObject:
   m_ObjectHideFlags: 0

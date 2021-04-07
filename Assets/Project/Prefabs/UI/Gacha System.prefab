@@ -199,6 +199,9 @@ MonoBehaviour:
   SSR: []
   OneCardDraw: {fileID: 7030708719132124681, guid: f3af7cb0217d5744a83f05bbaaea448b,
     type: 3}
+  TenCardDraw: {fileID: 7995238316739475751, guid: 32ad6f6cbeddaef4086049b6c3ca2a16,
+    type: 3}
+  oneCard: {fileID: 0}
 --- !u!95 &1982676311
 Animator:
   serializedVersion: 3

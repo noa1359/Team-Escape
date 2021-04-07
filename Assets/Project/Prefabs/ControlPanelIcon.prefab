@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3033088633314830658}
   - component: {fileID: 809792685668547372}
   - component: {fileID: 1045437057452777222}
+  - component: {fileID: 4352109533043981568}
   m_Layer: 0
   m_Name: ControlPanelIcon
   m_TagString: Untagged
@@ -154,9 +155,32 @@ MonoBehaviour:
   rarity: {fileID: 1723269634845530019}
   level: {fileID: 6070658923477371639}
   EXPbar: {fileID: 0}
+  toAnyfive: {fileID: 0}
+  num: {fileID: 0}
+  gachaIcon: {fileID: 0}
   GMint: 0
   CPC: {fileID: 0}
   ABC: {fileID: 0}
+  TC: {fileID: 0}
+--- !u!95 &4352109533043981568
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269574224489313316}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8b52d3572d047c24399bd5756afe2b74, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1744015461030439491
 GameObject:
   m_ObjectHideFlags: 0

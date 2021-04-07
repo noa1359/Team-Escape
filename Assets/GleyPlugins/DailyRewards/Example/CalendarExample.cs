@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class CalendarExample : MonoBehaviour
 {
     public Text UICoinText, UIGemText, UIHeartText;
-    int coinReward = 1000, gemReward = 300, heartReward = 10;
+    public int coinReward, gemReward, heartReward;
 
     void Start()
     {

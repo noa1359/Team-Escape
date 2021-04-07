@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3033088633314830658}
   - component: {fileID: 809792685668547372}
   - component: {fileID: 3113088879370252590}
+  - component: {fileID: 1658594462799012682}
   m_Layer: 0
   m_Name: TeamPanelIcon
   m_TagString: Untagged
@@ -153,9 +154,51 @@ MonoBehaviour:
   element: {fileID: 3023091705105845476}
   rarity: {fileID: 1723269634845530019}
   level: {fileID: 6070658923477371639}
-  EXPbar: {fileID: 0}
-  GMint: 0
+  BC:
+    originalCharacterInt: 0
+    battleCharacter:
+      characterName: 
+      elementalType: {fileID: 0}
+      fighterClass: {fileID: 0}
+      rarity: 0
+      characterProfile: {fileID: 0}
+      pic: {fileID: 0}
+      CardImage: {fileID: 0}
+      rarityIcon: {fileID: 0}
+      profilePic: {fileID: 0}
+      charaLVL: 1
+      charaEXP: 0
+      lastLVLUp: 0
+      nextLVLUp: 110
+      HP: 0
+      MP: 0
+      ATK: 0
+      DEF: 0
+      SPD: 0
+      INTEL: 0
+      charEvolve: {fileID: 0}
+      EquippedWeapon: {fileID: 0}
+      earnedEXP: 0
   TSS: {fileID: 0}
+--- !u!95 &1658594462799012682
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269574224489313316}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8b52d3572d047c24399bd5756afe2b74, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1744015461030439491
 GameObject:
   m_ObjectHideFlags: 0

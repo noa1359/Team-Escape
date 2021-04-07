@@ -13,8 +13,8 @@ public class GachaSystem : MonoBehaviour
     public List<Character> SSR = new List<Character>();
 
     public GameObject OneCardDraw;
-    public OneCard OC;
-
+    public GameObject TenCardDraw;
+    public OneCard oneCard;
     void Start()
     {
         foreach (Character character in GM.gm.charactersDatabase)
@@ -34,6 +34,8 @@ public class GachaSystem : MonoBehaviour
                 SSR.Add(character);
             }
         }
+
+        oneCard = OneCardDraw.GetComponent<OneCard>();
     }
 
     public void OneDrawRegular()
@@ -46,6 +48,7 @@ public class GachaSystem : MonoBehaviour
             if (probability >= 0.6)
             {
                 int index = Random.Range(0, R.Count);
+                GM.gm.selectedCharacter = R[index];
                 for (int i = 0; i < GM.gm.availableCharacters.Count; i++)
                 {
                     if (GM.gm.availableCharacters[i].characterName == R[index].characterName)
@@ -57,21 +60,29 @@ public class GachaSystem : MonoBehaviour
 
                 if (isAvailable)
                 {
-                    //OC.character = R[index];
                     GM.gm.availableCharacters.Add(R[index]);
                     SRCount++;
-                    //GameObject go = Instantiate(OneCardDraw);
+                    oneCard.newCard.enabled = true;
+                    oneCard.gradient.enabled = false;
+                    oneCard.icon.enabled = false;
+                    oneCard.toAnyfive.enabled = false;
                 }
                 else
                 {
+                    oneCard.newCard.enabled = false;
+                    oneCard.gradient.enabled = true;
+                    oneCard.icon.enabled = true;
+                    oneCard.toAnyfive.enabled = true;
                     GM.gm.gems += 25;
                     SRCount++;
                 }
+                GameObject go = Instantiate(OneCardDraw);
             }
 
             if (probability >= 0.3 && probability < 0.6)
             {
                 int index = Random.Range(0, SR.Count);
+                GM.gm.selectedCharacter = SR[index];
                 for (int i = 0; i < GM.gm.availableCharacters.Count; i++)
                 {
                     if (GM.gm.availableCharacters[i].characterName == SR[index].characterName)
@@ -83,21 +94,29 @@ public class GachaSystem : MonoBehaviour
 
                 if (isAvailable)
                 {
-                    //OC.character = SR[index];
                     GM.gm.availableCharacters.Add(SR[index]);
                     SRCount = 0;
-                    //GameObject go = Instantiate(OneCardDraw);
+                    oneCard.newCard.enabled = true;
+                    oneCard.gradient.enabled = false;
+                    oneCard.icon.enabled = false;
+                    oneCard.toAnyfive.enabled = false;
                 }
                 else
                 {
+                    oneCard.newCard.enabled = false;
+                    oneCard.gradient.enabled = true;
+                    oneCard.icon.enabled = true;
+                    oneCard.toAnyfive.enabled = true;
                     GM.gm.gems += 25;
                     SRCount = 0;
                 }
+                GameObject go = Instantiate(OneCardDraw);
             }
 
             if (probability <= 0.2)
             {
                 int index = Random.Range(0, SSR.Count);
+                GM.gm.selectedCharacter = SSR[index];
                 for (int i = 0; i < GM.gm.availableCharacters.Count; i++)
                 {
                     if (GM.gm.availableCharacters[i].characterName == SSR[index].characterName)
@@ -109,43 +128,51 @@ public class GachaSystem : MonoBehaviour
 
                 if (isAvailable)
                 {
-                    //OC.character = SSR[index];
                     GM.gm.availableCharacters.Add(SSR[index]);
                     SRCount++;
-                    //GameObject go = Instantiate(OneCardDraw);
+                    oneCard.newCard.enabled = true;
+                    oneCard.gradient.enabled = false;
+                    oneCard.icon.enabled = false;
+                    oneCard.toAnyfive.enabled = false;
+                    SSRCount = 0;
                 }
                 else
                 {
+                    oneCard.newCard.enabled = false;
+                    oneCard.gradient.enabled = true;
+                    oneCard.icon.enabled = true;
+                    oneCard.toAnyfive.enabled = true;
                     GM.gm.gems += 25;
                     SRCount++;
+                    SSRCount = 0;
                 }
-                
+                GameObject go = Instantiate(OneCardDraw); 
             }
 
             else if (SRCount == 10)
             {
-                int index = Random.Range(0, SR.Count);
-                //For now I'll do the same thing but I want to make it that it'll bring one that's available
-                for (int i = 0; i < GM.gm.availableCharacters.Count; i++)
+                foreach (Character item in SR)
                 {
-                    if (GM.gm.availableCharacters[i].characterName == SR[index].characterName)
+                    for (int i = 0; i < GM.gm.availableCharacters.Count; i++)
                     {
-                        isAvailable = false;
+                        if (GM.gm.availableCharacters[i].characterName == item.characterName)
+                        {
+                            isAvailable = false;
+                            break;
+                        }
+                    }
+                    if (isAvailable)
+                    {
+                        GM.gm.selectedCharacter = item;
+                        GM.gm.availableCharacters.Add(item);
+                        SRCount = 0;
+                        oneCard.newCard.enabled = true;
+                        oneCard.gradient.enabled = false;
+                        oneCard.icon.enabled = false;
+                        oneCard.toAnyfive.enabled = false;
+                        GameObject go = Instantiate(OneCardDraw);
                         break;
                     }
-                }
-
-                if (isAvailable)
-                {
-                    //OC.character = SR[index];
-                    GM.gm.availableCharacters.Add(SR[index]);
-                    SRCount = 0;
-                    //GameObject go = Instantiate(OneCardDraw);
-                }
-                else
-                {
-                    GM.gm.gems += 25;
-                    SRCount = 0;
                 }
             }
         }
@@ -156,9 +183,27 @@ public class GachaSystem : MonoBehaviour
         if (GM.gm.gems - 1000 >= 0)
         {
             GM.gm.gems -= 1000;
-            int sumn = Random.Range(0, SR.Count);
-            ///It should choose an SR character I don't have but IDK how to do it yet so this it what we're going for for now
-            GM.gm.availableCharacters.Add(SR[sumn]);
+            foreach (Character item in SR)
+            {
+                bool notAvailable = false;
+                for (int i = 0; i < GM.gm.availableCharacters.Count; i++)
+                {
+                    if (GM.gm.availableCharacters[i].characterName == item.characterName)
+                    {
+                        notAvailable = true;
+                        break;
+                    }
+                }
+                if (notAvailable = false)
+                {
+                    GM.gm.selectedCharacter = item;
+                    GM.gm.characterList.Add(item);
+                    GM.gm.availableCharacters.Add(item);
+                    SRCount = 0;
+                    SSRCount++;
+                    break;   
+                }
+            }
 
             for (int j = 0; j < 10; j++)
             {
@@ -178,13 +223,18 @@ public class GachaSystem : MonoBehaviour
 
                     if (isAvailable)
                     {
+                        GM.gm.characterList.Add(R[index]);
                         GM.gm.availableCharacters.Add(R[index]);
                         SRCount++;
+                        SSRCount++;
                     }
                     else
                     {
+                        GM.gm.characterList.Add(R[index]);
+                        GM.gm.dupeList.Add(R[index]);
                         GM.gm.gems += 25;
                         SRCount++;
+                        SSRCount++;
                     }
                 }
 
@@ -202,13 +252,18 @@ public class GachaSystem : MonoBehaviour
 
                     if (isAvailable)
                     {
+                        GM.gm.characterList.Add(SR[index]);
                         GM.gm.availableCharacters.Add(SR[index]);
                         SRCount = 0;
+                        SSRCount++;
                     }
                     else
                     {
+                        GM.gm.characterList.Add(SR[index]);
+                        GM.gm.dupeList.Add(SR[index]);
                         GM.gm.gems += 25;
                         SRCount = 0;
+                        SSRCount++;
                     }
                 }
 
@@ -226,17 +281,23 @@ public class GachaSystem : MonoBehaviour
 
                     if (isAvailable)
                     {
+                        SSRCount = 0;
+                        GM.gm.characterList.Add(SSR[index]);
                         GM.gm.availableCharacters.Add(SSR[index]);
                         SRCount++;
                     }
                     else
                     {
+                        SSRCount = 0;
+                        GM.gm.characterList.Add(SSR[index]);
+                        GM.gm.dupeList.Add(SSR[index]);
                         GM.gm.gems += 25;
                         SRCount++;
                     }
                     
                 }
             }
+            GameObject go = Instantiate(TenCardDraw);
         }
     }
 
@@ -245,26 +306,28 @@ public class GachaSystem : MonoBehaviour
         bool isAvailable = true;
         if (SSRCount == 20)
         {
-            int index = Random.Range(0, SSR.Count);
-            //For now I'll do the same thing but I want to make it that it'll bring one that's available
-            for (int i = 0; i < GM.gm.availableCharacters.Count; i++)
+            foreach (Character item in SSR)
             {
-                if (GM.gm.availableCharacters[i].characterName == SSR[index].characterName)
+                for (int i = 0; i < GM.gm.availableCharacters.Count; i++)
                 {
-                    isAvailable = false;
+                    if (GM.gm.availableCharacters[i].characterName == item.characterName)
+                    {
+                        isAvailable = false;
+                        break;
+                    }
+                }
+                if (isAvailable)
+                {
+                    GM.gm.selectedCharacter = item;
+                    GM.gm.availableCharacters.Add(item);
+                    SSRCount = 0;
+                    oneCard.newCard.enabled = true;
+                    oneCard.gradient.enabled = false;
+                    oneCard.icon.enabled = false;
+                    oneCard.toAnyfive.enabled = false;
+                    GameObject go = Instantiate(OneCardDraw);
                     break;
                 }
-            }
-
-            if (isAvailable)
-            {
-                GM.gm.availableCharacters.Add(SSR[index]);
-                SSRCount = 0;
-            }
-            else
-            {
-                GM.gm.gems += 25;
-                SSRCount = 0;
             }
         }
         else
@@ -277,30 +340,31 @@ public class GachaSystem : MonoBehaviour
     public void TenDrawEvent()
     {
         TenDrawRegular();
-        SSRCount += 10;
         bool isAvailable = true;
         if (SSRCount == 20)
         {
-            int index = Random.Range(0, SSR.Count);
-            //For now I'll do the same thing but I want to make it that it'll bring one that's available
-            for (int i = 0; i < GM.gm.availableCharacters.Count; i++)
+            foreach (Character item in SSR)
             {
-                if (GM.gm.availableCharacters[i].characterName == SSR[index].characterName)
+                for (int i = 0; i < GM.gm.availableCharacters.Count; i++)
                 {
-                    isAvailable = false;
+                    if (GM.gm.availableCharacters[i].characterName == item.characterName)
+                    {
+                        isAvailable = false;
+                        break;
+                    }
+                }
+                if (isAvailable)
+                {
+                    GM.gm.selectedCharacter = item;
+                    GM.gm.availableCharacters.Add(item);
+                    SSRCount = 0;
+                    oneCard.newCard.enabled = true;
+                    oneCard.gradient.enabled = false;
+                    oneCard.icon.enabled = false;
+                    oneCard.toAnyfive.enabled = false;
+                    GameObject go = Instantiate(OneCardDraw);
                     break;
                 }
-            }
-
-            if (isAvailable)
-            {
-                GM.gm.availableCharacters.Add(SSR[index]);
-                SSRCount = 0;
-            }
-            else
-            {
-                GM.gm.gems += 25;
-                SSRCount = 0;
             }
         }
     }

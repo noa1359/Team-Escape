@@ -98,6 +98,7 @@ IEnumerator levelUpplayer()
                     GM.gm.playerLastLVLUp = GM.gm.playerNextLVLUp;
                     float increaseNextEXPBy = 10*GM.gm.playerLevel; // <--- use whatever you need here
                     GM.gm.playerNextLVLUp += increaseNextEXPBy;
+                    GM.gm.maxEnergy++;
                 }
             updateVisualPlayer();
             GM.gm.playerEarnedEXP--;

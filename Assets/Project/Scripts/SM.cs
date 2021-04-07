@@ -12,13 +12,9 @@ public class SM : MonoBehaviour
         GM.gm.LastBattleScene = SceneManager.GetActiveScene().name;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void LoadAfterScene()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            GM.gm.playerEarnedEXP = EXPearned;
-            SceneManager.LoadScene("AfterBattle");
-        }
+        GM.gm.playerEarnedEXP = EXPearned;
+        SceneManager.LoadScene("AfterBattle");
     }
 }

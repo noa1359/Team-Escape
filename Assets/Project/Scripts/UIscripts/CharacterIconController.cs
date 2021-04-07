@@ -5,14 +5,22 @@ using UnityEngine.UI;
 
 public class CharacterIconController : MonoBehaviour
 {
+    [Space(20)]
+    [Header("info")]
     public Image profile;
     public Image element;
     public Image rarity;
     public Text level;
     public Image EXPbar;
+    public Text toAnyfive;
+    public Text num;
+    public Image gachaIcon;
     public int GMint;
+    [Space(20)]
+    [Header("scripts")]
     public CharacterPageController CPC;
     public AfterBattleController ABC;
+    public TenCards TC;
 
     public void ClickIcon()
     {

@@ -16,7 +16,6 @@ public class HeartSystem : MonoBehaviour
     private Text textTimer;
 
     [SerializeField]
-    int totalEnergy = 0;
     int restoreDuration = 30;
 
     DateTime nextEnergyTime;
@@ -34,17 +33,17 @@ public class HeartSystem : MonoBehaviour
         UpdateTimer();
         UpdateEnergy();
 
-        while (totalEnergy < GM.gm.maxEnergy)
+        while (GM.gm.totalEnergy < GM.gm.maxEnergy)
         {
             DateTime currentTime = DateTime.Now;
             DateTime counter = nextEnergyTime;
             bool isAdding = false;
             while (currentTime > counter)
             {
-                if (totalEnergy < GM.gm.maxEnergy)
+                if (GM.gm.totalEnergy < GM.gm.maxEnergy)
                 {
                     isAdding = true;
-                    totalEnergy++;
+                    GM.gm.totalEnergy++;
                     DateTime TimeToAdd = lastAddedTime > counter ? lastAddedTime : counter;
                     counter = AddDuration(TimeToAdd, restoreDuration);
                 }
@@ -67,7 +66,7 @@ public class HeartSystem : MonoBehaviour
 
     void UpdateTimer()
     {
-        if (totalEnergy >= GM.gm.maxEnergy)
+        if (GM.gm.totalEnergy >= GM.gm.maxEnergy)
         {
             textTimer.enabled = false;
             return;
@@ -81,25 +80,25 @@ public class HeartSystem : MonoBehaviour
     void UpdateEnergy()
     {
         textMaxEnergy.text = GM.gm.maxEnergy.ToString();
-        textEnergy.text = totalEnergy.ToString();
+        textEnergy.text = GM.gm.totalEnergy.ToString();
     }
 
     DateTime AddDuration(DateTime time, int duration)
     {
-        return time.AddSeconds(duration);
-        //return time.AddMinutes(duration);
+        //return time.AddSeconds(duration);
+        return time.AddMinutes(duration);
     }
 
     void Load()
     {
-        totalEnergy = PlayerPrefs.GetInt("TotalEnergy");
+        GM.gm.totalEnergy = PlayerPrefs.GetInt("totalEnergy");
         nextEnergyTime = StringToDate(PlayerPrefs.GetString("NextEnergyTime"));
         lastAddedTime = StringToDate(PlayerPrefs.GetString("LastAddedTime"));
     }
 
     void Save()
     {
-        PlayerPrefs.SetInt("TotalEnergy", totalEnergy);
+        PlayerPrefs.SetInt("totalEnergy", GM.gm.totalEnergy);
         PlayerPrefs.SetString("NextEnergyTime", nextEnergyTime.ToString());
         PlayerPrefs.SetString("LastAddedTime", lastAddedTime.ToString());
     }
@@ -108,7 +107,7 @@ public class HeartSystem : MonoBehaviour
     {
         if (String.IsNullOrEmpty(date))
         {
-            return DateTime.Now.AddSeconds(restoreDuration);
+            return DateTime.Now.AddMinutes(restoreDuration);
         }
         return DateTime.Parse(date);
     }

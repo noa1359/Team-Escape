@@ -99,9 +99,11 @@ IEnumerator levelUpplayer()
                     float increaseNextEXPBy = 10*GM.gm.playerLevel; // <--- use whatever you need here
                     GM.gm.playerNextLVLUp += increaseNextEXPBy;
                     GM.gm.maxEnergy++;
+                    GM.gm.totalEnergy += GM.gm.maxEnergy;
                 }
             updateVisualPlayer();
             GM.gm.playerEarnedEXP--;
+            PlayerPrefs.SetInt("totalEnergy", GM.gm.totalEnergy);
             yield return new WaitForSeconds(0.025f);
         }
     }

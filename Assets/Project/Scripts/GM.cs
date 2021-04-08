@@ -55,7 +55,7 @@ public class BattleCharacters
 }
 
 [System.Serializable]
-public class Character
+public class Character //save
 {
     public string characterName;
     public Elements elementalType;
@@ -96,29 +96,30 @@ public class Character
 public class GM : MonoBehaviour
 {
     public static GM gm;
-    public string playerName;
-    public int playerLevel;
-    public float playerEXP;
-    public int maxEnergy = 10;
-    public float playerLastLVLUp = 0f;
-    public float playerNextLVLUp = 100f;
+    public string playerName; //save
+    public int playerLevel; //save
+    public float playerEXP; //save
+    public int maxEnergy = 10; //save
+    public int totalEnergy = 10; //already saved
+    public float playerLastLVLUp = 0f; //save
+    public float playerNextLVLUp = 100f; //save
     public List<Character> charactersDatabase = new List<Character>();
-    public List<Character> availableCharacters = new List<Character>();
+    public List<Character> availableCharacters = new List<Character>(); //save
     public Character selectedCharacter;
     public List<Character> characterList = new List<Character>();
     public List<Character> dupeList = new List<Character>();
-    public string LastExplorationScene;
+    public string LastExplorationScene; //save
     [Header("Inventory")]
     [Space(20)]
-    public int gold;
-    public int gems;
-    public List<weapons> collectedWeapons = new List<weapons>();
-    public List<CollectedEvolveItems> collectedEvolveItems = new List<CollectedEvolveItems>();
+    public int gold; //save
+    public int gems; //save
+    public List<weapons> collectedWeapons = new List<weapons>(); //save
+    public List<CollectedEvolveItems> collectedEvolveItems = new List<CollectedEvolveItems>(); //save
     [Header("Battle Info")]
     [Space(20)]
-    public string LastBattleScene;
-    public List<BattleCharacters> charactersInBattle = new List<BattleCharacters>();
-    public List<int> battleCharacters = new List<int>();
+    public string LastBattleScene; //save
+    public List<BattleCharacters> charactersInBattle = new List<BattleCharacters>(); //save
+    public List<int> battleCharacters = new List<int>(); //save
     public int currectCharacterInt = 0;
     public int playerEarnedEXP;
     public List<weapons> earnedWeapons;

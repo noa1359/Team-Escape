@@ -46,6 +46,8 @@ MonoBehaviour:
   playerName: 
   playerLevel: 0
   playerEXP: 0
+  maxEnergy: 10
+  totalEnergy: 0
   playerLastLVLUp: 0
   playerNextLVLUp: 100
   charactersDatabase:
@@ -227,6 +229,8 @@ MonoBehaviour:
     charEvolve: {fileID: 0}
     EquippedWeapon: {fileID: 0}
     earnedEXP: 0
+  characterList: []
+  dupeList: []
   LastExplorationScene: 
   gold: 0
   gems: 10000

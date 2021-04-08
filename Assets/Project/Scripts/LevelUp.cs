@@ -103,7 +103,7 @@ IEnumerator levelUpplayer()
                 }
             updateVisualPlayer();
             GM.gm.playerEarnedEXP--;
-            PlayerPrefs.SetInt("totalEnergy", GM.gm.totalEnergy);
+            PS.ps.Save();
             yield return new WaitForSeconds(0.025f);
         }
     }

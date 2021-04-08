@@ -190,16 +190,7 @@ MonoBehaviour:
       PathPrefix: Backgrounds/MainBackground
       Guid: eef5ba1aaa887ba449f76f4836ae85e3
   - Id: Unlockables
-    Resources:
-    - Name: Andreacard
-      PathPrefix: Unlockables
-      Guid: 46a7a1e1254521d47a16ff15ecb25c94
-    - Name: Rachelcard
-      PathPrefix: Unlockables
-      Guid: b73c8d27134284f45a70a3f81d193679
-    - Name: Hillarycard
-      PathPrefix: Unlockables
-      Guid: 939dfd8fe365c20419570075083c2a56
+    Resources: []
   - Id: Characters/184af713-b27e-40aa-86f9-4396ea7673d3
     Resources: []
   - Id: Characters/59e5ad5a-1efa-467c-bdb7-e7c438aa53b4

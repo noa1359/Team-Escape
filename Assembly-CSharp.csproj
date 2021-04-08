@@ -77,6 +77,7 @@
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\GameFlowSupport\SubmitScore.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\GameFlowSupport\RestorePurchases.cs" />
     <Compile Include="Assets\Project\Scripts\SOScripts\FighterClass.cs" />
+    <Compile Include="Assets\Project\Scripts\HeartSystem.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\InitializeIAP.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Example\TestGameServices.cs" />
     <Compile Include="Assets\GridMap\Scripts\GridInt.cs" />
@@ -179,7 +180,7 @@
     <Compile Include="Assets\Project\Scripts\InstantiateGameObject.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\PlaymakerSupport\TimerButtonClicked.cs" />
-    <Compile Include="Assets\Project\Scripts\HeartSystem.cs" />
+    <Compile Include="Assets\Project\Scripts\PS.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

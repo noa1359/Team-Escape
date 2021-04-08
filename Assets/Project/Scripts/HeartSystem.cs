@@ -23,7 +23,7 @@ public class HeartSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteAll();
         Load();
         StartCoroutine(RestoreRoutine());
     }
@@ -91,14 +91,12 @@ public class HeartSystem : MonoBehaviour
 
     void Load()
     {
-        GM.gm.totalEnergy = PlayerPrefs.GetInt("totalEnergy");
         nextEnergyTime = StringToDate(PlayerPrefs.GetString("NextEnergyTime"));
         lastAddedTime = StringToDate(PlayerPrefs.GetString("LastAddedTime"));
     }
 
     void Save()
     {
-        PlayerPrefs.SetInt("totalEnergy", GM.gm.totalEnergy);
         PlayerPrefs.SetString("NextEnergyTime", nextEnergyTime.ToString());
         PlayerPrefs.SetString("LastAddedTime", lastAddedTime.ToString());
     }

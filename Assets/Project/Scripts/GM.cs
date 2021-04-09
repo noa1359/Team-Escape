@@ -104,7 +104,7 @@ public class GM : MonoBehaviour
     public float playerLastLVLUp = 0f;
     public float playerNextLVLUp = 100f;
     public List<Character> charactersDatabase = new List<Character>();
-    public List<Character> availableCharacters = new List<Character>(); //save
+    public List<Character> availableCharacters = new List<Character>();
     public Character selectedCharacter;
     public List<Character> characterList = new List<Character>();
     public List<Character> dupeList = new List<Character>();
@@ -113,13 +113,13 @@ public class GM : MonoBehaviour
     [Space(20)]
     public int gold;
     public int gems;
-    public List<weapons> collectedWeapons = new List<weapons>(); //save
-    public List<CollectedEvolveItems> collectedEvolveItems = new List<CollectedEvolveItems>(); //save
+    public List<weapons> collectedWeapons = new List<weapons>();
+    public List<CollectedEvolveItems> collectedEvolveItems = new List<CollectedEvolveItems>();
     [Header("Battle Info")]
     [Space(20)]
     public string LastBattleScene;
     public List<BattleCharacters> charactersInBattle = new List<BattleCharacters>(); //save
-    public List<int> battleCharacters = new List<int>(); //save?
+    public List<int> battleCharacters = new List<int>();
     public int currectCharacterInt = 0;
     public int playerEarnedEXP;
     public List<weapons> earnedWeapons;

@@ -23,14 +23,14 @@ public class PS : MonoBehaviour
 
     void OnApplicationQuit()
     {
-        Debug.Log("quitted.");
         PlayerPrefs.Save();
         Save();
     }
 
     void Start()
     {
-        PlayerPrefs.DeleteAll();
+        //ES3.DeleteFile("File/SaveFile.es3");
+        //PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
         if (PlayerPrefs.HasKey("maxEnergy") == false)
         {
@@ -52,15 +52,14 @@ public class PS : MonoBehaviour
         PlayerPrefs.SetInt("gold", GM.gm.gold);
         PlayerPrefs.SetInt("gems", GM.gm.gems);
         PlayerPrefs.SetString("LastBattleScene", GM.gm.LastBattleScene);
-        //PlayerPrefs.SetList("charactersInBattle", GM.gm.charactersInBattle);
-        //PlayerPrefs.SetList("battleCharacters", GM.gm.battleCharacters);
-        //PlayerPrefs.SetList("availableCharacters", GM.gm.availableCharacters);
-        //PlayerPrefs.SetList("collectedWeapons", GM.gm.collectedWeapons);
-        //PlayerPrefs.SetList("collectedEvolveItems", GM.gm.collectedEvolveItems);
-
+        PlayerPrefs.SetInt("battleCharactersList", GM.gm.battleCharacters.Count);
+        ES3.Save("availableCharacters", GM.gm.availableCharacters);
+        ES3.Save("collectedWeapons", GM.gm.collectedWeapons);
+        ES3.Save("collectedEvolveItems", GM.gm.collectedEvolveItems);
+        ES3.Save("charactersInBattle", GM.gm.charactersInBattle);
     }
 
-    public void Load()
+    void Load()
     {
         GM.gm.totalEnergy = PlayerPrefs.GetInt("totalEnergy");
         GM.gm.maxEnergy = PlayerPrefs.GetInt("maxEnergy");
@@ -73,5 +72,9 @@ public class PS : MonoBehaviour
         GM.gm.playerEXP = PlayerPrefs.GetFloat("playerEXP");
         GM.gm.playerLastLVLUp = PlayerPrefs.GetFloat("playerLastLVLUp");
         GM.gm.playerNextLVLUp = PlayerPrefs.GetFloat("playerNextLVLUp");
+        GM.gm.availableCharacters = ES3.Load("availableCharacters", GM.gm.availableCharacters);
+        GM.gm.collectedWeapons = ES3.Load("collectedWeapons", GM.gm.collectedWeapons);
+        GM.gm.collectedEvolveItems = ES3.Load("collectedEvolveItems", GM.gm.collectedEvolveItems);
+        GM.gm.charactersInBattle = ES3.Load("charactersInBattle", GM.gm.charactersInBattle);
     }
 }

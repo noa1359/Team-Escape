@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a0fe8f7efe44452a5d3dc37306f561, type: 3}
+  m_Name: SceneMetadataStore
+  m_EditorClassIdentifier: 
+  m_sceneMetaList:
+  - m_name: Start
+    m_guid: f5338d6edce92a34fbef3c5cc3ecbb2b
+    m_path: Assets/Project/Scenes/Start.unity
+    m_enabled: 1
+  - m_name: Prototype
+    m_guid: c694ee01902993c489612b882868af99
+    m_path: Assets/Project/Scenes/Prototype.unity
+    m_enabled: 1
+  - m_name: AfterBattle
+    m_guid: ea76a4f3a6af5df48b34df33c6c6f048
+    m_path: Assets/Project/Scenes/AfterBattle.unity
+    m_enabled: 1
+  - m_name: Battle
+    m_guid: 2689f641f57299d4dbd28dcc8ecd1da4
+    m_path: Assets/Project/Scenes/Battle.unity
+    m_enabled: 1
+  - m_name: Team Select
+    m_guid: f6286dc6d70faf14d82d9d9c31c0af71
+    m_path: Assets/Project/Scenes/Team Select.unity
+    m_enabled: 1
+  - m_name: Gacha
+    m_guid: 56a9d5191a8729649bb2114f14ca3b84
+    m_path: Assets/Project/Scenes/Gacha.unity
+    m_enabled: 1

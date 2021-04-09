@@ -342,8 +342,8 @@
     <Compile Include="Assets\Naninovel\Runtime\Actor\ActorManagerConfiguration.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\Background\IBackgroundActor.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\ResourceProvider\AddressableResourceProvider.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\ScriptPlayer\ScriptPlaylist.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\LayeredActorBehaviour.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\ScriptPlayer\ScriptPlaylist.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\ResourceProvider\VirtualResourceProvider.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Choice\AddChoice.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\ResetState.cs" />
@@ -353,8 +353,8 @@
     <Compile Include="Assets\Naninovel\Runtime\Command\Printer\AppendLineBreak.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\StartSceneTransition.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\Utilities\IOUtils.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Command\Printer\PrinterCommand.cs" />
     <Compile Include="Assets\Naninovel\Runtime\ConsoleCommands.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Command\Printer\PrinterCommand.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\ScriptableUI\DragDropHandle.cs" />
     <Compile Include="Assets\Naninovel\Runtime\FX\Rain.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Choice\ClearChoiceHandler.cs" />

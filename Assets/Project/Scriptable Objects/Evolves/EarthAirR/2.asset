@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e051a6e92471a3a4b9cab70dab56ba37, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  evolveAtLVL: 50
+  evolveItems:
+  - itemNeeded: {fileID: 11400000, guid: 57efcc483189c80458a3f67f862b14d8, type: 2}
+    evolveAmount: 5
+  - itemNeeded: {fileID: 11400000, guid: 334274f80271ef241877379c74bc5d71, type: 2}
+    evolveAmount: 5
+  - itemNeeded: {fileID: 11400000, guid: 162178235b0c6cd4a86894e2fcc808ae, type: 2}
+    evolveAmount: 5
+  - itemNeeded: {fileID: 11400000, guid: 0e761ef6fe14694448fd665cbc9236bf, type: 2}
+    evolveAmount: 5
+  - itemNeeded: {fileID: 11400000, guid: b73ebd11f53c90a4a81e93e257aff782, type: 2}
+    evolveAmount: 5
+  nextEvolve: {fileID: 11400000, guid: 491d28ebb5edd244c96662467550181e, type: 2}

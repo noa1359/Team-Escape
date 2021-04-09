@@ -194,7 +194,7 @@ public class GachaSystem : MonoBehaviour
                         break;
                     }
                 }
-                if (notAvailable = false)
+                if (notAvailable == false)
                 {
                     GM.gm.selectedCharacter = item;
                     GM.gm.characterList.Add(item);

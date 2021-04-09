@@ -367,7 +367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 0.5764706, g: 0.2627451, b: 0.21960786, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1210,7 +1210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 0.5764706, g: 0.2627451, b: 0.21960786, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2679,7 +2679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 0.5764706, g: 0.2627451, b: 0.21960786, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2735,8 +2735,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000061035, y: 27.039}
-  m_SizeDelta: {x: 461.305, y: 68.039}
+  m_AnchoredPosition: {x: 4.683998, y: 27.039}
+  m_SizeDelta: {x: 812.97, y: 68.039}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8784772921770990362
 CanvasRenderer:
@@ -3735,7 +3735,6 @@ GameObject:
   - component: {fileID: 5910813549453529493}
   - component: {fileID: 146404681608800035}
   - component: {fileID: 3007825224004616001}
-  - component: {fileID: 8939797938481938199}
   m_Layer: 5
   m_Name: Level Up!
   m_TagString: Untagged
@@ -3857,39 +3856,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 8939797938481938199}
-        m_TargetAssemblyTypeName: Naninovel.PlayScript, Elringus.Naninovel.Runtime
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
---- !u!114 &8939797938481938199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3206751108917270959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5975c9748a52c8d43b34c8d7c428cacd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scriptName: 
-  scriptText: '@set EXPmessage="Select EXP card:"
-
-    @set EXP1Amount=ItemCount("EXP1")
-
-    @set
-    EXP2Amount=ItemCount("EXP2")
-
-    @set EXP3Amount=ItemCount("EXP3")'
 --- !u!1 &3806325738068295309
 GameObject:
   m_ObjectHideFlags: 0
@@ -5429,7 +5395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 0.5764706, g: 0.2627451, b: 0.21960786, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7140,7 +7106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 0.5764706, g: 0.2627451, b: 0.21960786, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7583,6 +7549,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3327920917392852282}
     m_Modifications:
+    - target: {fileID: 733274577818458871, guid: 8fd908cf6ac97214083c3a298167b35e,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 733274577818458871, guid: 8fd908cf6ac97214083c3a298167b35e,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 733274577818458871, guid: 8fd908cf6ac97214083c3a298167b35e,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4925325907302238089, guid: 8fd908cf6ac97214083c3a298167b35e,
         type: 3}
       propertyPath: m_SizeDelta.x

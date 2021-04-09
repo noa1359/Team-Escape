@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elringus.Naninovel.Runtime"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniRx.Async", "UniRx.Async.csproj", "{7285D91B-66D5-50E8-403C-54831CE6AD3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{FBD0AC7B-3D7C-C198-2FE6-39CB355D864A}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elringus.NaninovelInventory.Runtime", "Elringus.NaninovelInventory.Runtime.csproj", "{4C458A67-E472-56D5-5913-1E81B4AD4D40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{D0F4CB44-4056-1F4C-13E8-0017865922AC}"
@@ -12,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{864C6939-20F2-C41B-19DD-A9D72307A035}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elringus.Naninovel.Editor", "Elringus.Naninovel.Editor.csproj", "{670D8BF3-E694-293E-65A2-06F3493123FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{E205502A-6937-7C63-FFF9-5BE40F5BEA8B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elringus.NaninovelInventory.Editor", "Elringus.NaninovelInventory.Editor.csproj", "{A0E2AFDA-7036-F35E-2115-5438EE373CB4}"
 EndProject
@@ -29,6 +33,10 @@ Global
 		{7285D91B-66D5-50E8-403C-54831CE6AD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7285D91B-66D5-50E8-403C-54831CE6AD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7285D91B-66D5-50E8-403C-54831CE6AD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD0AC7B-3D7C-C198-2FE6-39CB355D864A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD0AC7B-3D7C-C198-2FE6-39CB355D864A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD0AC7B-3D7C-C198-2FE6-39CB355D864A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD0AC7B-3D7C-C198-2FE6-39CB355D864A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4C458A67-E472-56D5-5913-1E81B4AD4D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4C458A67-E472-56D5-5913-1E81B4AD4D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C458A67-E472-56D5-5913-1E81B4AD4D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +53,10 @@ Global
 		{670D8BF3-E694-293E-65A2-06F3493123FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{670D8BF3-E694-293E-65A2-06F3493123FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{670D8BF3-E694-293E-65A2-06F3493123FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E205502A-6937-7C63-FFF9-5BE40F5BEA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E205502A-6937-7C63-FFF9-5BE40F5BEA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E205502A-6937-7C63-FFF9-5BE40F5BEA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E205502A-6937-7C63-FFF9-5BE40F5BEA8B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A0E2AFDA-7036-F35E-2115-5438EE373CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A0E2AFDA-7036-F35E-2115-5438EE373CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0E2AFDA-7036-F35E-2115-5438EE373CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU

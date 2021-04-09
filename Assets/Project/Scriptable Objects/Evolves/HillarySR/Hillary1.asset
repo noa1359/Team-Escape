@@ -22,4 +22,6 @@ MonoBehaviour:
     evolveAmount: 5
   - itemNeeded: {fileID: 11400000, guid: a51b30b53f669e248b71dc10cea1c479, type: 2}
     evolveAmount: 5
+  - itemNeeded: {fileID: 11400000, guid: 68e4185731256be40baa1af85a9e80e4, type: 2}
+    evolveAmount: 5
   nextEvolve: {fileID: 11400000, guid: d29e179324872e24ba850208f0ef3c76, type: 2}

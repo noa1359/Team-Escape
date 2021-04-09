@@ -26,7 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -35,7 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -56,6 +56,7 @@
     <Compile Include="Assets\CodeMonkey\Utils\Button_UI.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\InventoryUI.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\TimerButtonManager.cs" />
+    <Compile Include="Assets\Project\Scripts\PS.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\PlaymakerSupport\GetRemainingTime.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\World_Mesh.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
@@ -180,7 +181,8 @@
     <Compile Include="Assets\Project\Scripts\InstantiateGameObject.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\PlaymakerSupport\TimerButtonClicked.cs" />
-    <Compile Include="Assets\Project\Scripts\PS.cs" />
+    <Compile Include="Assets\Easy Save 3\Types\ES3UserType_CollectedEvolveItems.cs" />
+    <Compile Include="Assets\Easy Save 3\Types\ES3UserType_BattleCharacters.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -960,6 +962,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{FBD0AC7B-3D7C-C198-2FE6-39CB355D864A}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Elringus.NaninovelInventory.Runtime.csproj">
       <Project>{4C458A67-E472-56D5-5913-1E81B4AD4D40}</Project>
       <Name>Elringus.NaninovelInventory.Runtime</Name>

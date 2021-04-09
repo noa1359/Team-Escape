@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
-    public float expKill;
+    /*public float expKill;
     public float expHit;
     public int gold;
     public int gems;
-    public List<EvolveItem> gainedItems = new List<EvolveItem>();
+    public List<EvolveItem> gainedItems = new List<EvolveItem>();*/
 
     public Animator transitionAnim;
 
@@ -29,7 +29,7 @@ public class Enemy : MonoBehaviour
     {
         if(col.gameObject.CompareTag("Player"))
         {
-            GM.gm.availableCharacters[GM.gm.currectCharacterInt].earnedEXP += expKill;
+            /*GM.gm.availableCharacters[GM.gm.currectCharacterInt].earnedEXP += expKill;
             GM.gm.earnedGold += gold;
             GM.gm.earnedGems += gems;
             foreach (EvolveItem item in gainedItems)
@@ -53,7 +53,7 @@ public class Enemy : MonoBehaviour
                 {
                     GM.gm.earnedEvItems.Add(new CollectedEvolveItems(item, 1));
                 }
-            }
+            }*/
             StartCoroutine(LoadingScene());
         }
     }

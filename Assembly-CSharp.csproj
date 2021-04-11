@@ -58,6 +58,7 @@
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\TimerButtonManager.cs" />
     <Compile Include="Assets\Project\Scripts\PS.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\PlaymakerSupport\GetRemainingTime.cs" />
+    <Compile Include="Assets\Easy Save 3\Types\ES3UserType_BattleCharacters.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\World_Mesh.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
@@ -68,13 +69,15 @@
     <Compile Include="Assets\Project\Scripts\UIscripts\CharacterPageController.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\PlaymakerSupport\OpenCalendar.cs" />
     <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs" />
-    <Compile Include="Assets\Project\Scripts\TenCards.cs" />
+    <Compile Include="Assets\Project\Scripts\UIscripts\TenCards.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\PlaymakerSupport\SubmitScore.cs" />
     <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollow.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\RestorePurchases.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\World_Bar.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\AchievementNames.cs" />
     <Compile Include="Assets\Project\Scripts\SOScripts\EvolveSO.cs" />
+    <Compile Include="Assets\Easy Save 3\Types\ES3UserType_CollectedEvolveItems.cs" />
+    <Compile Include="Assets\Project\Scripts\UIscripts\BuyHearts.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\GameFlowSupport\SubmitScore.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\GameFlowSupport\RestorePurchases.cs" />
     <Compile Include="Assets\Project\Scripts\SOScripts\FighterClass.cs" />
@@ -98,7 +101,7 @@
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\TimeMethods.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\BoltSupport\GameServicesBoltSupport.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\ShopProductNames.cs" />
-    <Compile Include="Assets\Project\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Project\Scripts\CollideIntoBattle.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\PlaymakerSupport\SubmitAchievement.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\Achievement.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\BoltSupport\EasyIAPBoltSupport.cs" />
@@ -109,7 +112,9 @@
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\IAPSettings.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\GetLocalizedTitle.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\UI_Sprite.cs" />
+    <Compile Include="Assets\Project\Scripts\UIscripts\Header.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\AchievementsManager.cs" />
+    <Compile Include="Assets\Project\Scripts\UIscripts\RollInfo.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\GameFlowSupport\IsInitialized.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\OneCard.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\CharacterTeamController.cs" />
@@ -140,6 +145,7 @@
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\LeaderboardNames.cs" />
     <Compile Include="Assets\CodeMonkey\Assets.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\World_Sprite.cs" />
+    <Compile Include="Assets\Project\Scripts\UIscripts\WatchAnAd.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\CalendarDayProperties.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\UtilsClass.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\GridSlot.cs" />
@@ -153,6 +159,7 @@
     <Compile Include="Assets\GridMap\Scripts\MeshUtils.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\ScreenWriter.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\BuyProduct.cs" />
+    <Compile Include="Assets\Project\Scripts\UIscripts\Table.cs" />
     <Compile Include="Assets\Project\Scripts\LevelUp.cs" />
     <Compile Include="Assets\Project\Scripts\PlayerStateManager.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\LogInManager.cs" />
@@ -181,8 +188,7 @@
     <Compile Include="Assets\Project\Scripts\InstantiateGameObject.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\PlaymakerSupport\TimerButtonClicked.cs" />
-    <Compile Include="Assets\Easy Save 3\Types\ES3UserType_CollectedEvolveItems.cs" />
-    <Compile Include="Assets\Easy Save 3\Types\ES3UserType_BattleCharacters.cs" />
+    <Compile Include="Assets\Project\Scripts\Enemy.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -227,6 +233,7 @@
      <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\DigitalGlitch.shader" />
      <None Include="Assets\Resources\Naminovel\Text\Inventory.txt" />
      <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\RevealableTMProText.shader" />
+     <None Include="Assets\LICENSE.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\Naninovel\Resources\Naninovel\Shaders\TransitionEffects.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />

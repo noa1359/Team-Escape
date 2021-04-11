@@ -27,6 +27,11 @@ public class HeartSystem : MonoBehaviour
         StartCoroutine(RestoreRoutine());
     }
 
+    void Update()
+    {
+        StartCoroutine(RestoreRoutine());
+    }
+
     IEnumerator RestoreRoutine()
     {
         UpdateTimer();

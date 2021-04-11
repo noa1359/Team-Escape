@@ -103,6 +103,7 @@ public class GM : MonoBehaviour
     public int totalEnergy = 10;
     public float playerLastLVLUp = 0f;
     public float playerNextLVLUp = 100f;
+    public List<Enemy> enemyDatabase = new List<Enemy>();
     public List<Character> charactersDatabase = new List<Character>();
     public List<Character> availableCharacters = new List<Character>();
     public Character selectedCharacter;

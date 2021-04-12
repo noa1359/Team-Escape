@@ -24,6 +24,7 @@ public class Enemy
     public int INTEL;
 
     public weapons EquippedWeapon;
+    public List<AttackTypes> AttackList = new List<AttackTypes>();
 
     public float expKill;
     public float expHit;

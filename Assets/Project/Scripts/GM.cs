@@ -86,6 +86,7 @@ public class Character
     [Header("Character Equipment")]
     [Space(20)]
     public weapons EquippedWeapon;
+    public List<AttackTypes> AttackList = new List<AttackTypes>();
     
     [Header("Charater Earning")]
     [Space(20)]

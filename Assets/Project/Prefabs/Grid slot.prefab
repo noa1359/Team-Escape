@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9148416553484449760}
   - component: {fileID: 8127382456880259052}
   - component: {fileID: 5211661515641439961}
+  - component: {fileID: 8048149490036969930}
   m_Layer: 5
   m_Name: Grid slot
   m_TagString: Untagged
@@ -136,7 +137,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemImage: {fileID: 429097012671010788}
+  GMint: 0
   itemAmount: {fileID: 7584810537898205215}
+  IU: {fileID: 0}
+--- !u!114 &8048149490036969930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2584243941652001104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602f74cbbbd80034b96f88091a8e7c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverBehaviourType: 0
+  hoverBehaviour_Color_Enter: {r: 0, g: 0, b: 0, a: 0}
+  hoverBehaviour_Color_Exit: {r: 0, g: 0, b: 0, a: 0}
+  hoverBehaviour_Image: {fileID: 0}
+  hoverBehaviour_Sprite_Exit: {fileID: 0}
+  hoverBehaviour_Sprite_Enter: {fileID: 0}
+  hoverBehaviour_Move: 0
+  hoverBehaviour_Move_Amount: {x: 0, y: 0}
+  triggerMouseOutFuncOnClick: 0
 --- !u!1 &3468071632734830423
 GameObject:
   m_ObjectHideFlags: 0

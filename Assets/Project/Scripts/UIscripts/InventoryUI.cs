@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using CodeMonkey.Utils;
 
 public class InventoryUI : MonoBehaviour
 {
@@ -40,10 +41,38 @@ public class InventoryUI : MonoBehaviour
                 go.transform.SetParent(contentArea.transform);
                 go.GetComponent<RectTransform>().localScale = new Vector3(1,1,1);
                 GridSlot GS = go.GetComponent<GridSlot>();
+                Button button = go.GetComponent<Button>();
+                button.interactable = true;
+                string AttackDescription = GM.gm.collectedWeapons[i].Description;
+                go.GetComponent<Button_UI>().MouseOverOnceFunc = () => Tooltip.ShowTooltip_Static(AttackDescription);
+                go.GetComponent<Button_UI>().MouseOutOnceFunc = () => Tooltip.HideTooltip_Static();
                 GS.itemImage.sprite = GM.gm.collectedWeapons[i].WeaponImage;
-                GS.itemAmount.text = "";
+                GS.itemAmount.text = "1";
                 GS.IU = this;
                 itemList.Add(go);
+            }
+        }
+
+        if (skills.isOn)
+        {
+            foreach (Character character in GM.gm.availableCharacters)
+            {
+                for (int i = 0; i < character.AttackList.Count; i++)
+            {
+                GameObject go = Instantiate(itemPrefab);
+                go.transform.SetParent(contentArea.transform);
+                go.GetComponent<RectTransform>().localScale = new Vector3(1,1,1);
+                GridSlot GS = go.GetComponent<GridSlot>();
+                Button button = go.GetComponent<Button>();
+                string AttackDescription = character.AttackList[i].Description;
+                go.GetComponent<Button_UI>().MouseOverOnceFunc = () => Tooltip.ShowTooltip_Static(AttackDescription);
+                go.GetComponent<Button_UI>().MouseOutOnceFunc = () => Tooltip.HideTooltip_Static();
+                button.interactable = true;
+                GS.itemImage.sprite = character.characterProfile;
+                GS.itemAmount.text = character.AttackList[i].attackName;
+                GS.IU = this;
+                itemList.Add(go);
+            }
             }
         }
     }

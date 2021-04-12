@@ -61,6 +61,7 @@ public class GachaSystem : MonoBehaviour
                 if (isAvailable)
                 {
                     GM.gm.availableCharacters.Add(R[index]);
+                    GM.gm.collectedWeapons.Add(R[index].EquippedWeapon);
                     SRCount++;
                     oneCard.newCard.enabled = true;
                     oneCard.gradient.enabled = false;
@@ -95,6 +96,7 @@ public class GachaSystem : MonoBehaviour
                 if (isAvailable)
                 {
                     GM.gm.availableCharacters.Add(SR[index]);
+                    GM.gm.collectedWeapons.Add(SR[index].EquippedWeapon);
                     SRCount = 0;
                     oneCard.newCard.enabled = true;
                     oneCard.gradient.enabled = false;
@@ -129,6 +131,7 @@ public class GachaSystem : MonoBehaviour
                 if (isAvailable)
                 {
                     GM.gm.availableCharacters.Add(SSR[index]);
+                    GM.gm.collectedWeapons.Add(SSR[index].EquippedWeapon);
                     SRCount++;
                     oneCard.newCard.enabled = true;
                     oneCard.gradient.enabled = false;
@@ -165,6 +168,7 @@ public class GachaSystem : MonoBehaviour
                     {
                         GM.gm.selectedCharacter = item;
                         GM.gm.availableCharacters.Add(item);
+                        GM.gm.collectedWeapons.Add(item.EquippedWeapon);
                         SRCount = 0;
                         oneCard.newCard.enabled = true;
                         oneCard.gradient.enabled = false;
@@ -198,6 +202,7 @@ public class GachaSystem : MonoBehaviour
                 {
                     GM.gm.selectedCharacter = item;
                     GM.gm.characterList.Add(item);
+                    GM.gm.collectedWeapons.Add(item.EquippedWeapon);
                     GM.gm.availableCharacters.Add(item);
                     SRCount = 0;
                     SSRCount++;
@@ -225,6 +230,7 @@ public class GachaSystem : MonoBehaviour
                     {
                         GM.gm.characterList.Add(R[index]);
                         GM.gm.availableCharacters.Add(R[index]);
+                        GM.gm.collectedWeapons.Add(R[index].EquippedWeapon);
                         SRCount++;
                         SSRCount++;
                     }
@@ -254,6 +260,7 @@ public class GachaSystem : MonoBehaviour
                     {
                         GM.gm.characterList.Add(SR[index]);
                         GM.gm.availableCharacters.Add(SR[index]);
+                        GM.gm.collectedWeapons.Add(SR[index].EquippedWeapon);
                         SRCount = 0;
                         SSRCount++;
                     }
@@ -284,6 +291,7 @@ public class GachaSystem : MonoBehaviour
                         SSRCount = 0;
                         GM.gm.characterList.Add(SSR[index]);
                         GM.gm.availableCharacters.Add(SSR[index]);
+                        GM.gm.collectedWeapons.Add(SSR[index].EquippedWeapon);
                         SRCount++;
                     }
                     else
@@ -320,6 +328,7 @@ public class GachaSystem : MonoBehaviour
                 {
                     GM.gm.selectedCharacter = item;
                     GM.gm.availableCharacters.Add(item);
+                    GM.gm.collectedWeapons.Add(item.EquippedWeapon);
                     SSRCount = 0;
                     oneCard.newCard.enabled = true;
                     oneCard.gradient.enabled = false;
@@ -357,6 +366,7 @@ public class GachaSystem : MonoBehaviour
                 {
                     GM.gm.selectedCharacter = item;
                     GM.gm.availableCharacters.Add(item);
+                    GM.gm.collectedWeapons.Add(item.EquippedWeapon);
                     SSRCount = 0;
                     oneCard.newCard.enabled = true;
                     oneCard.gradient.enabled = false;

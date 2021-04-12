@@ -63,195 +63,6 @@ MonoBehaviour:
   totalEnergy: 10
   playerLastLVLUp: 0
   playerNextLVLUp: 100
-  charactersDatabase:
-  - characterName: ANDREA CLARK
-    elementalType: {fileID: 11400000, guid: 0cadcbbb80e3f8842b62d8700b5ded94, type: 2}
-    fighterClass: {fileID: 11400000, guid: 968517d506feaa4409f734f0fe0d77c4, type: 2}
-    rarity: 2
-    characterProfile: {fileID: 21300000, guid: 3add58aa36a26d74e959456c88c03b84, type: 3}
-    pic: {fileID: 21300000, guid: 57d3ebf59d51f934084a4e003d038d0c, type: 3}
-    CardImage: {fileID: 21300000, guid: 46a7a1e1254521d47a16ff15ecb25c94, type: 3}
-    rarityIcon: {fileID: 21300000, guid: 984fa97a97625914699eb945078521d7, type: 3}
-    profilePic: {fileID: 21300000, guid: d9ce099a80ec8e24cae5582c68dced9f, type: 3}
-    charaLVL: 1
-    charaEXP: 0
-    lastLVLUp: 0
-    nextLVLUp: 110
-    HP: 120
-    MP: 180
-    ATK: 41
-    DEF: 84
-    SPD: 50
-    INTEL: 77
-    charEvolve: {fileID: 11400000, guid: 7d18393ea31a7004ba44e244dc445907, type: 2}
-    EquippedWeapon: {fileID: 0}
-    earnedEXP: 0
-  - characterName: HILLARY GRACE OPPER
-    elementalType: {fileID: 11400000, guid: 2b091f6bf2b991b4693fdab2aa88c907, type: 2}
-    fighterClass: {fileID: 11400000, guid: 968517d506feaa4409f734f0fe0d77c4, type: 2}
-    rarity: 1
-    characterProfile: {fileID: 21300000, guid: 723d5634f3fa19248810dc20bf0a03c6, type: 3}
-    pic: {fileID: 21300000, guid: 177f6d9538e56c64fa8e5e69e7f91377, type: 3}
-    CardImage: {fileID: 21300000, guid: 939dfd8fe365c20419570075083c2a56, type: 3}
-    rarityIcon: {fileID: 21300000, guid: 45c389e1fadc2b747b37683928fc9564, type: 3}
-    profilePic: {fileID: 21300000, guid: 3292babc98fcfda4a994bccc47dbd45f, type: 3}
-    charaLVL: 1
-    charaEXP: 0
-    lastLVLUp: 0
-    nextLVLUp: 110
-    HP: 122
-    MP: 176
-    ATK: 31
-    DEF: 97
-    SPD: 58
-    INTEL: 42
-    charEvolve: {fileID: 11400000, guid: efdc4ffe42727974290c946d3d61f935, type: 2}
-    EquippedWeapon: {fileID: 0}
-    earnedEXP: 0
-  - characterName: RACHEL SHIPMAN
-    elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
-    fighterClass: {fileID: 11400000, guid: fe969553f9a17004e801e53fca2dd3d1, type: 2}
-    rarity: 2
-    characterProfile: {fileID: 21300000, guid: 1087ca187e0cb2a40b7b4d176eb717b2, type: 3}
-    pic: {fileID: 21300000, guid: 75abb26b94e46124da18221c05ab8320, type: 3}
-    CardImage: {fileID: 21300000, guid: b73c8d27134284f45a70a3f81d193679, type: 3}
-    rarityIcon: {fileID: 21300000, guid: 984fa97a97625914699eb945078521d7, type: 3}
-    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
-    charaLVL: 1
-    charaEXP: 0
-    lastLVLUp: 0
-    nextLVLUp: 110
-    HP: 110
-    MP: 135
-    ATK: 64
-    DEF: 80
-    SPD: 92
-    INTEL: 86
-    charEvolve: {fileID: 11400000, guid: f5b3e209a3ad5e742a9a19bb6ba8308c, type: 2}
-    EquippedWeapon: {fileID: 0}
-    earnedEXP: 0
-  - characterName: GIACINTO TREVISAN
-    elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
-    fighterClass: {fileID: 11400000, guid: fe969553f9a17004e801e53fca2dd3d1, type: 2}
-    rarity: 0
-    characterProfile: {fileID: 21300000, guid: 6db96f6df017a3b4ebb35544f43999e9, type: 3}
-    pic: {fileID: 21300000, guid: b3699ae6c9e9ab745b92d33acca6fc4b, type: 3}
-    CardImage: {fileID: 21300000, guid: b3699ae6c9e9ab745b92d33acca6fc4b, type: 3}
-    rarityIcon: {fileID: 21300000, guid: ae3e3b76f38f3fc4483a642c73c74349, type: 3}
-    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
-    charaLVL: 1
-    charaEXP: 0
-    lastLVLUp: 0
-    nextLVLUp: 110
-    HP: 108
-    MP: 168
-    ATK: 30
-    DEF: 56
-    SPD: 30
-    INTEL: 62
-    charEvolve: {fileID: 11400000, guid: 0fa653d0043176843a2cf694af8fb27f, type: 2}
-    EquippedWeapon: {fileID: 0}
-    earnedEXP: 0
-  - characterName: ASHLEY LINDSAY BARNES
-    elementalType: {fileID: 11400000, guid: 08347b90609b51543a607f6799179516, type: 2}
-    fighterClass: {fileID: 11400000, guid: 12c8ab5e72b01454ba473a16534e5c39, type: 2}
-    rarity: 0
-    characterProfile: {fileID: 21300000, guid: 4bdbbc0706532ae469e0d618d3817a8c, type: 3}
-    pic: {fileID: 21300000, guid: 7ddcf1fec62fa714089431dbede9eb3d, type: 3}
-    CardImage: {fileID: 21300000, guid: 7ddcf1fec62fa714089431dbede9eb3d, type: 3}
-    rarityIcon: {fileID: 21300000, guid: ae3e3b76f38f3fc4483a642c73c74349, type: 3}
-    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
-    charaLVL: 1
-    charaEXP: 0
-    lastLVLUp: 0
-    nextLVLUp: 110
-    HP: 156
-    MP: 182
-    ATK: 114
-    DEF: 48
-    SPD: 46
-    INTEL: 66
-    charEvolve: {fileID: 11400000, guid: 0fa653d0043176843a2cf694af8fb27f, type: 2}
-    EquippedWeapon: {fileID: 0}
-    earnedEXP: 0
-  - characterName: LILY AMBER COLLINS
-    elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
-    fighterClass: {fileID: 11400000, guid: 12c8ab5e72b01454ba473a16534e5c39, type: 2}
-    rarity: 0
-    characterProfile: {fileID: 21300000, guid: e3315d7419a41e84d9917a98b6e758a7, type: 3}
-    pic: {fileID: 21300000, guid: fe84b2d6fdb2c7847b1c8aaa85f435a6, type: 3}
-    CardImage: {fileID: 21300000, guid: fe84b2d6fdb2c7847b1c8aaa85f435a6, type: 3}
-    rarityIcon: {fileID: 21300000, guid: ae3e3b76f38f3fc4483a642c73c74349, type: 3}
-    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
-    charaLVL: 1
-    charaEXP: 0
-    lastLVLUp: 0
-    nextLVLUp: 110
-    HP: 114
-    MP: 162
-    ATK: 108
-    DEF: 82
-    SPD: 78
-    INTEL: 72
-    charEvolve: {fileID: 11400000, guid: 0fa653d0043176843a2cf694af8fb27f, type: 2}
-    EquippedWeapon: {fileID: 0}
-    earnedEXP: 0
-  availableCharacters:
-  - characterName: ANDREA CLARK
-    elementalType: {fileID: 11400000, guid: 0cadcbbb80e3f8842b62d8700b5ded94, type: 2}
-    fighterClass: {fileID: 11400000, guid: 968517d506feaa4409f734f0fe0d77c4, type: 2}
-    rarity: 2
-    characterProfile: {fileID: 21300000, guid: 3add58aa36a26d74e959456c88c03b84, type: 3}
-    pic: {fileID: 21300000, guid: 57d3ebf59d51f934084a4e003d038d0c, type: 3}
-    CardImage: {fileID: 21300000, guid: 46a7a1e1254521d47a16ff15ecb25c94, type: 3}
-    rarityIcon: {fileID: 21300000, guid: 984fa97a97625914699eb945078521d7, type: 3}
-    profilePic: {fileID: 21300000, guid: d9ce099a80ec8e24cae5582c68dced9f, type: 3}
-    charaLVL: 1
-    charaEXP: 0
-    lastLVLUp: 0
-    nextLVLUp: 110
-    HP: 120
-    MP: 180
-    ATK: 41
-    DEF: 84
-    SPD: 50
-    INTEL: 77
-    charEvolve: {fileID: 11400000, guid: 7d18393ea31a7004ba44e244dc445907, type: 2}
-    EquippedWeapon: {fileID: 0}
-    earnedEXP: 0
-  selectedCharacter:
-    characterName: 
-    elementalType: {fileID: 0}
-    fighterClass: {fileID: 0}
-    rarity: 0
-    characterProfile: {fileID: 0}
-    pic: {fileID: 0}
-    CardImage: {fileID: 0}
-    rarityIcon: {fileID: 0}
-    profilePic: {fileID: 0}
-    charaLVL: 1
-    charaEXP: 0
-    lastLVLUp: 0
-    nextLVLUp: 110
-    HP: 0
-    MP: 0
-    ATK: 0
-    DEF: 0
-    SPD: 0
-    INTEL: 0
-    charEvolve: {fileID: 0}
-    EquippedWeapon: {fileID: 0}
-    earnedEXP: 0
-  characterList: []
-  dupeList: []
-  LastExplorationScene: 
-  gold: 0
-  gems: 10000
-  collectedWeapons: []
-  collectedEvolveItems: []
-  LastBattleScene: 
-  charactersInBattle: []
-  battleCharacters: 
   enemyDatabase:
   - enemyName: GIACINTO TREVISAN
     elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
@@ -267,7 +78,8 @@ MonoBehaviour:
     DEF: 56
     SPD: 30
     INTEL: 62
-    EquippedWeapon: {fileID: 0}
+    EquippedWeapon: {fileID: 11400000, guid: a3baf9c54d4a47b43a7b10532a0336b2, type: 2}
+    AttackList: []
     expKill: 22
     expHit: 5
     gold: 1000
@@ -290,7 +102,8 @@ MonoBehaviour:
     DEF: 48
     SPD: 46
     INTEL: 66
-    EquippedWeapon: {fileID: 0}
+    EquippedWeapon: {fileID: 11400000, guid: 912b70fbc9e54ab4ea265ae0f9ff76f5, type: 2}
+    AttackList: []
     expKill: 22
     expHit: 5
     gold: 1000
@@ -314,7 +127,8 @@ MonoBehaviour:
     DEF: 82
     SPD: 78
     INTEL: 72
-    EquippedWeapon: {fileID: 0}
+    EquippedWeapon: {fileID: 11400000, guid: c5397b07be3a3a941ac192bbae9cc6e6, type: 2}
+    AttackList: []
     expKill: 22
     expHit: 5
     gold: 1000
@@ -325,6 +139,234 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 162178235b0c6cd4a86894e2fcc808ae, type: 2}
     - {fileID: 11400000, guid: b73ebd11f53c90a4a81e93e257aff782, type: 2}
     - {fileID: 11400000, guid: 86c0c168f2d4aa2498c1d8affd52ccb8, type: 2}
+  charactersDatabase:
+  - characterName: ANDREA CLARK
+    elementalType: {fileID: 11400000, guid: 0cadcbbb80e3f8842b62d8700b5ded94, type: 2}
+    fighterClass: {fileID: 11400000, guid: 968517d506feaa4409f734f0fe0d77c4, type: 2}
+    rarity: 2
+    characterProfile: {fileID: 21300000, guid: 3add58aa36a26d74e959456c88c03b84, type: 3}
+    pic: {fileID: 21300000, guid: 57d3ebf59d51f934084a4e003d038d0c, type: 3}
+    CardImage: {fileID: 21300000, guid: 46a7a1e1254521d47a16ff15ecb25c94, type: 3}
+    rarityIcon: {fileID: 21300000, guid: 984fa97a97625914699eb945078521d7, type: 3}
+    profilePic: {fileID: 21300000, guid: d9ce099a80ec8e24cae5582c68dced9f, type: 3}
+    charaLVL: 1
+    charaEXP: 0
+    lastLVLUp: 0
+    nextLVLUp: 110
+    HP: 120
+    MP: 180
+    ATK: 41
+    DEF: 84
+    SPD: 50
+    INTEL: 77
+    charEvolve: {fileID: 11400000, guid: 7d18393ea31a7004ba44e244dc445907, type: 2}
+    EquippedWeapon: {fileID: 11400000, guid: deecf932431233e459a6cee448baf888, type: 2}
+    AttackList:
+    - {fileID: 11400000, guid: 294f9f2d782572f4392f01b41ade47cf, type: 2}
+    - {fileID: 11400000, guid: 8a0d5a2edd16b404bbf94cf2e7d50874, type: 2}
+    - {fileID: 11400000, guid: d65da904f0b73d64a94c85e3ac204b61, type: 2}
+    - {fileID: 11400000, guid: 5677d37068539f143b789c5abd7eb559, type: 2}
+    - {fileID: 11400000, guid: a47b2dca553303743a77064df9f7be5f, type: 2}
+    - {fileID: 11400000, guid: 8ee221b130ea99b449908d49eedc71ce, type: 2}
+    - {fileID: 11400000, guid: 01ef311b490166343862a82df9d3d937, type: 2}
+    - {fileID: 11400000, guid: 75c74e9ab7972dd408738648bf6edfbc, type: 2}
+    - {fileID: 11400000, guid: 23fa85fcb3b06aa4c8c4cae4739d55b6, type: 2}
+    - {fileID: 11400000, guid: f24e91c3d4d4e5740811288b8f02872b, type: 2}
+    earnedEXP: 0
+  - characterName: HILLARY GRACE OPPER
+    elementalType: {fileID: 11400000, guid: 2b091f6bf2b991b4693fdab2aa88c907, type: 2}
+    fighterClass: {fileID: 11400000, guid: 968517d506feaa4409f734f0fe0d77c4, type: 2}
+    rarity: 1
+    characterProfile: {fileID: 21300000, guid: 723d5634f3fa19248810dc20bf0a03c6, type: 3}
+    pic: {fileID: 21300000, guid: 177f6d9538e56c64fa8e5e69e7f91377, type: 3}
+    CardImage: {fileID: 21300000, guid: 939dfd8fe365c20419570075083c2a56, type: 3}
+    rarityIcon: {fileID: 21300000, guid: 45c389e1fadc2b747b37683928fc9564, type: 3}
+    profilePic: {fileID: 21300000, guid: 3292babc98fcfda4a994bccc47dbd45f, type: 3}
+    charaLVL: 1
+    charaEXP: 0
+    lastLVLUp: 0
+    nextLVLUp: 110
+    HP: 122
+    MP: 176
+    ATK: 31
+    DEF: 97
+    SPD: 58
+    INTEL: 42
+    charEvolve: {fileID: 11400000, guid: efdc4ffe42727974290c946d3d61f935, type: 2}
+    EquippedWeapon: {fileID: 11400000, guid: 2fd8a26cf478f0142bdd49bb7b018dc8, type: 2}
+    AttackList:
+    - {fileID: 11400000, guid: 99ce90d76e77caf4e80c5777d218e39a, type: 2}
+    - {fileID: 11400000, guid: 964c9e72e4496f2428a38499d30909e0, type: 2}
+    - {fileID: 11400000, guid: 5645f7d61f65cd840b1ce93df9508a1b, type: 2}
+    - {fileID: 11400000, guid: 377eb30a0b4a62b41954e65117a60b69, type: 2}
+    - {fileID: 11400000, guid: 9acb489aeed1e534ea16665ae5565c65, type: 2}
+    - {fileID: 11400000, guid: a96a772780449cd47a1a73a8aa04b996, type: 2}
+    - {fileID: 11400000, guid: 72cb33459607c9a4ba52a4ee8aeeff69, type: 2}
+    - {fileID: 11400000, guid: 1f2b0663163207e4ba6904d69ad41aec, type: 2}
+    - {fileID: 11400000, guid: 119d2c5daab2a9e49ade1380ea4ccded, type: 2}
+    - {fileID: 11400000, guid: 538152ab2c06dfb478643de02b55e99a, type: 2}
+    earnedEXP: 0
+  - characterName: RACHEL SHIPMAN
+    elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
+    fighterClass: {fileID: 11400000, guid: fe969553f9a17004e801e53fca2dd3d1, type: 2}
+    rarity: 2
+    characterProfile: {fileID: 21300000, guid: 1087ca187e0cb2a40b7b4d176eb717b2, type: 3}
+    pic: {fileID: 21300000, guid: 75abb26b94e46124da18221c05ab8320, type: 3}
+    CardImage: {fileID: 21300000, guid: b73c8d27134284f45a70a3f81d193679, type: 3}
+    rarityIcon: {fileID: 21300000, guid: 984fa97a97625914699eb945078521d7, type: 3}
+    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
+    charaLVL: 1
+    charaEXP: 0
+    lastLVLUp: 0
+    nextLVLUp: 110
+    HP: 110
+    MP: 135
+    ATK: 64
+    DEF: 80
+    SPD: 92
+    INTEL: 86
+    charEvolve: {fileID: 11400000, guid: f5b3e209a3ad5e742a9a19bb6ba8308c, type: 2}
+    EquippedWeapon: {fileID: 11400000, guid: 948eb591b14570748bd00f4ab315ded6, type: 2}
+    AttackList: []
+    earnedEXP: 0
+  - characterName: GIACINTO TREVISAN
+    elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
+    fighterClass: {fileID: 11400000, guid: fe969553f9a17004e801e53fca2dd3d1, type: 2}
+    rarity: 0
+    characterProfile: {fileID: 21300000, guid: 6db96f6df017a3b4ebb35544f43999e9, type: 3}
+    pic: {fileID: 21300000, guid: b3699ae6c9e9ab745b92d33acca6fc4b, type: 3}
+    CardImage: {fileID: 21300000, guid: b3699ae6c9e9ab745b92d33acca6fc4b, type: 3}
+    rarityIcon: {fileID: 21300000, guid: ae3e3b76f38f3fc4483a642c73c74349, type: 3}
+    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
+    charaLVL: 1
+    charaEXP: 0
+    lastLVLUp: 0
+    nextLVLUp: 110
+    HP: 108
+    MP: 168
+    ATK: 30
+    DEF: 56
+    SPD: 30
+    INTEL: 62
+    charEvolve: {fileID: 11400000, guid: 0fa653d0043176843a2cf694af8fb27f, type: 2}
+    EquippedWeapon: {fileID: 11400000, guid: a3baf9c54d4a47b43a7b10532a0336b2, type: 2}
+    AttackList: []
+    earnedEXP: 0
+  - characterName: ASHLEY LINDSAY BARNES
+    elementalType: {fileID: 11400000, guid: 08347b90609b51543a607f6799179516, type: 2}
+    fighterClass: {fileID: 11400000, guid: 12c8ab5e72b01454ba473a16534e5c39, type: 2}
+    rarity: 0
+    characterProfile: {fileID: 21300000, guid: 4bdbbc0706532ae469e0d618d3817a8c, type: 3}
+    pic: {fileID: 21300000, guid: 7ddcf1fec62fa714089431dbede9eb3d, type: 3}
+    CardImage: {fileID: 21300000, guid: 7ddcf1fec62fa714089431dbede9eb3d, type: 3}
+    rarityIcon: {fileID: 21300000, guid: ae3e3b76f38f3fc4483a642c73c74349, type: 3}
+    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
+    charaLVL: 1
+    charaEXP: 0
+    lastLVLUp: 0
+    nextLVLUp: 110
+    HP: 156
+    MP: 182
+    ATK: 114
+    DEF: 48
+    SPD: 46
+    INTEL: 66
+    charEvolve: {fileID: 11400000, guid: 0fa653d0043176843a2cf694af8fb27f, type: 2}
+    EquippedWeapon: {fileID: 11400000, guid: 912b70fbc9e54ab4ea265ae0f9ff76f5, type: 2}
+    AttackList: []
+    earnedEXP: 0
+  - characterName: LILY AMBER COLLINS
+    elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
+    fighterClass: {fileID: 11400000, guid: 12c8ab5e72b01454ba473a16534e5c39, type: 2}
+    rarity: 0
+    characterProfile: {fileID: 21300000, guid: e3315d7419a41e84d9917a98b6e758a7, type: 3}
+    pic: {fileID: 21300000, guid: fe84b2d6fdb2c7847b1c8aaa85f435a6, type: 3}
+    CardImage: {fileID: 21300000, guid: fe84b2d6fdb2c7847b1c8aaa85f435a6, type: 3}
+    rarityIcon: {fileID: 21300000, guid: ae3e3b76f38f3fc4483a642c73c74349, type: 3}
+    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
+    charaLVL: 1
+    charaEXP: 0
+    lastLVLUp: 0
+    nextLVLUp: 110
+    HP: 114
+    MP: 162
+    ATK: 108
+    DEF: 82
+    SPD: 78
+    INTEL: 72
+    charEvolve: {fileID: 11400000, guid: 0fa653d0043176843a2cf694af8fb27f, type: 2}
+    EquippedWeapon: {fileID: 11400000, guid: c5397b07be3a3a941ac192bbae9cc6e6, type: 2}
+    AttackList: []
+    earnedEXP: 0
+  availableCharacters:
+  - characterName: ANDREA CLARK
+    elementalType: {fileID: 11400000, guid: 0cadcbbb80e3f8842b62d8700b5ded94, type: 2}
+    fighterClass: {fileID: 11400000, guid: 968517d506feaa4409f734f0fe0d77c4, type: 2}
+    rarity: 2
+    characterProfile: {fileID: 21300000, guid: 3add58aa36a26d74e959456c88c03b84, type: 3}
+    pic: {fileID: 21300000, guid: 57d3ebf59d51f934084a4e003d038d0c, type: 3}
+    CardImage: {fileID: 21300000, guid: 46a7a1e1254521d47a16ff15ecb25c94, type: 3}
+    rarityIcon: {fileID: 21300000, guid: 984fa97a97625914699eb945078521d7, type: 3}
+    profilePic: {fileID: 21300000, guid: d9ce099a80ec8e24cae5582c68dced9f, type: 3}
+    charaLVL: 1
+    charaEXP: 0
+    lastLVLUp: 0
+    nextLVLUp: 110
+    HP: 120
+    MP: 180
+    ATK: 41
+    DEF: 84
+    SPD: 50
+    INTEL: 77
+    charEvolve: {fileID: 11400000, guid: 7d18393ea31a7004ba44e244dc445907, type: 2}
+    EquippedWeapon: {fileID: 11400000, guid: deecf932431233e459a6cee448baf888, type: 2}
+    AttackList:
+    - {fileID: 11400000, guid: 294f9f2d782572f4392f01b41ade47cf, type: 2}
+    - {fileID: 11400000, guid: 8a0d5a2edd16b404bbf94cf2e7d50874, type: 2}
+    - {fileID: 11400000, guid: d65da904f0b73d64a94c85e3ac204b61, type: 2}
+    - {fileID: 11400000, guid: 5677d37068539f143b789c5abd7eb559, type: 2}
+    - {fileID: 11400000, guid: a47b2dca553303743a77064df9f7be5f, type: 2}
+    - {fileID: 11400000, guid: 8ee221b130ea99b449908d49eedc71ce, type: 2}
+    - {fileID: 11400000, guid: 01ef311b490166343862a82df9d3d937, type: 2}
+    - {fileID: 11400000, guid: 75c74e9ab7972dd408738648bf6edfbc, type: 2}
+    - {fileID: 11400000, guid: 23fa85fcb3b06aa4c8c4cae4739d55b6, type: 2}
+    - {fileID: 11400000, guid: f24e91c3d4d4e5740811288b8f02872b, type: 2}
+    earnedEXP: 0
+  selectedCharacter:
+    characterName: 
+    elementalType: {fileID: 0}
+    fighterClass: {fileID: 0}
+    rarity: 0
+    characterProfile: {fileID: 0}
+    pic: {fileID: 0}
+    CardImage: {fileID: 0}
+    rarityIcon: {fileID: 0}
+    profilePic: {fileID: 0}
+    charaLVL: 1
+    charaEXP: 0
+    lastLVLUp: 0
+    nextLVLUp: 110
+    HP: 0
+    MP: 0
+    ATK: 0
+    DEF: 0
+    SPD: 0
+    INTEL: 0
+    charEvolve: {fileID: 0}
+    EquippedWeapon: {fileID: 0}
+    AttackList: []
+    earnedEXP: 0
+  characterList: []
+  dupeList: []
+  LastExplorationScene: 
+  gold: 0
+  gems: 10000
+  collectedWeapons:
+  - {fileID: 11400000, guid: deecf932431233e459a6cee448baf888, type: 2}
+  collectedEvolveItems: []
+  LastBattleScene: 
+  charactersInBattle: []
+  battleCharacters: 
   currectCharacterInt: 0
   playerEarnedEXP: 0
   earnedWeapons: []

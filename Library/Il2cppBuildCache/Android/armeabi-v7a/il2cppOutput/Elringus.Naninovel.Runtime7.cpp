@@ -29951,7 +29951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3C_cctorU3Eb__9_0_m3EA95CE4F405
 		Type_t * L_2 = ___t0;
 		NullCheck(L_1);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
 		if (!L_3)
 		{
 			goto IL_0023;
@@ -33066,7 +33066,7 @@ IL_0039:
 				StreamReader_tA857ACC7ABF9AA4638E1291E6D2539C14D2963D3 * L_8 = __this->get_U3CstreamU3E5__2_3();
 				NullCheck(L_8);
 				Task_1_t30D80D0F41B19BC27A8D1141D69741D0B986B2C3 * L_9;
-				L_9 = VirtFuncInvoker0< Task_1_t30D80D0F41B19BC27A8D1141D69741D0B986B2C3 * >::Invoke(13 /* System.Threading.Tasks.Task`1<System.String> System.IO.TextReader::ReadToEndAsync() */, L_8);
+				L_9 = VirtFuncInvoker0< Task_1_t30D80D0F41B19BC27A8D1141D69741D0B986B2C3 * >::Invoke(14 /* System.Threading.Tasks.Task`1<System.String> System.IO.TextReader::ReadToEndAsync() */, L_8);
 				NullCheck(L_9);
 				TaskAwaiter_1_t454F5B9CE4CDFF1EE8835FB7E6FCB8441363315D  L_10;
 				L_10 = Task_1_GetAwaiter_m6AF42B94A866888CE1B3614A8C4C2FE98229FFB1(L_9, /*hidden argument*/Task_1_GetAwaiter_m6AF42B94A866888CE1B3614A8C4C2FE98229FFB1_RuntimeMethod_var);
@@ -33557,7 +33557,7 @@ IL_003e:
 				String_t* L_9 = __this->get_fileText_3();
 				NullCheck(L_8);
 				Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * L_10;
-				L_10 = VirtFuncInvoker1< Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 *, String_t* >::Invoke(22 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.String) */, L_8, L_9);
+				L_10 = VirtFuncInvoker1< Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 *, String_t* >::Invoke(26 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.String) */, L_8, L_9);
 				NullCheck(L_10);
 				TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_11;
 				L_11 = Task_GetAwaiter_m1FF7528A8FE13F79207DFE970F642078EF6B1260(L_10, /*hidden argument*/NULL);

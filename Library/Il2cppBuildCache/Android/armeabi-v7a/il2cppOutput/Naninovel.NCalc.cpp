@@ -11988,7 +11988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseRecognizer_EmitErrorMessage_m4A70B5F
 		L_1 = BaseRecognizer_get_TraceDestination_mE6CF40535AF60B892DEF865B8DB2962EDE999DC0_inline(__this, /*hidden argument*/NULL);
 		String_t* L_2 = ___msg0;
 		NullCheck(L_1);
-		VirtActionInvoker1< String_t* >::Invoke(18 /* System.Void System.IO.TextWriter::WriteLine(System.String) */, L_1, L_2);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.IO.TextWriter::WriteLine(System.String) */, L_1, L_2);
 	}
 
 IL_0014:
@@ -18263,7 +18263,7 @@ IL_0053:
 		L_24 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_23, /*hidden argument*/NULL);
 		NullCheck(L_22);
 		bool L_25;
-		L_25 = VirtFuncInvoker1< bool, Type_t * >::Invoke(114 /* System.Boolean System.Type::Equals(System.Type) */, L_22, L_24);
+		L_25 = VirtFuncInvoker1< bool, Type_t * >::Invoke(115 /* System.Boolean System.Type::Equals(System.Type) */, L_22, L_24);
 		if (!L_25)
 		{
 			goto IL_0106;
@@ -30852,7 +30852,7 @@ IL_0062:
 		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(1), (uint8_t)L_40);
 		NullCheck(L_33);
 		CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* L_41;
-		L_41 = VirtFuncInvoker1< CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(24 /* System.Char[] System.Text.Encoding::GetChars(System.Byte[]) */, L_33, L_38);
+		L_41 = VirtFuncInvoker1< CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(25 /* System.Char[] System.Text.Encoding::GetChars(System.Byte[]) */, L_33, L_38);
 		NullCheck(L_41);
 		int32_t L_42 = 0;
 		uint16_t L_43 = (uint16_t)(L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_42));

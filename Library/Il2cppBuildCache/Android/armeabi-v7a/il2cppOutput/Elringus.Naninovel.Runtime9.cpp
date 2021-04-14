@@ -39117,7 +39117,7 @@ IL_0069:
 						StreamReader_tA857ACC7ABF9AA4638E1291E6D2539C14D2963D3 * L_15 = __this->get_U3CreaderU3E5__4_5();
 						NullCheck(L_15);
 						Task_1_t30D80D0F41B19BC27A8D1141D69741D0B986B2C3 * L_16;
-						L_16 = VirtFuncInvoker0< Task_1_t30D80D0F41B19BC27A8D1141D69741D0B986B2C3 * >::Invoke(13 /* System.Threading.Tasks.Task`1<System.String> System.IO.TextReader::ReadToEndAsync() */, L_15);
+						L_16 = VirtFuncInvoker0< Task_1_t30D80D0F41B19BC27A8D1141D69741D0B986B2C3 * >::Invoke(14 /* System.Threading.Tasks.Task`1<System.String> System.IO.TextReader::ReadToEndAsync() */, L_15);
 						NullCheck(L_16);
 						TaskAwaiter_1_t454F5B9CE4CDFF1EE8835FB7E6FCB8441363315D  L_17;
 						L_17 = Task_1_GetAwaiter_m6AF42B94A866888CE1B3614A8C4C2FE98229FFB1(L_16, /*hidden argument*/Task_1_GetAwaiter_m6AF42B94A866888CE1B3614A8C4C2FE98229FFB1_RuntimeMethod_var);
@@ -39503,7 +39503,7 @@ IL_0063:
 						String_t* L_15 = __this->get_content_2();
 						NullCheck(L_14);
 						Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * L_16;
-						L_16 = VirtFuncInvoker1< Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 *, String_t* >::Invoke(22 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.String) */, L_14, L_15);
+						L_16 = VirtFuncInvoker1< Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 *, String_t* >::Invoke(26 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.String) */, L_14, L_15);
 						NullCheck(L_16);
 						TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_17;
 						L_17 = Task_GetAwaiter_m1FF7528A8FE13F79207DFE970F642078EF6B1260(L_16, /*hidden argument*/NULL);

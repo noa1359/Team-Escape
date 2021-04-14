@@ -39119,7 +39119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextAsset_t1969F5FD1F628C7C0A70D9605C0D251B4F
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_1 = ___obj0;
 		NullCheck(L_0);
 		String_t* L_2;
-		L_2 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_0, L_1);
+		L_2 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_0, L_1);
 		TextAsset_t1969F5FD1F628C7C0A70D9605C0D251B4F547234 * L_3 = (TextAsset_t1969F5FD1F628C7C0A70D9605C0D251B4F547234 *)il2cpp_codegen_object_new(TextAsset_t1969F5FD1F628C7C0A70D9605C0D251B4F547234_il2cpp_TypeInfo_var);
 		TextAsset__ctor_m9053EAB1C1B32373905FD93BEC7E019647D69B2B(L_3, L_2, /*hidden argument*/NULL);
 		// textAsset.name = name;
@@ -40240,7 +40240,7 @@ IL_0020:
 			Type_t * L_9 = L_8.get_ComponentType_3();
 			NullCheck(L_7);
 			bool L_10;
-			L_10 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_7, L_9);
+			L_10 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_7, L_9);
 			if (!L_10)
 			{
 				goto IL_0054;

@@ -225,6 +225,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB9ACF8E6DF73A863387F2ABAD61D84C3197C6B01
 IL2CPP_EXTERN_C String_t* _stringLiteralC563ED6549A22286FAAA38A5D49C5B247A52C622;
 IL2CPP_EXTERN_C String_t* _stringLiteralCC867B94415511BD48E92E3242D7EDA425D20035;
 IL2CPP_EXTERN_C String_t* _stringLiteralD7EA9435CDE6F5B13E32FE646D502752ECCD43DD;
+IL2CPP_EXTERN_C String_t* _stringLiteralF52B980B71426E2D226C2ED5B2045868E72F85FF;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1_Invoke_m95E5C9FC67F7B0BDC3CD5E00AC5D4C8A00C97AC5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AudioClip_Create_mD39D997B95D7994D7063B85A892D1F78239C85A8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AudioClip_SetData_m3424F9C6C5B7A15491B79F961C30D8F0051E34F7_RuntimeMethod_var;
@@ -1587,6 +1588,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AudioClip_GetName_m7EC70BE0E037DDF4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44 (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method);
 // System.Void UnityEngine.Debug::Log(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8 (RuntimeObject * ___message0, const RuntimeMethod* method);
+// System.Boolean UnityEngine.AudioClip::GetData(UnityEngine.AudioClip,System.Single[],System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_GetData_m4BBF0E17E9E229EAE137E3275B5FBE6961D235E0 (AudioClip_t16D2E573E7CC1C5118D8EE0F0692D46866A1C0EE * ___clip0, SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* ___data1, int32_t ___numSamples2, int32_t ___samplesOffset3, const RuntimeMethod* method);
 // System.Int32 UnityEngine.AudioClip::get_samples()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClip_get_samples_m741BFBA562FBFDBE67AFE98A38B1B4A871D2D567 (AudioClip_t16D2E573E7CC1C5118D8EE0F0692D46866A1C0EE * __this, const RuntimeMethod* method);
 // System.Void System.ArgumentException::.ctor(System.String)
@@ -1717,6 +1720,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClip__ctor_m25D83075F6C4735DF4E997F
 		return;
 	}
 }
+// System.Boolean UnityEngine.AudioClip::GetData(UnityEngine.AudioClip,System.Single[],System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_GetData_m4BBF0E17E9E229EAE137E3275B5FBE6961D235E0 (AudioClip_t16D2E573E7CC1C5118D8EE0F0692D46866A1C0EE * ___clip0, SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* ___data1, int32_t ___numSamples2, int32_t ___samplesOffset3, const RuntimeMethod* method)
+{
+	typedef bool (*AudioClip_GetData_m4BBF0E17E9E229EAE137E3275B5FBE6961D235E0_ftn) (AudioClip_t16D2E573E7CC1C5118D8EE0F0692D46866A1C0EE *, SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA*, int32_t, int32_t);
+	static AudioClip_GetData_m4BBF0E17E9E229EAE137E3275B5FBE6961D235E0_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioClip_GetData_m4BBF0E17E9E229EAE137E3275B5FBE6961D235E0_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioClip::GetData(UnityEngine.AudioClip,System.Single[],System.Int32,System.Int32)");
+	bool icallRetVal = _il2cpp_icall_func(___clip0, ___data1, ___numSamples2, ___samplesOffset3);
+	return icallRetVal;
+}
 // System.Boolean UnityEngine.AudioClip::SetData(UnityEngine.AudioClip,System.Single[],System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_SetData_m64ABABF4A6BEBAE865D8D0F8BF03B06969E50106 (AudioClip_t16D2E573E7CC1C5118D8EE0F0692D46866A1C0EE * ___clip0, SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* ___data1, int32_t ___numsamples2, int32_t ___samplesOffset3, const RuntimeMethod* method)
 {
@@ -1785,6 +1798,92 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClip_get_channels_m7592B378317BF
 	_il2cpp_icall_func = (AudioClip_get_channels_m7592B378317BFA41DF2228636124E4DD5B86D3B8_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioClip::get_channels()");
 	int32_t icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
+}
+// System.Int32 UnityEngine.AudioClip::get_frequency()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClip_get_frequency_m5346F253EE3761A2535B20E0E27B6AB0B875BFCD (AudioClip_t16D2E573E7CC1C5118D8EE0F0692D46866A1C0EE * __this, const RuntimeMethod* method)
+{
+	typedef int32_t (*AudioClip_get_frequency_m5346F253EE3761A2535B20E0E27B6AB0B875BFCD_ftn) (AudioClip_t16D2E573E7CC1C5118D8EE0F0692D46866A1C0EE *);
+	static AudioClip_get_frequency_m5346F253EE3761A2535B20E0E27B6AB0B875BFCD_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioClip_get_frequency_m5346F253EE3761A2535B20E0E27B6AB0B875BFCD_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioClip::get_frequency()");
+	int32_t icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+// System.Boolean UnityEngine.AudioClip::GetData(System.Single[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_GetData_m2D7410645789EBED93CAA8146D271C79156E2CB0 (AudioClip_t16D2E573E7CC1C5118D8EE0F0692D46866A1C0EE * __this, SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* ___data0, int32_t ___offsetSamples1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8C53570A90E7EFA87FDB7F0DCC0EE1FCC019E426);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF52B980B71426E2D226C2ED5B2045868E72F85FF);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	bool V_2 = false;
+	int32_t G_B5_0 = 0;
+	{
+		int32_t L_0;
+		L_0 = AudioClip_get_channels_m7592B378317BFA41DF2228636124E4DD5B86D3B8(__this, /*hidden argument*/NULL);
+		V_1 = (bool)((((int32_t)((((int32_t)L_0) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		String_t* L_2;
+		L_2 = AudioClip_GetName_m7EC70BE0E037DDF4281B20EDDFEB9DD6D0CD541E(__this, /*hidden argument*/NULL);
+		String_t* L_3;
+		L_3 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(_stringLiteralF52B980B71426E2D226C2ED5B2045868E72F85FF, L_2, _stringLiteral8C53570A90E7EFA87FDB7F0DCC0EE1FCC019E426, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_3, /*hidden argument*/NULL);
+		V_2 = (bool)0;
+		goto IL_004e;
+	}
+
+IL_0031:
+	{
+		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_4 = ___data0;
+		if (L_4)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		G_B5_0 = 0;
+		goto IL_0041;
+	}
+
+IL_0037:
+	{
+		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_5 = ___data0;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = AudioClip_get_channels_m7592B378317BFA41DF2228636124E4DD5B86D3B8(__this, /*hidden argument*/NULL);
+		G_B5_0 = ((int32_t)((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_5)->max_length)))/(int32_t)L_6));
+	}
+
+IL_0041:
+	{
+		V_0 = G_B5_0;
+		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_7 = ___data0;
+		int32_t L_8 = V_0;
+		int32_t L_9 = ___offsetSamples1;
+		bool L_10;
+		L_10 = AudioClip_GetData_m4BBF0E17E9E229EAE137E3275B5FBE6961D235E0(__this, L_7, L_8, L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		goto IL_004e;
+	}
+
+IL_004e:
+	{
+		bool L_11 = V_2;
+		return L_11;
+	}
 }
 // System.Boolean UnityEngine.AudioClip::SetData(System.Single[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_SetData_m3424F9C6C5B7A15491B79F961C30D8F0051E34F7 (AudioClip_t16D2E573E7CC1C5118D8EE0F0692D46866A1C0EE * __this, SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* ___data0, int32_t ___offsetSamples1, const RuntimeMethod* method)

@@ -38593,7 +38593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19
 		String_t* L_1 = ___inputString0;
 		NullCheck(L_0);
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_2;
-		L_2 = VirtFuncInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, String_t* >::Invoke(17 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_1);
+		L_2 = VirtFuncInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, String_t* >::Invoke(18 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_1);
 		V_0 = L_2;
 		// var sha256 = new SHA256Managed();
 		SHA256Managed_t5ECA26A251A97388C454C9E800850FFA6B3E3D3B * L_3 = (SHA256Managed_t5ECA26A251A97388C454C9E800850FFA6B3E3D3B *)il2cpp_codegen_object_new(SHA256Managed_t5ECA26A251A97388C454C9E800850FFA6B3E3D3B_il2cpp_TypeInfo_var);
@@ -51135,7 +51135,7 @@ IL_00a3:
 			L_37 = VirtFuncInvoker0< Type_t * >::Invoke(7 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_36);
 			NullCheck(L_37);
 			Type_t * L_38;
-			L_38 = VirtFuncInvoker0< Type_t * >::Invoke(99 /* System.Type System.Type::GetElementType() */, L_37);
+			L_38 = VirtFuncInvoker0< Type_t * >::Invoke(100 /* System.Type System.Type::GetElementType() */, L_37);
 			// var paramsValue = Array.CreateInstance(elementType, functionParams.Length);
 			ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_39 = V_3;
 			NullCheck(L_39);
@@ -53200,7 +53200,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Script_t1FE29ADC687DB274D1FB6843B02A5CCA6DA2A
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_2 = ___obj0;
 		NullCheck(L_1);
 		String_t* L_3;
-		L_3 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_1, L_2);
+		L_3 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_1, L_2);
 		Script_t1FE29ADC687DB274D1FB6843B02A5CCA6DA2A773 * L_4;
 		L_4 = Script_FromScriptText_mD85F94076DDF60A9922935EFA52ABD5BD72B2867(L_0, L_3, (List_1_tC2B3A7BF722641329397C3B64B84E1B91425EDF9 *)NULL, /*hidden argument*/NULL);
 		return L_4;
@@ -53354,7 +53354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextAsset_t1969F5FD1F628C7C0A70D9605C0D251B4F
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_1 = ___obj0;
 		NullCheck(L_0);
 		String_t* L_2;
-		L_2 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_0, L_1);
+		L_2 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_0, L_1);
 		TextAsset_t1969F5FD1F628C7C0A70D9605C0D251B4F547234 * L_3 = (TextAsset_t1969F5FD1F628C7C0A70D9605C0D251B4F547234 *)il2cpp_codegen_object_new(TextAsset_t1969F5FD1F628C7C0A70D9605C0D251B4F547234_il2cpp_TypeInfo_var);
 		TextAsset__ctor_m9053EAB1C1B32373905FD93BEC7E019647D69B2B(L_3, L_2, /*hidden argument*/NULL);
 		// textAsset.name = name;

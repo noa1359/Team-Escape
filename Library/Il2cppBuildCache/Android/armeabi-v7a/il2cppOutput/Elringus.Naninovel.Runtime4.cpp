@@ -33024,7 +33024,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeInitializer_U3CInitializeAsyncU3E
 		Type_t * L_2 = ___t0;
 		NullCheck(L_1);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
 		return L_3;
 	}
 }
@@ -33047,7 +33047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeInitializer_U3CInitializeAsyncU3E
 		Type_t * L_2 = ___t0;
 		NullCheck(L_1);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
 		return L_3;
 	}
 }
@@ -33070,7 +33070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeInitializer_U3CInitializeAsyncU3E
 		Type_t * L_2 = ___t0;
 		NullCheck(L_1);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
 		return L_3;
 	}
 }
@@ -54212,7 +54212,7 @@ IL_001a:
 				StreamWriter_t3E267B7F3C9522AF936C26ABF158398BB779FAF6 * L_6 = V_2;
 				String_t* L_7 = ___content0;
 				NullCheck(L_6);
-				VirtActionInvoker1< String_t* >::Invoke(14 /* System.Void System.IO.TextWriter::Write(System.String) */, L_6, L_7);
+				VirtActionInvoker1< String_t* >::Invoke(18 /* System.Void System.IO.TextWriter::Write(System.String) */, L_6, L_7);
 				// }
 				IL2CPP_LEAVE(0x37, FINALLY_0023);
 			} // end try (depth: 3)

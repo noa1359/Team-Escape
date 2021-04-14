@@ -40655,7 +40655,7 @@ IL_00e2:
 		Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_49 = (L_46)->GetAt(static_cast<il2cpp_array_size_t>(L_48));
 		NullCheck(L_49);
 		bool L_50;
-		L_50 = VirtFuncInvoker0< bool >::Invoke(8 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_49);
+		L_50 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_49);
 		if (L_50)
 		{
 			goto IL_014b;
@@ -42413,7 +42413,7 @@ IL_0033:
 		Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_17 = V_0;
 		NullCheck(L_17);
 		bool L_18;
-		L_18 = VirtFuncInvoker0< bool >::Invoke(8 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_17);
+		L_18 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_17);
 		if (L_18)
 		{
 			goto IL_00a0;

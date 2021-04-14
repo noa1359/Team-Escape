@@ -7,7 +7,7 @@ using CodeMonkey.Utils;
 public class Tooltip : MonoBehaviour
 {
     Touch touch;
-    private static Tooltip instance;
+    public static Tooltip instance;
     public Text tooltipText;
     public RectTransform backgroundRectTransform;
     float textPaddingSize = 4f;

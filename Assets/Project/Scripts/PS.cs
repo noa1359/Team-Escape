@@ -21,7 +21,7 @@ public class PS : MonoBehaviour
         }
     }
 
-    void OnApplicationQuit()
+    void OnApplicationPause()
     {
         PlayerPrefs.Save();
         Save();

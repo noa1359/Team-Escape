@@ -79,7 +79,15 @@ MonoBehaviour:
     SPD: 30
     INTEL: 62
     EquippedWeapon: {fileID: 11400000, guid: a3baf9c54d4a47b43a7b10532a0336b2, type: 2}
-    AttackList: []
+    AttackList:
+    - {fileID: 11400000, guid: 23c2ed080eddbc947adb77821a8292a0, type: 2}
+    - {fileID: 11400000, guid: d0b2a1631df6af54f82230d4507d619a, type: 2}
+    - {fileID: 11400000, guid: beb92c76b44ed5e47804cdf640a4e450, type: 2}
+    - {fileID: 11400000, guid: 5f4fb8eaf8456454f8eedddf27db686a, type: 2}
+    - {fileID: 11400000, guid: 95c9f671cc1c58a4a9ab08a04b3cf20b, type: 2}
+    - {fileID: 11400000, guid: 0de05a2493e877f4d843ac52fc06bfd6, type: 2}
+    - {fileID: 11400000, guid: f442a9cae879861469e4f4f2845e96ad, type: 2}
+    - {fileID: 11400000, guid: 7e6754892a49ab24587cf85f7e8b52bd, type: 2}
     expKill: 22
     expHit: 5
     gold: 1000
@@ -103,7 +111,15 @@ MonoBehaviour:
     SPD: 46
     INTEL: 66
     EquippedWeapon: {fileID: 11400000, guid: 912b70fbc9e54ab4ea265ae0f9ff76f5, type: 2}
-    AttackList: []
+    AttackList:
+    - {fileID: 11400000, guid: 59f7fc4fc3ea2a442bc60ae8dcfbd2df, type: 2}
+    - {fileID: 11400000, guid: 3dc5e5c18544cd54a9710b3e43d541e5, type: 2}
+    - {fileID: 11400000, guid: 39dfbb833bb84654aba907485659f67e, type: 2}
+    - {fileID: 11400000, guid: 7269d56ebdca74c4f887b9dda02e2d81, type: 2}
+    - {fileID: 11400000, guid: 8f9901f9461734b46862e18b1196ed0a, type: 2}
+    - {fileID: 11400000, guid: f64e1a5355e771f46a839e9d529fc3cd, type: 2}
+    - {fileID: 11400000, guid: 20d163c1335044344aa7d59cd3330c53, type: 2}
+    - {fileID: 11400000, guid: a13e19cd25c50db45ac8637574131843, type: 2}
     expKill: 22
     expHit: 5
     gold: 1000
@@ -227,7 +243,15 @@ MonoBehaviour:
     INTEL: 86
     charEvolve: {fileID: 11400000, guid: f5b3e209a3ad5e742a9a19bb6ba8308c, type: 2}
     EquippedWeapon: {fileID: 11400000, guid: 948eb591b14570748bd00f4ab315ded6, type: 2}
-    AttackList: []
+    AttackList:
+    - {fileID: 11400000, guid: 459f507a3f9132049afac7e297230adc, type: 2}
+    - {fileID: 11400000, guid: a785045879ac2a441a3514f9db54de3e, type: 2}
+    - {fileID: 11400000, guid: 8677053a128d2a845b166f65aaddf976, type: 2}
+    - {fileID: 11400000, guid: 48f76ed50e5d7d24fa4a6e2060f41e67, type: 2}
+    - {fileID: 11400000, guid: 691a0489cf61d464b86d6b7e84376a88, type: 2}
+    - {fileID: 11400000, guid: 8bc5d09b6ee3555428c0ff49d7755e27, type: 2}
+    - {fileID: 11400000, guid: c8ef7d1492e4b0148bc544627671f131, type: 2}
+    - {fileID: 11400000, guid: c8e049a7d1302bc48b2afa39ebbea5a1, type: 2}
     earnedEXP: 0
   - characterName: GIACINTO TREVISAN
     elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
@@ -250,7 +274,15 @@ MonoBehaviour:
     INTEL: 62
     charEvolve: {fileID: 11400000, guid: 0fa653d0043176843a2cf694af8fb27f, type: 2}
     EquippedWeapon: {fileID: 11400000, guid: a3baf9c54d4a47b43a7b10532a0336b2, type: 2}
-    AttackList: []
+    AttackList:
+    - {fileID: 11400000, guid: 23c2ed080eddbc947adb77821a8292a0, type: 2}
+    - {fileID: 11400000, guid: d0b2a1631df6af54f82230d4507d619a, type: 2}
+    - {fileID: 11400000, guid: beb92c76b44ed5e47804cdf640a4e450, type: 2}
+    - {fileID: 11400000, guid: 5f4fb8eaf8456454f8eedddf27db686a, type: 2}
+    - {fileID: 11400000, guid: 95c9f671cc1c58a4a9ab08a04b3cf20b, type: 2}
+    - {fileID: 11400000, guid: 0de05a2493e877f4d843ac52fc06bfd6, type: 2}
+    - {fileID: 11400000, guid: f442a9cae879861469e4f4f2845e96ad, type: 2}
+    - {fileID: 11400000, guid: 7e6754892a49ab24587cf85f7e8b52bd, type: 2}
     earnedEXP: 0
   - characterName: ASHLEY LINDSAY BARNES
     elementalType: {fileID: 11400000, guid: 08347b90609b51543a607f6799179516, type: 2}
@@ -273,7 +305,15 @@ MonoBehaviour:
     INTEL: 66
     charEvolve: {fileID: 11400000, guid: 0fa653d0043176843a2cf694af8fb27f, type: 2}
     EquippedWeapon: {fileID: 11400000, guid: 912b70fbc9e54ab4ea265ae0f9ff76f5, type: 2}
-    AttackList: []
+    AttackList:
+    - {fileID: 11400000, guid: 59f7fc4fc3ea2a442bc60ae8dcfbd2df, type: 2}
+    - {fileID: 11400000, guid: 3dc5e5c18544cd54a9710b3e43d541e5, type: 2}
+    - {fileID: 11400000, guid: 39dfbb833bb84654aba907485659f67e, type: 2}
+    - {fileID: 11400000, guid: 7269d56ebdca74c4f887b9dda02e2d81, type: 2}
+    - {fileID: 11400000, guid: 8f9901f9461734b46862e18b1196ed0a, type: 2}
+    - {fileID: 11400000, guid: f64e1a5355e771f46a839e9d529fc3cd, type: 2}
+    - {fileID: 11400000, guid: 20d163c1335044344aa7d59cd3330c53, type: 2}
+    - {fileID: 11400000, guid: a13e19cd25c50db45ac8637574131843, type: 2}
     earnedEXP: 0
   - characterName: LILY AMBER COLLINS
     elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}

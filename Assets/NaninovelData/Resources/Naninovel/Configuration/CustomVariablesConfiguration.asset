@@ -13,31 +13,5 @@ MonoBehaviour:
   m_Name: CustomVariablesConfiguration
   m_EditorClassIdentifier: 
   PredefinedVariables:
-  - name: PlayerName
-    value: t_Name1
   - name: Description
-    value: t_Name1
-  - name: Level
-    value: 0
-  - name: Experience
-    value: 0
-  - name: CharacterName
-    value: t_Name1
-  - name: ElementalType
-    value: t_Name1
-  - name: FighterClass
-    value: t_Name1
-  - name: HP
-    value: 0
-  - name: MP
-    value: 0
-  - name: ATK
-    value: 0
-  - name: DEF
-    value: 0
-  - name: SPD
-    value: 0
-  - name: INTEL
-    value: 0
-  - name: IntroText
     value: t_Name1

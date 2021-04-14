@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cd83b567e45f1948a9fbb6be34b706a, type: 3}
+  m_Name: Black Widow
+  m_EditorClassIdentifier: 
+  attackName: Black Widow
+  Description: Attacks one enemy on the back with a chance of a critical hit, without
+    the enemy be able to ignore the attack.
+  attackType: 0
+  MPCost: 30
+  turnAmount: 1
+  attackDamage: 25
+  enemyAmount: 1
+  enemyRadius: 0.3
+  statusWeaken: 0
+  status: 0
+  secondStatusWeaken: 0
+  secondStatus: 0
+  chance: 1
+  effects: 8
+  teamAmount: 1
+  teamRadius: 0.3
+  statusStrengthen: 0.4
+  statusName: 2
+  secondStatusStrengthen: 0
+  secondStatusName: 0
+  chances: 1
+  HPAmount: 0

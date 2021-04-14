@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cd83b567e45f1948a9fbb6be34b706a, type: 3}
+  m_Name: Raise
+  m_EditorClassIdentifier: 
+  attackName: Raise
+  Description: 'throws several cards on 1 enemy. '
+  attackType: 0
+  MPCost: 0
+  turnAmount: 1
+  attackDamage: 11
+  enemyAmount: 1
+  enemyRadius: 0.3
+  curses: 3
+  teamAmount: 0
+  teamRadius: 0
+  statusStrengthen: 0
+  statusName: 0
+  HPAmount: 0

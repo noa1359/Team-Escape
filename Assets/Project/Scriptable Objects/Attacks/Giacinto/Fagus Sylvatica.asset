@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cd83b567e45f1948a9fbb6be34b706a, type: 3}
+  m_Name: Fagus Sylvatica
+  m_EditorClassIdentifier: 
+  attackName: Fagus Sylvatica
+  Description: Summons sharp roots on the enemy, small chance to inflict Bind.
+  attackType: 0
+  MPCost: 20
+  turnAmount: 1
+  attackDamage: 35
+  enemyAmount: 1
+  enemyRadius: 0.3
+  statusWeaken: 0
+  status: 0
+  chance: 0.2
+  curses: 4
+  teamAmount: 0
+  teamRadius: 0
+  statusStrengthen: 0
+  statusName: 0
+  HPAmount: 0

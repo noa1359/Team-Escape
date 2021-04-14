@@ -31,7 +31,7 @@ public class Tooltip : MonoBehaviour
     {
        gameObject.SetActive(true);
        tooltipText.text = tooltipString;
-       Vector2 backgroundSize = new Vector2(210, tooltipText.preferredHeight + textPaddingSize * 2f);
+       Vector2 backgroundSize = new Vector2(270, tooltipText.preferredHeight + textPaddingSize * 2f);
        backgroundRectTransform.sizeDelta = backgroundSize;
     }
 

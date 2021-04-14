@@ -29,8 +29,8 @@ public class PS : MonoBehaviour
 
     void Start()
     {
-        ES3.DeleteFile("File/SaveFile.es3");
-        PlayerPrefs.DeleteAll();
+        //ES3.DeleteFile("File/SaveFile.es3");
+        //PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
         if (PlayerPrefs.HasKey("maxEnergy") == false)
         {

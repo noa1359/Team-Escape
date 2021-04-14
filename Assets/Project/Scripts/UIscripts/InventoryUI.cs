@@ -43,7 +43,7 @@ public class InventoryUI : MonoBehaviour
                 GridSlot GS = go.GetComponent<GridSlot>();
                 Button button = go.GetComponent<Button>();
                 button.interactable = true;
-                string AttackDescription = GM.gm.collectedWeapons[i].Description;
+                string AttackDescription = GM.gm.collectedWeapons[i].Description + "\n Damage Amount: " + GM.gm.collectedWeapons[i].DamageAmount.ToString() + "\n Weapon Range: " + GM.gm.collectedWeapons[i].weaponRange.ToString();
                 go.GetComponent<Button_UI>().MouseOverOnceFunc = () => Tooltip.ShowTooltip_Static(AttackDescription);
                 go.GetComponent<Button_UI>().MouseOutOnceFunc = () => Tooltip.HideTooltip_Static();
                 GS.itemImage.sprite = GM.gm.collectedWeapons[i].WeaponImage;

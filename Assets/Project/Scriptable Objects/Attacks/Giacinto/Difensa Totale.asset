@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cd83b567e45f1948a9fbb6be34b706a, type: 3}
+  m_Name: Difensa Totale
+  m_EditorClassIdentifier: 
+  attackName: Difensa Totale
+  Description: She uses her strategic skills to tell her team to get in a defensive
+    position and what the enemy is likely to do.
+  attackType: 3
+  MPCost: 20
+  turnAmount: 1
+  attackDamage: 0
+  enemyAmount: 1
+  enemyRadius: 0.3
+  statusWeaken: 0.1
+  status: 2
+  chance: 0.5
+  curses: 7
+  teamAmount: 6
+  teamRadius: 1.8
+  statusStrengthen: 0.2
+  statusName: 3
+  HPAmount: 0

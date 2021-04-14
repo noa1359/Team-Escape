@@ -166,10 +166,12 @@
     <Compile Include="Assets\CodeMonkey\Utils\UI_Bar.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\BoltSupport\DailyRewardsBoltSupport.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\Project\Scripts\SOScripts\AttackTypes.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\DailyRewardsSettings.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\LeaderboardManager.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\CalendarManager.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\GetProductValue.cs" />
+    <Compile Include="Assets\Project\Scripts\UIscripts\Tooltip.cs" />
     <Compile Include="Assets\Project\Scripts\Enemy.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\GameFlowSupport\GetProductValue.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\IsInitialized.cs" />
@@ -189,8 +191,6 @@
     <Compile Include="Assets\Project\Scripts\UIscripts\InstantiateGameObject.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\PlaymakerSupport\TimerButtonClicked.cs" />
-    <Compile Include="Assets\Project\Scripts\SOScripts\AttackTypes.cs" />
-    <Compile Include="Assets\Project\Scripts\UIscripts\Tooltip.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

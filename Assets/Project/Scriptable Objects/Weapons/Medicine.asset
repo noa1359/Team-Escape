@@ -17,4 +17,4 @@ MonoBehaviour:
   Description: A magical medicine that can heal or poison you according to the users
     desire. Always be a foe for a medicine user, or it may be deadly.
   DamageAmount: 10
-  weaponRange: 0
+  weaponRange: 64

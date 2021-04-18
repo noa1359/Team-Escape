@@ -144,7 +144,15 @@ MonoBehaviour:
     SPD: 78
     INTEL: 72
     EquippedWeapon: {fileID: 11400000, guid: c5397b07be3a3a941ac192bbae9cc6e6, type: 2}
-    AttackList: []
+    AttackList:
+    - {fileID: 11400000, guid: dfc4d42b7e692b043b4a80e675cdd00d, type: 2}
+    - {fileID: 11400000, guid: 7851d8d729cc0a54eacea4080d172eb7, type: 2}
+    - {fileID: 11400000, guid: 6570c4e53ecf9934b8c8c5c209fc6ee6, type: 2}
+    - {fileID: 11400000, guid: 9c3ff72ccd30e524a9fb25d48013ae93, type: 2}
+    - {fileID: 11400000, guid: 4176438ebada74d45b2cfa012fa3a7cd, type: 2}
+    - {fileID: 11400000, guid: e4f278cf78bfcfb4589d95a44a9b0939, type: 2}
+    - {fileID: 11400000, guid: c31b9245755fa5c47af5c9accf0e6ab8, type: 2}
+    - {fileID: 11400000, guid: 0d65769662a8bb740bfc5c1daeffed80, type: 2}
     expKill: 22
     expHit: 5
     gold: 1000
@@ -258,10 +266,10 @@ MonoBehaviour:
     fighterClass: {fileID: 11400000, guid: fe969553f9a17004e801e53fca2dd3d1, type: 2}
     rarity: 0
     characterProfile: {fileID: 21300000, guid: 6db96f6df017a3b4ebb35544f43999e9, type: 3}
-    pic: {fileID: 21300000, guid: b3699ae6c9e9ab745b92d33acca6fc4b, type: 3}
+    pic: {fileID: 21300000, guid: a2da56386307a184db4fbc6a4e47f1b5, type: 3}
     CardImage: {fileID: 21300000, guid: b3699ae6c9e9ab745b92d33acca6fc4b, type: 3}
     rarityIcon: {fileID: 21300000, guid: ae3e3b76f38f3fc4483a642c73c74349, type: 3}
-    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
+    profilePic: {fileID: 21300000, guid: fbfa31743cec97744abd2afcf0de60f9, type: 3}
     charaLVL: 1
     charaEXP: 0
     lastLVLUp: 0
@@ -289,10 +297,10 @@ MonoBehaviour:
     fighterClass: {fileID: 11400000, guid: 12c8ab5e72b01454ba473a16534e5c39, type: 2}
     rarity: 0
     characterProfile: {fileID: 21300000, guid: 4bdbbc0706532ae469e0d618d3817a8c, type: 3}
-    pic: {fileID: 21300000, guid: 7ddcf1fec62fa714089431dbede9eb3d, type: 3}
+    pic: {fileID: 21300000, guid: ee563e1843ceb0040a046099057f81b1, type: 3}
     CardImage: {fileID: 21300000, guid: 7ddcf1fec62fa714089431dbede9eb3d, type: 3}
     rarityIcon: {fileID: 21300000, guid: ae3e3b76f38f3fc4483a642c73c74349, type: 3}
-    profilePic: {fileID: 21300000, guid: 5478ada240ae6dd4ab296371fc3ce981, type: 3}
+    profilePic: {fileID: 21300000, guid: dc34801817bdeb2468da80a84c70b626, type: 3}
     charaLVL: 1
     charaEXP: 0
     lastLVLUp: 0
@@ -336,7 +344,15 @@ MonoBehaviour:
     INTEL: 72
     charEvolve: {fileID: 11400000, guid: 0fa653d0043176843a2cf694af8fb27f, type: 2}
     EquippedWeapon: {fileID: 11400000, guid: c5397b07be3a3a941ac192bbae9cc6e6, type: 2}
-    AttackList: []
+    AttackList:
+    - {fileID: 11400000, guid: dfc4d42b7e692b043b4a80e675cdd00d, type: 2}
+    - {fileID: 11400000, guid: 7851d8d729cc0a54eacea4080d172eb7, type: 2}
+    - {fileID: 11400000, guid: 6570c4e53ecf9934b8c8c5c209fc6ee6, type: 2}
+    - {fileID: 11400000, guid: 9c3ff72ccd30e524a9fb25d48013ae93, type: 2}
+    - {fileID: 11400000, guid: 4176438ebada74d45b2cfa012fa3a7cd, type: 2}
+    - {fileID: 11400000, guid: e4f278cf78bfcfb4589d95a44a9b0939, type: 2}
+    - {fileID: 11400000, guid: c31b9245755fa5c47af5c9accf0e6ab8, type: 2}
+    - {fileID: 11400000, guid: 0d65769662a8bb740bfc5c1daeffed80, type: 2}
     earnedEXP: 0
   availableCharacters:
   - characterName: ANDREA CLARK

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cd83b567e45f1948a9fbb6be34b706a, type: 3}
+  m_Name: Faworki
+  m_EditorClassIdentifier: 
+  attackName: Faworki
+  Description: Weaken an enemy of choice while she's getting stronger.
+  attackType: 1
+  MPCost: 30
+  turnAmount: 1
+  attackDamage: 0
+  enemyAmount: 0
+  enemyRadius: 0
+  statusWeaken: 0.5
+  status: 2
+  secondStatusWeaken: 0.35
+  secondStatus: 3
+  chance: 1
+  effects: 3
+  teamAmount: 0
+  teamRadius: 0
+  statusStrengthen: 0.65
+  statusName: 2
+  secondStatusStrengthen: 0
+  secondStatusName: 0
+  chances: 1
+  HPAmount: 0

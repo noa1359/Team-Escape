@@ -10,7 +10,7 @@ public class Tooltip : MonoBehaviour
     public static Tooltip instance;
     public Text tooltipText;
     public RectTransform backgroundRectTransform;
-    float textPaddingSize = 4f;
+    float textPaddingSize = 10f;
 
     void Awake()
     {

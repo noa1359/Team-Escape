@@ -5,8 +5,8 @@ using UnityEngine;
 public class GachaSystem : MonoBehaviour
 {
     private float probability;
-    private int SRCount = 0;
-    private int SSRCount = 0;
+    public int SRCount = 0;
+    public int SSRCount = 0;
 
     public List<Character> R = new List<Character>();
     public List<Character> SR = new List<Character>();
@@ -110,7 +110,7 @@ public class GachaSystem : MonoBehaviour
                     oneCard.icon.enabled = true;
                     oneCard.toAnyfive.enabled = true;
                     GM.gm.gems += 25;
-                    SRCount = 0;
+                    SRCount++;
                 }
                 GameObject go = Instantiate(OneCardDraw);
             }
@@ -147,7 +147,7 @@ public class GachaSystem : MonoBehaviour
                     oneCard.toAnyfive.enabled = true;
                     GM.gm.gems += 25;
                     SRCount++;
-                    SSRCount = 0;
+                    SSRCount++;
                 }
                 GameObject go = Instantiate(OneCardDraw); 
             }
@@ -269,8 +269,8 @@ public class GachaSystem : MonoBehaviour
                         GM.gm.characterList.Add(SR[index]);
                         GM.gm.dupeList.Add(SR[index]);
                         GM.gm.gems += 25;
-                        SRCount = 0;
                         SSRCount++;
+                        SRCount++;
                     }
                 }
 
@@ -296,7 +296,7 @@ public class GachaSystem : MonoBehaviour
                     }
                     else
                     {
-                        SSRCount = 0;
+                        SSRCount++;
                         GM.gm.characterList.Add(SSR[index]);
                         GM.gm.dupeList.Add(SSR[index]);
                         GM.gm.gems += 25;
@@ -312,7 +312,7 @@ public class GachaSystem : MonoBehaviour
     public void OneDrawEvent()
     {
         bool isAvailable = true;
-        if (SSRCount == 20)
+        if (SSRCount == 50)
         {
             foreach (Character item in SSR)
             {
@@ -350,7 +350,7 @@ public class GachaSystem : MonoBehaviour
     {
         TenDrawRegular();
         bool isAvailable = true;
-        if (SSRCount == 20)
+        if (SSRCount == 50)
         {
             foreach (Character item in SSR)
             {

@@ -5,7 +5,8 @@ using UnityEngine;
 public class PS : MonoBehaviour
 {
     public static PS ps;
-    // Start is called before the first frame update
+    public GachaSystem GS;
+
     void Awake()
     {
         if (ps == null)
@@ -53,6 +54,8 @@ public class PS : MonoBehaviour
         PlayerPrefs.SetInt("gems", GM.gm.gems);
         PlayerPrefs.SetString("LastBattleScene", GM.gm.LastBattleScene);
         PlayerPrefs.SetInt("battleCharactersList", GM.gm.battleCharacters.Count);
+        ES3.Save("SRCount", GS.SRCount);
+        ES3.Save("SSRCount", GS.SSRCount);
         ES3.Save("availableCharacters", GM.gm.availableCharacters);
         ES3.Save("collectedWeapons", GM.gm.collectedWeapons);
         ES3.Save("collectedEvolveItems", GM.gm.collectedEvolveItems);
@@ -72,6 +75,8 @@ public class PS : MonoBehaviour
         GM.gm.playerEXP = PlayerPrefs.GetFloat("playerEXP");
         GM.gm.playerLastLVLUp = PlayerPrefs.GetFloat("playerLastLVLUp");
         GM.gm.playerNextLVLUp = PlayerPrefs.GetFloat("playerNextLVLUp");
+        GS.SRCount = ES3.Load("SRCount", GS.SRCount);
+        GS.SSRCount = ES3.Load("SSRCount", GS.SSRCount);
         GM.gm.availableCharacters = ES3.Load("availableCharacters", GM.gm.availableCharacters);
         GM.gm.collectedWeapons = ES3.Load("collectedWeapons", GM.gm.collectedWeapons);
         GM.gm.collectedEvolveItems = ES3.Load("collectedEvolveItems", GM.gm.collectedEvolveItems);

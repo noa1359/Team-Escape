@@ -5,27 +5,27 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637531297459383855
-    m_Hash: 1106807537
+      ticks: 637545475961132943
+    m_Hash: 3758246186
   m_LockFileStatus:
     m_FilePath: C:/Users/noasg/Team Escape/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637531338251613091
-    m_Hash: 3306440508
+      ticks: 637545475961642641
+    m_Hash: 4097708415
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.2d.animation@5.0.3
+    - packageId: com.unity.2d.animation@5.0.4
       testable: 0
       isDirectDependency: 1
-      version: 5.0.3
+      version: 5.0.4
       source: 1
-      resolvedPath: C:\Users\noasg\Team Escape\Library\PackageCache\com.unity.2d.animation@5.0.3
+      resolvedPath: C:\Users\noasg\Team Escape\Library\PackageCache\com.unity.2d.animation@5.0.4
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
@@ -143,13 +143,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637408845570000000
+      datePublishedTicks: 637478931180000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: c97def465b1932276762fc13f4cfee58da99d5e9
+        revision: 3cf59035d02a34d40d678f2cd5f1c65515a8347e
         path: 
     - packageId: com.unity.2d.pixel-perfect@4.0.1
       testable: 0
@@ -306,7 +306,7 @@ m_PackageAssets:
       - name: com.unity.modules.uielementsnative
         version: 1.0.0
       - name: com.unity.2d.animation
-        version: 5.0.3
+        version: 5.0.4
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.modules.animation
@@ -886,6 +886,7 @@ m_PackageAssets:
         - 2.7.2
         - 2.7.3
         - 2.8.0-exp.1
+        - 2.8.0-exp.2
         compatible:
         - 2.5.0
         - 2.6.0-preview.2
@@ -904,6 +905,7 @@ m_PackageAssets:
         - 2.7.2
         - 2.7.3
         - 2.8.0-exp.1
+        - 2.8.0-exp.2
         verified: 2.6.4
       dependencies: []
       resolvedDependencies: []
@@ -1090,6 +1092,7 @@ m_PackageAssets:
         - 3.0.3
         - 3.0.4
         - 3.0.5
+        - 3.0.6
         compatible:
         - 1.0.2
         - 1.0.6
@@ -1114,6 +1117,7 @@ m_PackageAssets:
         - 3.0.3
         - 3.0.4
         - 3.0.5
+        - 3.0.6
         verified: 2.0.7
       dependencies: []
       resolvedDependencies: []
@@ -1429,6 +1433,7 @@ m_PackageAssets:
         - 3.0.0-pre.6
         - 3.0.1
         - 3.0.2
+        - 3.1.0
         compatible:
         - 0.0.3
         - 0.0.4
@@ -1463,6 +1468,7 @@ m_PackageAssets:
         - 3.0.0-pre.6
         - 3.0.1
         - 3.0.2
+        - 3.1.0
         verified: 2.2.2
       dependencies:
       - name: com.unity.ugui
@@ -1798,6 +1804,7 @@ m_PackageAssets:
         - 1.5.1
         - 1.5.3
         - 1.5.4
+        - 1.5.5
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1
@@ -1817,6 +1824,7 @@ m_PackageAssets:
         - 2.1.1
         - 2.1.3
         - 2.1.4
+        - 2.1.5
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -1832,11 +1840,13 @@ m_PackageAssets:
         - 3.0.1
         - 3.0.3
         - 3.0.4
+        - 3.0.5
         compatible:
         - 3.0.1
         - 3.0.3
         - 3.0.4
-        verified: 3.0.4
+        - 3.0.5
+        verified: 3.0.5
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0

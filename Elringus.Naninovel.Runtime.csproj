@@ -118,8 +118,8 @@
     <Compile Include="Assets\Naninovel\Runtime\Common\Folder.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\ControlPanel\ControlPanelTipsButton.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\Rollback\IRollbackUI.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Attributes\IDEAppearanceAttribute.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\ChoiceHandler\ChoiceHandlerState.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Attributes\IDEAppearanceAttribute.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Unlockable\UnlockablesConfiguration.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\TextPrinter\UITextPrinter.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Attributes\ScenePositionAttribute.cs" />
@@ -342,8 +342,8 @@
     <Compile Include="Assets\Naninovel\Runtime\Actor\ActorManagerConfiguration.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\Background\IBackgroundActor.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\ResourceProvider\AddressableResourceProvider.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Actor\LayeredActorBehaviour.cs" />
     <Compile Include="Assets\Naninovel\Runtime\ScriptPlayer\ScriptPlaylist.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Actor\LayeredActorBehaviour.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\ResourceProvider\VirtualResourceProvider.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Choice\AddChoice.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\ResetState.cs" />
@@ -497,9 +497,9 @@
     <Compile Include="Assets\Naninovel\Runtime\UI\GameSettings\GameSettingsSfxVolumeSlider.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Script\ScriptLine.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\GameSettings\GameSettingsFontSizeDropdown.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\UI\TextPrinter\RevealableUIText.cs" />
     <Compile Include="Assets\Naninovel\Runtime\CustomVariable\CustomVariablesConfiguration.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\Character\CharacterAvatarChangedArgs.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\UI\TextPrinter\RevealableUIText.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Rendering\TransitionalTextureRenderer.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\Background\IBackgroundManager.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\Background\BackgroundManager.cs" />
@@ -517,10 +517,10 @@
     <Compile Include="Assets\Naninovel\Runtime\Common\Utilities\TransformUtils.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Player\Gosub.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\Pause\IPauseUI.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Common\ScriptableUI\ScriptableUIBehaviour.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\CustomMetadata.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\Pause\PauseUI.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\Converters\WavToAudioClipConverter.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Common\ScriptableUI\ScriptableUIBehaviour.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Input\InputBinding.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\Title\TitleTipsButton.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Actor\HideActors.cs" />

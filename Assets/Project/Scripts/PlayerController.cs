@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
     public float jumpTime;
     private bool isJumping;
 
+    public Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +34,15 @@ public class PlayerController : MonoBehaviour
     {
         moveInput = joystickHorizontal.Horizontal;
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+
+        if (moveInput == 0)
+        {
+            anim.SetBool("isRunning", false);
+        }
+        else
+        {
+            anim.SetBool("isRunning", true);
+        }
     }
 
     void Update()
@@ -49,9 +60,19 @@ public class PlayerController : MonoBehaviour
         
         if(isGrounded == true && joysticVertical.Vertical > 0f)
         {
+            anim.SetTrigger("takeOf");
             isJumping = true;
             jumpTimeCounter = jumpTime;
             rb.velocity = Vector2.up * jumpForce;
+        }
+
+        if (isGrounded == true)
+        {
+            anim.SetBool("isJumping", false);
+        }
+        else
+        {
+            anim.SetBool("isJumping", true);
         }
 
         if(joysticVertical.Vertical > 0f && isJumping == true)

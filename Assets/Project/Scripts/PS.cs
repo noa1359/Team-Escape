@@ -22,7 +22,7 @@ public class PS : MonoBehaviour
         }
     }
 
-    void OnApplicationPause()
+    void OnApplicationPause(true)
     {
         PlayerPrefs.Save();
         Save();

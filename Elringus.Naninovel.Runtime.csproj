@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{890F9146-CAE3-69C1-706C-F3A0AD565A48}</ProjectGuid>
+    <ProjectGuid>{1199AC44-91A0-FE0F-2489-29898BA6DCBB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Elringus.Naninovel.Runtime</AssemblyName>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_2;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_2;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;ADDRESSABLES_AVAILABLE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -104,15 +104,15 @@
     <Compile Include="Assets\Naninovel\Runtime\UI\GameSettings\ISettingsUI.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\LayeredActorLayer.cs" />
     <Compile Include="Assets\Naninovel\Runtime\FX\ShakeCamera.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Input\InputSwipeDirection.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\Tween\FloatTween.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\ChoiceHandler\IChoiceHandlerManager.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Input\InputSwipeDirection.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Configuration\IConfigurationProvider.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Rendering\RenderCanvas.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Audio\PlaySfx.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\SaveLoad\SaveLoadMenuReturnButton.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Common\Tween\EasingFunctions.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\ModifyCamera.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Common\Tween\EasingFunctions.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Player\BeginIf.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Script\ScriptManager.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\Folder.cs" />
@@ -134,9 +134,9 @@
     <Compile Include="Assets\Naninovel\Runtime\ScriptPlayer\PlayedScriptRegister.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\ClickThroughPanel.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\Converters\GDocToTextAssetConverter.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Common\Utilities\ReflectionUtils.cs" />
     <Compile Include="Assets\Naninovel\Runtime\State\StateConfiguration.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\CancellationToken.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Common\Utilities\ReflectionUtils.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\Background\LayeredBackground.cs" />
     <Compile Include="Assets\Naninovel\Runtime\State\StateRollbackStack.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Player\Skip.cs" />
@@ -149,8 +149,8 @@
     <Compile Include="Assets\Naninovel\Runtime\Common\ScriptableUI\ScriptableDropdown.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Spawn\ISpawnManager.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\ScriptableUI\ScriptableLabeledButton.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Script\IScriptManager.cs" />
     <Compile Include="Assets\Naninovel\Runtime\ResourceProvider\ResourcePolicy.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Script\IScriptManager.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\Utilities\LinqUtils.cs" />
     <Compile Include="Assets\Naninovel\Runtime\FX\Snow.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\PurgeRollback.cs" />
@@ -246,15 +246,15 @@
     <Compile Include="Assets\Naninovel\Runtime\Actor\TextPrinter\TextPrintersConfiguration.cs" />
     <Compile Include="Assets\Naninovel\Runtime\FX\Animate.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Player\ElseIf.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Script\CommandScriptLine.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\ScriptableUI\ScriptableUIComponent.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Script\CommandScriptLine.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\ActorMetadataMap.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\TextPrinter\AuthorNamePanel.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\OrthoActorManager.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\ChoiceHandler\IChoiceHandlerActor.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Command\Player\WaitForInput.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Actor\Character\NarratorCharacter.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Audio\StopVoice.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Actor\Character\NarratorCharacter.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Command\Player\WaitForInput.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Engine\IStatefulService.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\UIManager.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\ResourceProvider\ResourceRunner.cs" />
@@ -271,8 +271,8 @@
     <Compile Include="Assets\Naninovel\Runtime\Common\Timer.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\ResourceProvider\LocalResourceProvider.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\Character\GenericCharacter.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Command\Spawn\Spawn.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\SaveLoad\SaveLoadUIPresentationMode.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Command\Spawn\Spawn.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\ResourceProvider\AddressableFolderLocator.cs" />
     <Compile Include="Assets\Naninovel\Runtime\ScriptPlayer\ScriptPlayer.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\ClearBacklog.cs" />
@@ -285,8 +285,8 @@
     <Compile Include="Assets\Naninovel\Runtime\UI\TextPrinter\ChatMessage.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\Utilities\ComponentUtils.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Actor\SlideActor.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Attributes\IDEConstantAttribute.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\SaveSlotManager\PlayerPrefsSaveSlotManager.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Attributes\IDEConstantAttribute.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Localization\LocalizationManagerExtensions.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\Utilities\SpriteUtils.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\TextPrinter\ITextPrinterActor.cs" />
@@ -342,8 +342,8 @@
     <Compile Include="Assets\Naninovel\Runtime\Actor\ActorManagerConfiguration.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\Background\IBackgroundActor.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\ResourceProvider\AddressableResourceProvider.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\ScriptPlayer\ScriptPlaylist.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\LayeredActorBehaviour.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\ScriptPlayer\ScriptPlaylist.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\ResourceProvider\VirtualResourceProvider.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Choice\AddChoice.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\ResetState.cs" />
@@ -354,9 +354,9 @@
     <Compile Include="Assets\Naninovel\Runtime\Command\StartSceneTransition.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\Utilities\IOUtils.cs" />
     <Compile Include="Assets\Naninovel\Runtime\ConsoleCommands.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Command\Printer\PrinterCommand.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\ScriptableUI\DragDropHandle.cs" />
     <Compile Include="Assets\Naninovel\Runtime\FX\Rain.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Command\Printer\PrinterCommand.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Choice\ClearChoiceHandler.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\Character\LayeredCharacterBehaviour.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\ScriptableUI\ScriptableScrollRect.cs" />
@@ -367,14 +367,14 @@
     <Compile Include="Assets\Naninovel\Runtime\Input\InputAxisTrigger.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\IActor.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Lock.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Command\Actor\ModifyActor.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\OrthoActorMetadata.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Command\Actor\ModifyActor.cs" />
     <Compile Include="Assets\Naninovel\Runtime\ManagedText\ManagedTextRecord.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\ExternalScripts\ExternalScriptsBrowserPanel.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\Tips\ITipsUI.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Movie\MoviesConfiguration.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\UI\ControlPanel\ControlPanelSettingsButton.cs" />
     <Compile Include="Assets\Naninovel\Runtime\State\StateMap.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\UI\ControlPanel\ControlPanelSettingsButton.cs" />
     <Compile Include="Assets\Naninovel\Runtime\State\GameStateMap.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\SceneTransition\SceneTransitionUI.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\Confirmation\IConfirmationUI.cs" />
@@ -517,10 +517,10 @@
     <Compile Include="Assets\Naninovel\Runtime\Common\Utilities\TransformUtils.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Player\Gosub.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\Pause\IPauseUI.cs" />
-    <Compile Include="Assets\Naninovel\Runtime\Common\ScriptableUI\ScriptableUIBehaviour.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Actor\CustomMetadata.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\Pause\PauseUI.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Common\Converters\WavToAudioClipConverter.cs" />
+    <Compile Include="Assets\Naninovel\Runtime\Common\ScriptableUI\ScriptableUIBehaviour.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Input\InputBinding.cs" />
     <Compile Include="Assets\Naninovel\Runtime\UI\Title\TitleTipsButton.cs" />
     <Compile Include="Assets\Naninovel\Runtime\Command\Actor\HideActors.cs" />
@@ -1117,6 +1117,12 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -1126,7 +1132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UniRx.Async.csproj">
-      <Project>{7285D91B-66D5-50E8-403C-54831CE6AD3F}</Project>
+      <Project>{8B9615B5-E199-760A-251A-3C4347CD25BD}</Project>
       <Name>UniRx.Async</Name>
     </ProjectReference>
   </ItemGroup>

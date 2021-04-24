@@ -178,6 +178,7 @@ MonoBehaviour:
       INTEL: 0
       charEvolve: {fileID: 0}
       EquippedWeapon: {fileID: 0}
+      AttackList: []
       earnedEXP: 0
   TSS: {fileID: 0}
 --- !u!95 &1658594462799012682
@@ -439,6 +440,7 @@ GameObject:
   - component: {fileID: 6044516803446552465}
   - component: {fileID: 2288586452368480702}
   - component: {fileID: 257791090691741565}
+  - component: {fileID: 8338992730079502220}
   m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
@@ -507,3 +509,38 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: LVL.
+--- !u!114 &8338992730079502220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7751554489412830418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:db9dd3c5f03e54948b0c05533b7ba165
+    m_TableEntryReference:
+      m_KeyId: 472189743104
+      m_Key: 
+    m_FallbackState: 0
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 257791090691741565}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

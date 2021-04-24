@@ -316,6 +316,7 @@ GameObject:
   - component: {fileID: 4401933784355839031}
   - component: {fileID: 317982405224378809}
   - component: {fileID: 5476201387630000044}
+  - component: {fileID: 3519632806339855828}
   m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
@@ -384,6 +385,41 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: LVL.
+--- !u!114 &3519632806339855828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6848658535707398078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:db9dd3c5f03e54948b0c05533b7ba165
+    m_TableEntryReference:
+      m_KeyId: 472189743104
+      m_Key: 
+    m_FallbackState: 0
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5476201387630000044}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6993301009725791568
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,5 +650,10 @@ MonoBehaviour:
   rarity: {fileID: 54797222465634122}
   level: {fileID: 6355319908614240337}
   EXPbar: {fileID: 856161233869553349}
+  toAnyfive: {fileID: 0}
+  num: {fileID: 0}
+  gachaIcon: {fileID: 0}
   GMint: 0
   CPC: {fileID: 0}
+  ABC: {fileID: 0}
+  TC: {fileID: 0}

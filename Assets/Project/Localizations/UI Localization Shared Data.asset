@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Localization Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI Localization
+  m_TableCollectionNameGuidString: db9dd3c5f03e54948b0c05533b7ba165
+  m_Entries:
+  - m_Id: 472189743104
+    m_Key: LVL.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2627881644032
+    m_Key: NEW CHARACTERS ADDED!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3471100325888
+    m_Key: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5232129191936
+    m_Key: 'Amount:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109591823364096
+    m_Key: NEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110365211078656
+    m_Key: NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110726453899264
+    m_Key: ONE CHANCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110749119918080
+    m_Key: TEN CHANCES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112205289992192
+    m_Key: EXP /
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112960830943232
+    m_Key: Level Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113468773740544
+    m_Key: 'Statistics:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114061206597632
+    m_Key: Evolve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114559250837504
+    m_Key: RETURN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116550198865920
+    m_Key: 'Gold Earned:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116948917792768
+    m_Key: 'Gems earned:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117530449653760
+    m_Key: 'Items Dropped:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117977457602560
+    m_Key: PLAY AGAIN
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1619250988709

@@ -7,6 +7,8 @@ public class PS : MonoBehaviour
     public static PS ps;
     public GachaSystem GS;
 
+    bool isPaused = true;
+
     void Awake()
     {
         if (ps == null)
@@ -22,8 +24,9 @@ public class PS : MonoBehaviour
         }
     }
 
-    void OnApplicationPause(true)
+    void OnApplicationPause(bool onPause)
     {
+        onPause = isPaused;
         PlayerPrefs.Save();
         Save();
     }

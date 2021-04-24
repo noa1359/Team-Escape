@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7285D91B-66D5-50E8-403C-54831CE6AD3F}</ProjectGuid>
+    <ProjectGuid>{8B9615B5-E199-760A-251A-3C4347CD25BD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UniRx.Async</AssemblyName>
@@ -79,8 +79,8 @@
     <Compile Include="Assets\Naninovel\ThirdParty\UniTask\UniRx.Async\UnityAsyncExtensions.Jobs.cs" />
     <Compile Include="Assets\Naninovel\ThirdParty\UniTask\UniRx.Async\CancellationTokenExtensions.cs" />
     <Compile Include="Assets\Naninovel\ThirdParty\UniTask\UniRx.Async\Internal\UnityEqualityComparer.cs" />
-    <Compile Include="Assets\Naninovel\ThirdParty\UniTask\UniRx.Async\CompilerServices\AsyncUniTaskMethodBuilder.cs" />
     <Compile Include="Assets\Naninovel\ThirdParty\UniTask\UniRx.Async\Triggers\AsyncVisibleTrigger.cs" />
+    <Compile Include="Assets\Naninovel\ThirdParty\UniTask\UniRx.Async\CompilerServices\AsyncUniTaskMethodBuilder.cs" />
     <Compile Include="Assets\Naninovel\ThirdParty\UniTask\UniRx.Async\Triggers\AsyncEndDragTrigger.cs" />
     <Compile Include="Assets\Naninovel\ThirdParty\UniTask\UniRx.Async\Internal\LazyPromise.cs" />
     <Compile Include="Assets\Naninovel\ThirdParty\UniTask\UniRx.Async\IAwaiter.cs" />

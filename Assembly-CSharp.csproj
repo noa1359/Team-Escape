@@ -101,6 +101,7 @@
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\TimeMethods.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\BoltSupport\GameServicesBoltSupport.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\ShopProductNames.cs" />
+    <Compile Include="Assets\Samples\Localization\0.11.0-preview\Language Selection Menu (UGUI)\LanguageSelectionMenuUGUIToggleList.cs" />
     <Compile Include="Assets\Project\Scripts\CollideIntoBattle.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\PlaymakerSupport\SubmitAchievement.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\Achievement.cs" />
@@ -133,6 +134,7 @@
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\CheckIfBought.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\GachaSystemUI.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\Samples\Localization\0.11.0-preview\Language Selection Menu (UGUI)\LanguageSelectionMenuUGUIDropdown.cs" />
     <Compile Include="Assets\Project\Scripts\SOScripts\EvolveItem.cs" />
     <Compile Include="Assets\Project\Scripts\SOScripts\weapons.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\Leaderboard.cs" />
@@ -154,6 +156,7 @@
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\GameFlowSupport\SubmitAchievement.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Project\Scripts\GM.cs" />
+    <Compile Include="Assets\Project\Scripts\Destroyer.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\GetStorePrice.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\GameFlowSupport\Logout.cs" />
     <Compile Include="Assets\GridMap\Scripts\MeshUtils.cs" />
@@ -191,8 +194,6 @@
     <Compile Include="Assets\Project\Scripts\UIscripts\InstantiateGameObject.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\PlaymakerSupport\TimerButtonClicked.cs" />
-    <Compile Include="Assets\Samples\Localization\0.11.0-preview\Language Selection Menu (UGUI)\LanguageSelectionMenuUGUIToggleList.cs" />
-    <Compile Include="Assets\Samples\Localization\0.11.0-preview\Language Selection Menu (UGUI)\LanguageSelectionMenuUGUIDropdown.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

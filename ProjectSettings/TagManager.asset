@@ -42,3 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Hillary
+    uniqueID: 2538628179
+    locked: 0
+  - name: Andrea
+    uniqueID: 1243462863
+    locked: 0

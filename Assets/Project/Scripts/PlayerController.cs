@@ -18,36 +18,90 @@ public class PlayerController : MonoBehaviour
     public float checkRadius;
     public LayerMask whatIsGround;
 
+    public  GameObject DustEffect;
+    public  GameObject TrailEffect;
+    bool spawnDust;
+    float timeBtwTrail;
+    public float startTimeBtwTrail;
+
     private float jumpTimeCounter;
     public float jumpTime;
     private bool isJumping;
+    bool isWalking;
 
     public Animator anim;
+
+    private AudioSource source;
+    public AudioSource charaSource;
+    public AudioClip landingSound;
+    public AudioClip walkingTileSound;
 
     // Start is called before the first frame update
     void Start()
     {
+        source = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody2D>();
     }
 
     void FixedUpdate()
     {
-        moveInput = joystickHorizontal.Horizontal;
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
-
-        if (moveInput == 0)
-        {
-            anim.SetBool("isRunning", false);
-        }
-        else
-        {
-            anim.SetBool("isRunning", true);
-        }
     }
 
     void Update()
     {
+        moveInput = joystickHorizontal.Horizontal;
+
+        if (moveInput == 0)
+        {
+            anim.SetBool("isRunning", false);
+            isWalking = false;
+        }
+        else
+        {
+            anim.SetBool("isRunning", true);
+            isWalking = true;
+            if (timeBtwTrail <= 0)
+            {
+                Instantiate(TrailEffect, feetPos.position, Quaternion.identity);
+                timeBtwTrail = startTimeBtwTrail;
+            }
+            else
+            {
+                timeBtwTrail -= Time.deltaTime;
+            }
+        }
+
+        if (isWalking)
+        {
+            if (!charaSource.isPlaying)
+            {
+                charaSource.Play();
+            }
+        }
+        else
+        {
+            charaSource.Stop();
+        }
+
         isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
+
+        if (isGrounded == true)
+        {
+            if (spawnDust == true)
+            {
+                source.clip = landingSound;
+                source.Play();
+                Instantiate(DustEffect, feetPos.position, Quaternion.identity);
+                spawnDust = false;
+            }
+            anim.SetBool("isJumping", false);
+        }
+        else
+        {
+            spawnDust = true;
+            anim.SetBool("isJumping", true);
+        }
 
         if(moveInput > 0)
         {
@@ -60,19 +114,11 @@ public class PlayerController : MonoBehaviour
         
         if(isGrounded == true && joysticVertical.Vertical > 0f)
         {
+            Instantiate(DustEffect, feetPos.position, Quaternion.identity);
             anim.SetTrigger("takeOf");
             isJumping = true;
             jumpTimeCounter = jumpTime;
             rb.velocity = Vector2.up * jumpForce;
-        }
-
-        if (isGrounded == true)
-        {
-            anim.SetBool("isJumping", false);
-        }
-        else
-        {
-            anim.SetBool("isJumping", true);
         }
 
         if(joysticVertical.Vertical > 0f && isJumping == true)

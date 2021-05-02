@@ -68,6 +68,8 @@ MonoBehaviour:
   - enemyName: GIACINTO TREVISAN
     elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
     fighterClass: {fileID: 11400000, guid: fe969553f9a17004e801e53fca2dd3d1, type: 2}
+    characterSpriteVariant: {fileID: 3783950200346390033, guid: 41aed1b7ee62cab40ae993c6f0423f3b,
+      type: 3}
     enemyProfile: {fileID: 21300000, guid: 6db96f6df017a3b4ebb35544f43999e9, type: 3}
     enemyLVL: 1
     enemyEXP: 0
@@ -100,6 +102,8 @@ MonoBehaviour:
   - enemyName: ASHLEY LINDSAY BARNES
     elementalType: {fileID: 11400000, guid: 08347b90609b51543a607f6799179516, type: 2}
     fighterClass: {fileID: 11400000, guid: 12c8ab5e72b01454ba473a16534e5c39, type: 2}
+    characterSpriteVariant: {fileID: 395470159004069531, guid: c7ede7581ade0324c8b6ae9debdef5ab,
+      type: 3}
     enemyProfile: {fileID: 21300000, guid: 4bdbbc0706532ae469e0d618d3817a8c, type: 3}
     enemyLVL: 1
     enemyEXP: 0
@@ -133,6 +137,8 @@ MonoBehaviour:
   - enemyName: LILY AMBER COLLINS
     elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
     fighterClass: {fileID: 11400000, guid: 12c8ab5e72b01454ba473a16534e5c39, type: 2}
+    characterSpriteVariant: {fileID: 8890584938232640196, guid: c54ef701664104c42b1f6a379c174fb2,
+      type: 3}
     enemyProfile: {fileID: 21300000, guid: e3315d7419a41e84d9917a98b6e758a7, type: 3}
     enemyLVL: 1
     enemyEXP: 0
@@ -169,6 +175,8 @@ MonoBehaviour:
     elementalType: {fileID: 11400000, guid: 0cadcbbb80e3f8842b62d8700b5ded94, type: 2}
     fighterClass: {fileID: 11400000, guid: 968517d506feaa4409f734f0fe0d77c4, type: 2}
     rarity: 2
+    characterSpriteVariant: {fileID: 2631614924732701089, guid: d60a4b443f31ded4299bfa08ce64a3c0,
+      type: 3}
     characterProfile: {fileID: 21300000, guid: 3add58aa36a26d74e959456c88c03b84, type: 3}
     pic: {fileID: 21300000, guid: 57d3ebf59d51f934084a4e003d038d0c, type: 3}
     CardImage: {fileID: 21300000, guid: 46a7a1e1254521d47a16ff15ecb25c94, type: 3}
@@ -202,6 +210,8 @@ MonoBehaviour:
     elementalType: {fileID: 11400000, guid: 2b091f6bf2b991b4693fdab2aa88c907, type: 2}
     fighterClass: {fileID: 11400000, guid: 968517d506feaa4409f734f0fe0d77c4, type: 2}
     rarity: 1
+    characterSpriteVariant: {fileID: 4418668924104935668, guid: 958fa5ed25837a64a8516b84adb912cb,
+      type: 3}
     characterProfile: {fileID: 21300000, guid: 723d5634f3fa19248810dc20bf0a03c6, type: 3}
     pic: {fileID: 21300000, guid: 177f6d9538e56c64fa8e5e69e7f91377, type: 3}
     CardImage: {fileID: 21300000, guid: 939dfd8fe365c20419570075083c2a56, type: 3}
@@ -235,6 +245,8 @@ MonoBehaviour:
     elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
     fighterClass: {fileID: 11400000, guid: fe969553f9a17004e801e53fca2dd3d1, type: 2}
     rarity: 2
+    characterSpriteVariant: {fileID: 2829330810211063921, guid: 9a423f3466b141a4a9a8e21203c19084,
+      type: 3}
     characterProfile: {fileID: 21300000, guid: 1087ca187e0cb2a40b7b4d176eb717b2, type: 3}
     pic: {fileID: 21300000, guid: 75abb26b94e46124da18221c05ab8320, type: 3}
     CardImage: {fileID: 21300000, guid: b73c8d27134284f45a70a3f81d193679, type: 3}
@@ -266,6 +278,8 @@ MonoBehaviour:
     elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
     fighterClass: {fileID: 11400000, guid: fe969553f9a17004e801e53fca2dd3d1, type: 2}
     rarity: 0
+    characterSpriteVariant: {fileID: 3783950200346390033, guid: 41aed1b7ee62cab40ae993c6f0423f3b,
+      type: 3}
     characterProfile: {fileID: 21300000, guid: 6db96f6df017a3b4ebb35544f43999e9, type: 3}
     pic: {fileID: 21300000, guid: a2da56386307a184db4fbc6a4e47f1b5, type: 3}
     CardImage: {fileID: 21300000, guid: b3699ae6c9e9ab745b92d33acca6fc4b, type: 3}
@@ -297,6 +311,8 @@ MonoBehaviour:
     elementalType: {fileID: 11400000, guid: 08347b90609b51543a607f6799179516, type: 2}
     fighterClass: {fileID: 11400000, guid: 12c8ab5e72b01454ba473a16534e5c39, type: 2}
     rarity: 0
+    characterSpriteVariant: {fileID: 395470159004069531, guid: c7ede7581ade0324c8b6ae9debdef5ab,
+      type: 3}
     characterProfile: {fileID: 21300000, guid: 4bdbbc0706532ae469e0d618d3817a8c, type: 3}
     pic: {fileID: 21300000, guid: ee563e1843ceb0040a046099057f81b1, type: 3}
     CardImage: {fileID: 21300000, guid: 7ddcf1fec62fa714089431dbede9eb3d, type: 3}
@@ -328,6 +344,8 @@ MonoBehaviour:
     elementalType: {fileID: 11400000, guid: 69a760106c863644d9d5ec835a6fc985, type: 2}
     fighterClass: {fileID: 11400000, guid: 12c8ab5e72b01454ba473a16534e5c39, type: 2}
     rarity: 0
+    characterSpriteVariant: {fileID: 8890584938232640196, guid: c54ef701664104c42b1f6a379c174fb2,
+      type: 3}
     characterProfile: {fileID: 21300000, guid: e3315d7419a41e84d9917a98b6e758a7, type: 3}
     pic: {fileID: 21300000, guid: 1c4c39ea011987d41b332377878e1dce, type: 3}
     CardImage: {fileID: 21300000, guid: fe84b2d6fdb2c7847b1c8aaa85f435a6, type: 3}
@@ -360,6 +378,8 @@ MonoBehaviour:
     elementalType: {fileID: 11400000, guid: 0cadcbbb80e3f8842b62d8700b5ded94, type: 2}
     fighterClass: {fileID: 11400000, guid: 968517d506feaa4409f734f0fe0d77c4, type: 2}
     rarity: 2
+    characterSpriteVariant: {fileID: 2631614924732701089, guid: d60a4b443f31ded4299bfa08ce64a3c0,
+      type: 3}
     characterProfile: {fileID: 21300000, guid: 3add58aa36a26d74e959456c88c03b84, type: 3}
     pic: {fileID: 21300000, guid: 57d3ebf59d51f934084a4e003d038d0c, type: 3}
     CardImage: {fileID: 21300000, guid: 46a7a1e1254521d47a16ff15ecb25c94, type: 3}
@@ -394,6 +414,7 @@ MonoBehaviour:
     elementalType: {fileID: 0}
     fighterClass: {fileID: 0}
     rarity: 0
+    characterSpriteVariant: {fileID: 0}
     characterProfile: {fileID: 0}
     pic: {fileID: 0}
     CardImage: {fileID: 0}
@@ -423,6 +444,7 @@ MonoBehaviour:
   collectedEvolveItems: []
   LastBattleScene: 
   charactersInBattle: []
+  enemiesInBattle: []
   battleCharacters: 
   currectCharacterInt: 0
   playerEarnedEXP: 0

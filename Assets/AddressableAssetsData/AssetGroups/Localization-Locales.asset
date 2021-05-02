@@ -38,13 +38,6 @@ MonoBehaviour:
     - Locale
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: e1b8bc28a73f6de489eddd8810afb545
-    m_Address: Hebrew (he)
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
   - m_GUID: 51fc76a816f4d1041b9110105dc0995e
     m_Address: Japanese (ja)
     m_ReadOnly: 1

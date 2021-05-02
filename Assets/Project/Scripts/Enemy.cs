@@ -9,6 +9,7 @@ public class Enemy
     public Elements elementalType;
     public FighterClass fighterClass;
 
+    public GameObject characterSpriteVariant;
     public Sprite enemyProfile;
 
     public int enemyLVL = 1;

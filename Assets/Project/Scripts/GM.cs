@@ -62,6 +62,7 @@ public class Character
     public FighterClass fighterClass;
     public _rarity rarity;
 
+    public GameObject characterSpriteVariant;
     public Sprite characterProfile;
     public Sprite pic;
     public Sprite CardImage;
@@ -120,7 +121,8 @@ public class GM : MonoBehaviour
     [Header("Battle Info")]
     [Space(20)]
     public string LastBattleScene;
-    public List<BattleCharacters> charactersInBattle = new List<BattleCharacters>(); //save
+    public List<BattleCharacters> charactersInBattle = new List<BattleCharacters>();
+    public List<Enemy> enemiesInBattle = new List<Enemy>();
     public List<int> battleCharacters = new List<int>();
     public int currectCharacterInt = 0;
     public int playerEarnedEXP;

@@ -1166,6 +1166,7 @@ MonoBehaviour:
     elementalType: {fileID: 0}
     fighterClass: {fileID: 0}
     rarity: 0
+    characterSpriteVariant: {fileID: 0}
     characterProfile: {fileID: 0}
     pic: {fileID: 0}
     CardImage: {fileID: 0}

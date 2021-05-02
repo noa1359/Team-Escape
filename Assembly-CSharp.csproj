@@ -132,6 +132,7 @@
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\GameFlowSupport\InitializeIAP.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\TimerButtonProperties.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\CheckIfBought.cs" />
+    <Compile Include="Assets\Project\Scripts\UIscripts\CharacterDropdown.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\GachaSystemUI.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\Samples\Localization\0.11.0-preview\Language Selection Menu (UGUI)\LanguageSelectionMenuUGUIDropdown.cs" />

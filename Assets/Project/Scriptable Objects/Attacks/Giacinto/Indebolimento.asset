@@ -25,7 +25,7 @@ MonoBehaviour:
   secondStatusWeaken: 0
   secondStatus: 0
   chance: 1
-  curses: 6
+  effects: 2
   teamAmount: 0
   teamRadius: 0
   statusStrengthen: 0

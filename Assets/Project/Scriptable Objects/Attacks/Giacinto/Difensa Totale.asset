@@ -23,10 +23,15 @@ MonoBehaviour:
   enemyRadius: 0.3
   statusWeaken: 0.1
   status: 2
+  secondStatusWeaken: 0
+  secondStatus: 0
   chance: 0.5
-  curses: 7
+  effects: 3
   teamAmount: 6
   teamRadius: 1.8
   statusStrengthen: 0.2
   statusName: 3
+  secondStatusStrengthen: 0
+  secondStatusName: 0
+  chances: 1
   HPAmount: 0

@@ -13,16 +13,24 @@ MonoBehaviour:
   m_Name: La Sylphide
   m_EditorClassIdentifier: 
   attackName: La Sylphide
-  Description: 'Brings 20% MP back to party members in the same area. Costs 15 MP. '
+  Description: Brings 20% MP back to party members in the same area.
   attackType: 1
   MPCost: 15
   turnAmount: 1
   attackDamage: 0
   enemyAmount: 0
   enemyRadius: 0
-  curses: 0
+  statusWeaken: 0
+  status: 0
+  secondStatusWeaken: 0
+  secondStatus: 0
+  chance: 1
+  effects: 3
   teamAmount: 0
   teamRadius: 1.5
   statusStrengthen: 0.2
   statusName: 1
+  secondStatusStrengthen: 0
+  secondStatusName: 0
+  chances: 1
   HPAmount: 0

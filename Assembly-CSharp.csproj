@@ -88,7 +88,7 @@
     <Compile Include="Assets\CodeMonkey\Utils\FunctionUpdater.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\TimerProperties.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\LevelUpdate.cs" />
-    <Compile Include="Assets\Project\Scripts\BattleStateManager.cs" />
+    <Compile Include="Assets\Project\Scripts\BattleSystem\BattleStateManager.cs" />
     <Compile Include="Assets\Project\Scripts\Player.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionTimer.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\Calendar.cs" />
@@ -102,7 +102,7 @@
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\BoltSupport\GameServicesBoltSupport.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\ShopProductNames.cs" />
     <Compile Include="Assets\Samples\Localization\0.11.0-preview\Language Selection Menu (UGUI)\LanguageSelectionMenuUGUIToggleList.cs" />
-    <Compile Include="Assets\Project\Scripts\CollideIntoBattle.cs" />
+    <Compile Include="Assets\Project\Scripts\BattleSystem\CollideIntoBattle.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\PlaymakerSupport\SubmitAchievement.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\Achievement.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\BoltSupport\EasyIAPBoltSupport.cs" />
@@ -164,8 +164,8 @@
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\ScreenWriter.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\BuyProduct.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\Table.cs" />
-    <Compile Include="Assets\Project\Scripts\LevelUp.cs" />
-    <Compile Include="Assets\Project\Scripts\PlayerStateManager.cs" />
+    <Compile Include="Assets\Project\Scripts\BattleSystem\LevelUp.cs" />
+    <Compile Include="Assets\Project\Scripts\BattleSystem\PlayerStateManager.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\LogInManager.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\UI_Bar.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\BoltSupport\DailyRewardsBoltSupport.cs" />
@@ -176,7 +176,7 @@
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\CalendarManager.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\GetProductValue.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\Tooltip.cs" />
-    <Compile Include="Assets\Project\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Project\Scripts\SOScripts\Enemy.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\GameFlowSupport\GetProductValue.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\IsInitialized.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\PlaymakerSupport\ShowAllLeaderboards.cs" />
@@ -186,7 +186,7 @@
     <Compile Include="Assets\CodeMonkey\Utils\UI_BarMultiple.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\ProfilePicController.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\TimerButton.cs" />
-    <Compile Include="Assets\Project\Scripts\EnemyStateManager.cs" />
+    <Compile Include="Assets\Project\Scripts\BattleSystem\EnemyStateManager.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\CalendarPopup.cs" />
     <Compile Include="Assets\GridMap\Scripts\Grid.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\GameFlowSupport\CheckIfBought.cs" />
@@ -195,6 +195,7 @@
     <Compile Include="Assets\Project\Scripts\UIscripts\InstantiateGameObject.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\PlaymakerSupport\TimerButtonClicked.cs" />
+    <Compile Include="Assets\Project\Scripts\BattleSystem\PlayerSelectionButton.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -409,6 +409,41 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 23fa85fcb3b06aa4c8c4cae4739d55b6, type: 2}
     - {fileID: 11400000, guid: f24e91c3d4d4e5740811288b8f02872b, type: 2}
     earnedEXP: 0
+  - characterName: HILLARY GRACE OPPER
+    elementalType: {fileID: 11400000, guid: 2b091f6bf2b991b4693fdab2aa88c907, type: 2}
+    fighterClass: {fileID: 11400000, guid: 968517d506feaa4409f734f0fe0d77c4, type: 2}
+    rarity: 1
+    characterSpriteVariant: {fileID: 4418668924104935668, guid: 958fa5ed25837a64a8516b84adb912cb,
+      type: 3}
+    characterProfile: {fileID: 21300000, guid: 723d5634f3fa19248810dc20bf0a03c6, type: 3}
+    pic: {fileID: 21300000, guid: 177f6d9538e56c64fa8e5e69e7f91377, type: 3}
+    CardImage: {fileID: 21300000, guid: 939dfd8fe365c20419570075083c2a56, type: 3}
+    rarityIcon: {fileID: 21300000, guid: 45c389e1fadc2b747b37683928fc9564, type: 3}
+    profilePic: {fileID: 21300000, guid: 3292babc98fcfda4a994bccc47dbd45f, type: 3}
+    charaLVL: 1
+    charaEXP: 0
+    lastLVLUp: 0
+    nextLVLUp: 110
+    HP: 122
+    MP: 176
+    ATK: 31
+    DEF: 97
+    SPD: 58
+    INTEL: 42
+    charEvolve: {fileID: 11400000, guid: efdc4ffe42727974290c946d3d61f935, type: 2}
+    EquippedWeapon: {fileID: 11400000, guid: 2fd8a26cf478f0142bdd49bb7b018dc8, type: 2}
+    AttackList:
+    - {fileID: 11400000, guid: 99ce90d76e77caf4e80c5777d218e39a, type: 2}
+    - {fileID: 11400000, guid: 964c9e72e4496f2428a38499d30909e0, type: 2}
+    - {fileID: 11400000, guid: 5645f7d61f65cd840b1ce93df9508a1b, type: 2}
+    - {fileID: 11400000, guid: 377eb30a0b4a62b41954e65117a60b69, type: 2}
+    - {fileID: 11400000, guid: 9acb489aeed1e534ea16665ae5565c65, type: 2}
+    - {fileID: 11400000, guid: a96a772780449cd47a1a73a8aa04b996, type: 2}
+    - {fileID: 11400000, guid: 72cb33459607c9a4ba52a4ee8aeeff69, type: 2}
+    - {fileID: 11400000, guid: 1f2b0663163207e4ba6904d69ad41aec, type: 2}
+    - {fileID: 11400000, guid: 119d2c5daab2a9e49ade1380ea4ccded, type: 2}
+    - {fileID: 11400000, guid: 538152ab2c06dfb478643de02b55e99a, type: 2}
+    earnedEXP: 0
   selectedCharacter:
     characterName: 
     elementalType: {fileID: 0}

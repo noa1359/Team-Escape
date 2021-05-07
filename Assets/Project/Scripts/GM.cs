@@ -120,6 +120,7 @@ public class GM : MonoBehaviour
     public List<CollectedEvolveItems> collectedEvolveItems = new List<CollectedEvolveItems>();
     [Header("Battle Info")]
     [Space(20)]
+    public string activeCharacter;
     public string LastBattleScene;
     public List<BattleCharacters> charactersInBattle = new List<BattleCharacters>();
     public List<Enemy> enemiesInBattle = new List<Enemy>();

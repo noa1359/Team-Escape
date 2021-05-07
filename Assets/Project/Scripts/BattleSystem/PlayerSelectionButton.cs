@@ -18,6 +18,7 @@ public class PlayerSelectionButton : MonoBehaviour
             {
                 GameObject go = GameObject.Find(characterName + "Player");
                 PlayerStateManager psm = go.GetComponent<PlayerStateManager>();
+                GM.gm.activeCharacter = characterName;
                 psm.activeCharacter.SetActive(true);
             }
             else

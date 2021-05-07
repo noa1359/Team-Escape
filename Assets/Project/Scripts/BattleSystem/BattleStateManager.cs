@@ -26,6 +26,7 @@ public class BattleStateManager : MonoBehaviour
     int enemySPD;
 
     public PlayerSelectionButton PSB;
+    public BattleWindow BW;
 
     // Start is called before the first frame update
     void Start()
@@ -146,7 +147,7 @@ public class BattleStateManager : MonoBehaviour
 
         if (currentSide == BattleSide.Player)
         {
-            BattleWindow();
+            InstantiateBattleWindow();
             currentState = BattleStates.PlayerSelect;
         }
         else
@@ -180,9 +181,16 @@ public class BattleStateManager : MonoBehaviour
         }
     }
 
-    void BattleWindow()
+    void InstantiateBattleWindow()
     {
         contentArea.SetActive(true);
         GameObject go = Instantiate(attackSystem);
+        BattleWindow BW = go.GetComponent<BattleWindow>();
+    }
+
+    void DestroyBattleWindow()
+    {
+        contentArea.SetActive(false);
+        Destroy(attackSystem);
     }
 }

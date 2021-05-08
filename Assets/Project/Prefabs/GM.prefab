@@ -71,6 +71,7 @@ MonoBehaviour:
     characterSpriteVariant: {fileID: 3783950200346390033, guid: 41aed1b7ee62cab40ae993c6f0423f3b,
       type: 3}
     enemyProfile: {fileID: 21300000, guid: 6db96f6df017a3b4ebb35544f43999e9, type: 3}
+    profilePic: {fileID: 21300000, guid: fbfa31743cec97744abd2afcf0de60f9, type: 3}
     enemyLVL: 1
     enemyEXP: 0
     lastLVLUp: 0
@@ -105,6 +106,7 @@ MonoBehaviour:
     characterSpriteVariant: {fileID: 395470159004069531, guid: c7ede7581ade0324c8b6ae9debdef5ab,
       type: 3}
     enemyProfile: {fileID: 21300000, guid: 4bdbbc0706532ae469e0d618d3817a8c, type: 3}
+    profilePic: {fileID: 21300000, guid: dc34801817bdeb2468da80a84c70b626, type: 3}
     enemyLVL: 1
     enemyEXP: 0
     lastLVLUp: 0
@@ -140,6 +142,7 @@ MonoBehaviour:
     characterSpriteVariant: {fileID: 8890584938232640196, guid: c54ef701664104c42b1f6a379c174fb2,
       type: 3}
     enemyProfile: {fileID: 21300000, guid: e3315d7419a41e84d9917a98b6e758a7, type: 3}
+    profilePic: {fileID: 21300000, guid: 68c543f4809e8624480168a2a89c94b5, type: 3}
     enemyLVL: 1
     enemyEXP: 0
     lastLVLUp: 0
@@ -477,6 +480,7 @@ MonoBehaviour:
   collectedWeapons:
   - {fileID: 11400000, guid: deecf932431233e459a6cee448baf888, type: 2}
   collectedEvolveItems: []
+  activeCharacter: 
   LastBattleScene: 
   charactersInBattle: []
   enemiesInBattle: []

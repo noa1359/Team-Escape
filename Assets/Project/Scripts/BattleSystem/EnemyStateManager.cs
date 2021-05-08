@@ -5,9 +5,11 @@ using UnityEngine.UI;
 
 public class EnemyStateManager : MonoBehaviour
 {
+    public int GMint;
     public Image elementIcon;
     public Image HPbar;
     public Image MPbar;
+    public GameObject activeCharacter;
     public Vector2 HP;
     public Vector2 MP;
 

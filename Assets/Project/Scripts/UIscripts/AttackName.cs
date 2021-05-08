@@ -12,6 +12,22 @@ public class AttackName : MonoBehaviour
 
     public void onButtonClicked()
     {
+        
+        foreach (BattleCharacters selectedCharacter in GM.gm.charactersInBattle)
+        {
+            if (selectedCharacter.battleCharacter.characterName == GM.gm.activeCharacter.characterName)
+            {
+                foreach (AttackTypes attacks in selectedCharacter.battleCharacter.AttackList)
+                {
+                    if (attacks.attackName == attackName.text)
+                    {
+                        GM.gm.selectedAttack = attacks;
+                        break;
+                    }
+                }
+                break;
+            }
+        }
         BW.attackDescription.text = attackDescription;
     }
 }

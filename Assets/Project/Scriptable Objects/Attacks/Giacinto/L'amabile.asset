@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackName: L'amabile
   Description: Charms the enemy with her charming words.
-  attackType: 1
+  attackType: 0
   MPCost: 10
   turnAmount: 1
   attackDamage: 0

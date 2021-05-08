@@ -18,7 +18,7 @@ MonoBehaviour:
   MPCost: 10
   turnAmount: 3
   attackDamage: 4
-  enemyAmount: 0
+  enemyAmount: 3
   enemyRadius: 1.5
   statusWeaken: 0
   status: 0

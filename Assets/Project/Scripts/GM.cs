@@ -55,6 +55,22 @@ public class BattleCharacters
 }
 
 [System.Serializable]
+public class playerStrategy
+{
+    public Character activeCharacter;
+    public AttackTypes selectedAttack;
+    public Enemy activeEnemy;
+    public Character selectedCharacter;
+    public playerStrategy(Character ac, AttackTypes sa, Enemy ae, Character sc)
+    {
+        this.activeCharacter = ac;
+        this.selectedAttack = sa;
+        this.activeEnemy = ae;
+        this.selectedCharacter = sc;
+    }
+}
+
+[System.Serializable]
 public class Character
 {
     public string characterName;
@@ -120,7 +136,11 @@ public class GM : MonoBehaviour
     public List<CollectedEvolveItems> collectedEvolveItems = new List<CollectedEvolveItems>();
     [Header("Battle Info")]
     [Space(20)]
-    public string activeCharacter;
+    public Character activeCharacter;
+    public AttackTypes selectedAttack;
+    public Enemy activeEnemy;
+    public Character chosenCharacter;
+    public List<playerStrategy> playerStrategy = new List<playerStrategy>();
     public string LastBattleScene;
     public List<BattleCharacters> charactersInBattle = new List<BattleCharacters>();
     public List<Enemy> enemiesInBattle = new List<Enemy>();

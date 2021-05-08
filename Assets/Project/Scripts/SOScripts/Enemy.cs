@@ -11,6 +11,7 @@ public class Enemy
 
     public GameObject characterSpriteVariant;
     public Sprite enemyProfile;
+    public Sprite profilePic;
 
     public int enemyLVL = 1;
     public float enemyEXP = 0f;

@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class PlayerStateManager : MonoBehaviour
 {
-
     public int GMint;
     public Image elementIcon;
     public Image HPbar;

@@ -25,7 +25,7 @@ public class BattleWindow : MonoBehaviour
         attack.Clear();
         for (int i = 0; i < GM.gm.charactersInBattle.Count; i++)
         {
-            if (GM.gm.charactersInBattle[i].battleCharacter.characterName == GM.gm.activeCharacter)
+            if (GM.gm.charactersInBattle[i].battleCharacter.characterName == GM.gm.activeCharacter.characterName)
             {
                 foreach (AttackTypes attacks in GM.gm.charactersInBattle[i].battleCharacter.AttackList)
                 {
@@ -59,7 +59,7 @@ public class BattleWindow : MonoBehaviour
         support.Clear();
         for (int i = 0; i < GM.gm.charactersInBattle.Count; i++)
         {
-            if (GM.gm.charactersInBattle[i].battleCharacter.characterName == GM.gm.activeCharacter)
+            if (GM.gm.charactersInBattle[i].battleCharacter.characterName == GM.gm.activeCharacter.characterName)
             {
                 foreach (AttackTypes attacks in GM.gm.charactersInBattle[i].battleCharacter.AttackList)
                 {
@@ -93,7 +93,7 @@ public class BattleWindow : MonoBehaviour
         defence.Clear();
         for (int i = 0; i < GM.gm.charactersInBattle.Count; i++)
         {
-            if (GM.gm.charactersInBattle[i].battleCharacter.characterName == GM.gm.activeCharacter)
+            if (GM.gm.charactersInBattle[i].battleCharacter.characterName == GM.gm.activeCharacter.characterName)
             {
                 foreach (AttackTypes attacks in GM.gm.charactersInBattle[i].battleCharacter.AttackList)
                 {

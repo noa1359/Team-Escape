@@ -87,6 +87,7 @@
     <Compile Include="Assets\GleyPlugins\GameServices\Example\TestGameServices.cs" />
     <Compile Include="Assets\GridMap\Scripts\GridInt.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionUpdater.cs" />
+    <Compile Include="Assets\Project\Scripts\UIscripts\BattleWindow.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\TimerProperties.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\LevelUpdate.cs" />
     <Compile Include="Assets\Project\Scripts\BattleSystem\BattleStateManager.cs" />
@@ -173,6 +174,7 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Project\Scripts\SOScripts\AttackTypes.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\DailyRewardsSettings.cs" />
+    <Compile Include="Assets\Project\Scripts\UIscripts\AttackName.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\LeaderboardManager.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\CalendarManager.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\GetProductValue.cs" />
@@ -196,8 +198,7 @@
     <Compile Include="Assets\Project\Scripts\UIscripts\InstantiateGameObject.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\PlaymakerSupport\TimerButtonClicked.cs" />
-    <Compile Include="Assets\Project\Scripts\UIscripts\BattleWindow.cs" />
-    <Compile Include="Assets\Project\Scripts\UIscripts\AttackName.cs" />
+    <Compile Include="Assets\Project\Scripts\BattleSystem\EnemySelectionButton.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

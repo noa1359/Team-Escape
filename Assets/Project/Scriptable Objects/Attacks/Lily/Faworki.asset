@@ -18,16 +18,16 @@ MonoBehaviour:
   MPCost: 30
   turnAmount: 1
   attackDamage: 0
-  enemyAmount: 0
-  enemyRadius: 0
+  enemyAmount: 1
+  enemyRadius: 0.3
   statusWeaken: 0.5
   status: 2
   secondStatusWeaken: 0.35
   secondStatus: 3
   chance: 1
   effects: 3
-  teamAmount: 0
-  teamRadius: 0
+  teamAmount: 1
+  teamRadius: 0.3
   statusStrengthen: 0.65
   statusName: 2
   secondStatusStrengthen: 0

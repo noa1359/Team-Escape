@@ -18,7 +18,19 @@ public class PlayerSelectionButton : MonoBehaviour
             {
                 GameObject go = GameObject.Find(characterName + "Player");
                 PlayerStateManager psm = go.GetComponent<PlayerStateManager>();
-                GM.gm.activeCharacter = characterName;
+                if (GM.gm.selectedAttack != null)
+                {
+                    if (GM.gm.selectedAttack.teamAmount > 0)
+                    {
+                        GM.gm.chosenCharacter = players.battleCharacter;
+                        BSM.selectedEnemyPosition = go.transform.position;
+                    }
+                }
+                else
+                {
+                    GM.gm.activeCharacter = players.battleCharacter;
+                    BSM.selectedCharacterPosition = go.transform.position;
+                }
                 psm.activeCharacter.SetActive(true);
             }
             else

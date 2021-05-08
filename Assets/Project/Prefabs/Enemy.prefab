@@ -481,6 +481,7 @@ MonoBehaviour:
   elementIcon: {fileID: 4864039363091898755}
   HPbar: {fileID: 3687855838396944653}
   MPbar: {fileID: 5380787793026485796}
+  activeCharacter: {fileID: 7439349041637625486}
   HP: {x: 0, y: 0}
   MP: {x: 0, y: 0}
 --- !u!1 &7254601991727423931

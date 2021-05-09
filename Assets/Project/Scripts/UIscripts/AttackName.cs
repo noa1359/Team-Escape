@@ -8,6 +8,8 @@ public class AttackName : MonoBehaviour
     public Button attackButton;
     public Text attackName;
     public string attackDescription;
+    public int MPCost;
+    public int DMGAmount;
     public BattleWindow BW;
 
     public void onButtonClicked()
@@ -29,5 +31,7 @@ public class AttackName : MonoBehaviour
             }
         }
         BW.attackDescription.text = attackDescription;
+        BW.MPCost.text = MPCost.ToString();
+        BW.DMGAmount.text = DMGAmount.ToString();
     }
 }

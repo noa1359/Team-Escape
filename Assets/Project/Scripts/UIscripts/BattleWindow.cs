@@ -9,6 +9,8 @@ public class BattleWindow : MonoBehaviour
     public GameObject buttonList;
     public GameObject contentArea;
     public Text attackDescription;
+    public Text MPCost;
+    public Text DMGAmount;
     public GameObject attackName;
 
     public AttackName AN;
@@ -45,6 +47,8 @@ public class BattleWindow : MonoBehaviour
             AttackName AN = go.GetComponent<AttackName>();
             AN.attackName.text = attack[i].attackName;
             AN.attackDescription = attack[i].Description;
+            AN.MPCost = attack[i].MPCost;
+            AN.DMGAmount = attack[i].attackDamage;
             AN.BW = this;
             attacksList.Add(go);
         }
@@ -79,6 +83,8 @@ public class BattleWindow : MonoBehaviour
             AttackName AN = go.GetComponent<AttackName>();
             AN.attackName.text = support[i].attackName;
             AN.attackDescription = support[i].Description;
+            AN.MPCost = support[i].MPCost;
+            AN.DMGAmount = support[i].attackDamage;
             AN.BW = this;
             attacksList.Add(go);
         }
@@ -113,6 +119,8 @@ public class BattleWindow : MonoBehaviour
             AttackName AN = go.GetComponent<AttackName>();
             AN.attackName.text = defence[i].attackName;
             AN.attackDescription = defence[i].Description;
+            AN.MPCost = defence[i].MPCost;
+            AN.DMGAmount = defence[i].attackDamage;
             AN.BW = this;
             attacksList.Add(go);
         }

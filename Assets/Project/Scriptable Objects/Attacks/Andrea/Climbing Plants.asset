@@ -20,7 +20,7 @@ MonoBehaviour:
   turnAmount: 1
   attackDamage: 11
   enemyAmount: 3
-  enemyRadius: 1
+  enemyRadius: 1.5
   statusWeaken: 0
   status: 0
   secondStatusWeaken: 0

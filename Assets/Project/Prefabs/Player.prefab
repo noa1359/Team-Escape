@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3383434983340089679}
   - component: {fileID: 4900648563643618187}
   - component: {fileID: 3251034477619156507}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8481665140055407686}
   - component: {fileID: 7490121600451490942}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SelectedPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 7547474365925890419}
   - component: {fileID: 4439994786481231428}
   - component: {fileID: 2959303550475666361}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: bar (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 8181021435800018981}
   - component: {fileID: 1895440355530785118}
   - component: {fileID: 5438281890049118098}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Stats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 8309085531333096982}
   - component: {fileID: 7553478140198732265}
   - component: {fileID: 9076437414683857756}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -430,7 +430,7 @@ GameObject:
   - component: {fileID: 690034878940451986}
   - component: {fileID: 2740087102425355702}
   - component: {fileID: 7974936217901417584}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -503,9 +503,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6904768677912858563}
+  - component: {fileID: 4585625998689697290}
   - component: {fileID: 6960655993807692038}
   - component: {fileID: 3977260755077477921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -533,6 +534,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 2.1009, y: 5.0751}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!58 &4585625998689697290
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6960655993807692034}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.3
 --- !u!50 &6960655993807692038
 Rigidbody2D:
   serializedVersion: 4
@@ -545,7 +562,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 1
+  m_Mass: 0.045238942
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -584,7 +601,7 @@ GameObject:
   - component: {fileID: 5721410192697742288}
   - component: {fileID: 864053716462316532}
   - component: {fileID: 5380787793026485796}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -659,7 +676,7 @@ GameObject:
   - component: {fileID: 6781148442179449015}
   - component: {fileID: 5369534440697731628}
   - component: {fileID: 3687855838396944653}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -734,7 +751,7 @@ GameObject:
   - component: {fileID: 3466331590207902807}
   - component: {fileID: 5092708342729057041}
   - component: {fileID: 4864039363091898755}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: element
   m_TagString: Untagged
   m_Icon: {fileID: 0}

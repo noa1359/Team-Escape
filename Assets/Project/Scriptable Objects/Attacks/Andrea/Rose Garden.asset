@@ -28,7 +28,7 @@ MonoBehaviour:
   chance: 1
   effects: 3
   teamAmount: 3
-  teamRadius: 1
+  teamRadius: 1.5
   statusStrengthen: 0.15
   statusName: 2
   secondStatusStrengthen: 0

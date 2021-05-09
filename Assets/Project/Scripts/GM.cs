@@ -59,9 +59,9 @@ public class playerStrategy
 {
     public Character activeCharacter;
     public AttackTypes selectedAttack;
-    public Enemy activeEnemy;
-    public Character selectedCharacter;
-    public playerStrategy(Character ac, AttackTypes sa, Enemy ae, Character sc)
+    public List<Enemy> activeEnemy = new List<Enemy>();
+    public List<Character> selectedCharacter = new List<Character>();
+    public playerStrategy(Character ac, AttackTypes sa, List<Enemy> ae, List<Character> sc)
     {
         this.activeCharacter = ac;
         this.selectedAttack = sa;
@@ -138,8 +138,8 @@ public class GM : MonoBehaviour
     [Space(20)]
     public Character activeCharacter;
     public AttackTypes selectedAttack;
-    public Enemy activeEnemy;
-    public Character chosenCharacter;
+    public List<Enemy> activeEnemy = new List<Enemy>();
+    public List<Character> chosenCharacter = new List<Character>();
     public List<playerStrategy> playerStrategy = new List<playerStrategy>();
     public string LastBattleScene;
     public List<BattleCharacters> charactersInBattle = new List<BattleCharacters>();

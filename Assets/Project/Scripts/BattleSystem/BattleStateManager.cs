@@ -37,6 +37,8 @@ public class BattleStateManager : MonoBehaviour
     public Color weakerColor;
     public Color neutralColor;
 
+    public Collider2D[] hitColliders;
+
     int playerSPD;
     int enemySPD;
 
@@ -190,37 +192,44 @@ public class BattleStateManager : MonoBehaviour
     {
         if (GM.gm.selectedAttack != null)
         {
-            if (GM.gm.selectedAttack.enemyAmount > 0 && GM.gm.selectedAttack.teamAmount < 0)
+            if (GM.gm.selectedAttack.enemyAmount > 0 && GM.gm.selectedAttack.teamAmount <= 0)
             {
-                GM.gm.chosenCharacter = null;
+                GM.gm.chosenCharacter.Clear();
                 foreach (GameObject item in enemyList)
                 {
                     EnemySelectionButton ESB = item.GetComponent<EnemySelectionButton>();
                     ESB.button.interactable = true;
                 }
                 
-                if (GM.gm.activeCharacter.elementalType.Strongerthan == GM.gm.activeEnemy.elementalType)
+                if (GM.gm.selectedAttack.enemyAmount == 1 && GM.gm.activeEnemy.Count != 0)
                 {
-                    this.lineRenderer.SetColors(strongerColor, strongerColor);
-                }
-                else if (GM.gm.activeCharacter.elementalType.Weakerthan == GM.gm.activeEnemy.elementalType)
-                {
-                    this.lineRenderer.SetColors(weakerColor, weakerColor);
+                    if (GM.gm.activeCharacter.elementalType.Strongerthan == GM.gm.activeEnemy[GM.gm.activeEnemy.Count-1].elementalType)
+                    {
+                        this.lineRenderer.SetColors(strongerColor, strongerColor);
+                    }
+                    else if (GM.gm.activeCharacter.elementalType.Weakerthan == GM.gm.activeEnemy[GM.gm.activeEnemy.Count-1].elementalType)
+                    {
+                        this.lineRenderer.SetColors(weakerColor, weakerColor);
+                    }
+                    else
+                    {
+                        this.lineRenderer.SetColors(neutralColor, neutralColor);
+                    }
                 }
                 else
                 {
                     this.lineRenderer.SetColors(neutralColor, neutralColor);
                 }
-
-                if (GM.gm.activeEnemy.enemyName != "")
+                
+                if (GM.gm.activeEnemy.Count != 0)
                 {
                     Selected.interactable = true;
                     this.DrawLine(selectedCharacterPosition, selectedEnemyPosition);
                 }
             }
-            else if (GM.gm.selectedAttack.teamAmount > 0 && GM.gm.selectedAttack.enemyAmount < 0)
+            else if (GM.gm.selectedAttack.teamAmount > 0 && GM.gm.selectedAttack.enemyAmount <= 0)
             {
-                GM.gm.activeEnemy = null;
+                GM.gm.activeEnemy.Clear();
                 foreach (GameObject item in enemyList)
                 {
                     EnemySelectionButton ESB = item.GetComponent<EnemySelectionButton>();
@@ -228,10 +237,16 @@ public class BattleStateManager : MonoBehaviour
                 }
 
                 this.lineRenderer.SetColors(neutralColor, neutralColor);
-                if (GM.gm.chosenCharacter.characterName != "")
+                if (GM.gm.chosenCharacter.Count != 0)
                 {
                     Selected.interactable = true;
                     this.DrawLine(selectedCharacterPosition, selectedEnemyPosition);
+                }
+                for (int i = 0; i < GM.gm.enemiesInBattle.Count; i++)
+                {
+                    GameObject go = GameObject.Find(GM.gm.enemiesInBattle[i].enemyName + "Enemy" + i.ToString());
+                    EnemyStateManager esm = go.GetComponent<EnemyStateManager>();
+                    esm.activeCharacter.SetActive(false);
                 }
             }
             else if (GM.gm.selectedAttack.teamAmount > 0 && GM.gm.selectedAttack.enemyAmount > 0)
@@ -242,22 +257,29 @@ public class BattleStateManager : MonoBehaviour
                     ESB.button.interactable = true;
                 }
 
-                GM.gm.chosenCharacter = GM.gm.activeCharacter;
+                GM.gm.chosenCharacter.Add(GM.gm.activeCharacter);
 
-                if (GM.gm.activeCharacter.elementalType.Strongerthan == GM.gm.activeEnemy.elementalType)
+                if (GM.gm.selectedAttack.enemyAmount == 1 && GM.gm.activeEnemy.Count != 0) 
                 {
-                    this.lineRenderer.SetColors(strongerColor, strongerColor);
-                }
-                else if (GM.gm.activeCharacter.elementalType.Weakerthan == GM.gm.activeEnemy.elementalType)
-                {
-                    this.lineRenderer.SetColors(weakerColor, weakerColor);
+                    if (GM.gm.activeCharacter.elementalType.Strongerthan == GM.gm.activeEnemy[GM.gm.activeEnemy.Count-1].elementalType)
+                    {
+                        this.lineRenderer.SetColors(strongerColor, strongerColor);
+                    }
+                    else if (GM.gm.activeCharacter.elementalType.Weakerthan == GM.gm.activeEnemy[GM.gm.activeEnemy.Count-1].elementalType)
+                    {
+                        this.lineRenderer.SetColors(weakerColor, weakerColor);
+                    }
+                    else
+                    {
+                        this.lineRenderer.SetColors(neutralColor, neutralColor);
+                    }
                 }
                 else
                 {
                     this.lineRenderer.SetColors(neutralColor, neutralColor);
                 }
-
-                if (GM.gm.activeEnemy.enemyName != "")
+                
+                if (GM.gm.activeEnemy.Count != 0)
                 {
                     Selected.interactable = true;
                     this.DrawLine(selectedCharacterPosition, selectedEnemyPosition);

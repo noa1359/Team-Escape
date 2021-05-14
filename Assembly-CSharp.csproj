@@ -85,7 +85,6 @@
     <Compile Include="Assets\Project\Scripts\HeartSystem.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\InitializeIAP.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Example\TestGameServices.cs" />
-    <Compile Include="Assets\GridMap\Scripts\GridInt.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionUpdater.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\BattleWindow.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\TimerProperties.cs" />
@@ -149,6 +148,7 @@
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\GameServices.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\LeaderboardNames.cs" />
     <Compile Include="Assets\CodeMonkey\Assets.cs" />
+    <Compile Include="Assets\Project\Scripts\BattleSystem\EnemySelectionButton.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\World_Sprite.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\WatchAnAd.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\CalendarDayProperties.cs" />
@@ -162,7 +162,6 @@
     <Compile Include="Assets\Project\Scripts\Destroyer.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\GetStorePrice.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\VisualScriptingSupport\GameFlowSupport\Logout.cs" />
-    <Compile Include="Assets\GridMap\Scripts\MeshUtils.cs" />
     <Compile Include="Assets\GleyPlugins\GameServices\Scripts\ScreenWriter.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\PlaymakerSupport\BuyProduct.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\Table.cs" />
@@ -191,14 +190,12 @@
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\TimerButton.cs" />
     <Compile Include="Assets\Project\Scripts\BattleSystem\EnemyStateManager.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\CalendarPopup.cs" />
-    <Compile Include="Assets\GridMap\Scripts\Grid.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\GameFlowSupport\CheckIfBought.cs" />
     <Compile Include="Assets\GleyPlugins\EasyIAP\Scripts\VisiualScriptingSupport\GameFlowSupport\GetStorePrice.cs" />
     <Compile Include="Assets\CodeMonkey\CMDebug.cs" />
     <Compile Include="Assets\Project\Scripts\UIscripts\InstantiateGameObject.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\PlaymakerSupport\TimerButtonClicked.cs" />
-    <Compile Include="Assets\Project\Scripts\BattleSystem\EnemySelectionButton.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

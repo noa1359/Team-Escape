@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class EnemyStateManager : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class EnemyStateManager : MonoBehaviour
     public Image HPbar;
     public Image MPbar;
     public GameObject activeCharacter;
+    public TMP_Text damageTaken;
+    public GameObject Damage;
     public Vector2 HP;
     public Vector2 MP;
 

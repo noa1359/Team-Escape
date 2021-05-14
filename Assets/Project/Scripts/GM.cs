@@ -55,13 +55,25 @@ public class BattleCharacters
 }
 
 [System.Serializable]
+public class BattleEnemy
+{
+    public int originalEnemyInt;
+    public Enemy battleEnemy;
+    public BattleEnemy(int oe, Enemy be)
+    {
+        this.originalEnemyInt = oe;
+        this.battleEnemy = be;
+    }
+}
+
+[System.Serializable]
 public class playerStrategy
 {
     public Character activeCharacter;
     public AttackTypes selectedAttack;
-    public List<Enemy> activeEnemy = new List<Enemy>();
+    public List<BattleEnemy> activeEnemy = new List<BattleEnemy>();
     public List<Character> selectedCharacter = new List<Character>();
-    public playerStrategy(Character ac, AttackTypes sa, List<Enemy> ae, List<Character> sc)
+    public playerStrategy(Character ac, AttackTypes sa, List<BattleEnemy> ae, List<Character> sc)
     {
         this.activeCharacter = ac;
         this.selectedAttack = sa;
@@ -139,6 +151,8 @@ public class GM : MonoBehaviour
     public Character activeCharacter;
     public AttackTypes selectedAttack;
     public List<Enemy> activeEnemy = new List<Enemy>();
+    public List<BattleEnemy> battleEnemy = new List<BattleEnemy>();
+    public List<int> enemyInt = new List<int>();
     public List<Character> chosenCharacter = new List<Character>();
     public List<playerStrategy> playerStrategy = new List<playerStrategy>();
     public string LastBattleScene;

@@ -24,6 +24,9 @@ public class AttackName : MonoBehaviour
                     if (attacks.attackName == attackName.text)
                     {
                         GM.gm.selectedAttack = attacks;
+                        GameObject go = GameObject.Find(GM.gm.activeCharacter.characterName + "Player");
+                        PlayerStateManager psm = go.GetComponent<PlayerStateManager>();
+                        psm.MP.x = GM.gm.activeCharacter.MP - attacks.MPCost;
                         break;
                     }
                 }

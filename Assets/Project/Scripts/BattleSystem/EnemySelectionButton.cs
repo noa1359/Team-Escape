@@ -14,6 +14,7 @@ public class EnemySelectionButton : MonoBehaviour
     public void ClickIcon()
     {
         GM.gm.activeEnemy.Clear();
+        GM.gm.enemyInt.Clear();
         for (int g = 0; g < GM.gm.enemiesInBattle.Count; g++)
         {
             GameObject go = GameObject.Find(GM.gm.enemiesInBattle[g].enemyName + "Enemy" + g.ToString());
@@ -33,6 +34,7 @@ public class EnemySelectionButton : MonoBehaviour
                     for (int j = 0; j < GM.gm.enemiesInBattle.Count; j++)
                     {
                         GM.gm.activeEnemy.Add(GM.gm.enemiesInBattle[j]);
+                        GM.gm.enemyInt.Add(j);
                         GameObject eo = GameObject.Find(GM.gm.enemiesInBattle[j].enemyName + "Enemy" + j.ToString());
                         EnemyStateManager ESM = eo.GetComponent<EnemyStateManager>();
                         ESM.activeCharacter.SetActive(true);
@@ -52,6 +54,7 @@ public class EnemySelectionButton : MonoBehaviour
                             {
                                 EnemyStateManager ESM = eo.GetComponent<EnemyStateManager>();
                                 GM.gm.activeEnemy.Add(GM.gm.enemiesInBattle[j]);
+                                GM.gm.enemyInt.Add(j);
                                 ESM.activeCharacter.SetActive(true);
                             }
                         }
@@ -59,6 +62,7 @@ public class EnemySelectionButton : MonoBehaviour
                     break;
                 }
                 GM.gm.activeEnemy.Add(GM.gm.enemiesInBattle[i]);
+                GM.gm.enemyInt.Add(i);
                 esm.activeCharacter.SetActive(true);
             }
             else

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using CodeMonkey.Utils;
 
 public enum BattleStates { Setup, PlayerSelect, PlayerAction, EnemySelect, EnemyAction, End}
 public enum BattleSide { Player, Enemy}
@@ -25,6 +26,7 @@ public class BattleStateManager : MonoBehaviour
     public GameObject playerSelectionButton;
     public GameObject enemySelectionButton;
     public Button Selected;
+    public Button EndTurn;
 
     public List<GameObject> characterList = new List<GameObject>();
     public List<GameObject> enemyList = new List<GameObject>();
@@ -68,6 +70,7 @@ public class BattleStateManager : MonoBehaviour
             break;
 
             case BattleStates.PlayerAction:
+            showActions();
             break;
 
             case BattleStates.EnemySelect:
@@ -190,6 +193,7 @@ public class BattleStateManager : MonoBehaviour
 
     void PlayerSelectAction()
     {
+        EndTurn.interactable = true;
         if (GM.gm.selectedAttack != null)
         {
             if (GM.gm.selectedAttack.enemyAmount > 0 && GM.gm.selectedAttack.teamAmount <= 0)
@@ -298,17 +302,64 @@ public class BattleStateManager : MonoBehaviour
 
     public void doneChoosing()
     {
-        GM.gm.playerStrategy.Add(new playerStrategy(GM.gm.activeCharacter, GM.gm.selectedAttack, GM.gm.activeEnemy, GM.gm.chosenCharacter));
+        for (int i = 0; i < GM.gm.activeEnemy.Count; i++)
+        {
+            BattleEnemy battleEnemy = new BattleEnemy(GM.gm.enemyInt[i], GM.gm.activeEnemy[i]);
+            GM.gm.battleEnemy.Add(battleEnemy);
+        }
+        GM.gm.playerStrategy.Add(new playerStrategy(GM.gm.activeCharacter, GM.gm.selectedAttack, GM.gm.battleEnemy, GM.gm.chosenCharacter));
         GameObject go = Instantiate(Line);
-        go.name = GM.gm.selectedAttack.attackName + (GM.gm.playerStrategy.Count - 1).ToString();
+        go.name = GM.gm.selectedAttack.attackName;
         GM.gm.selectedAttack = null;
+        for (int i = 0; i < GM.gm.charactersInBattle.Count; i++)
+        {
+            int count = 0;
+            foreach (playerStrategy player in GM.gm.playerStrategy)
+            {
+                if (player.activeCharacter == GM.gm.charactersInBattle[i].battleCharacter)
+                {
+                    count++;
+                }
+            }
+
+            if (count > 1)
+            {
+                count--;
+                for (int j = 0; j < GM.gm.playerStrategy.Count; j++)
+                {
+                    if (GM.gm.playerStrategy[j].activeCharacter == GM.gm.charactersInBattle[i].battleCharacter)
+                    {
+                        Destroy(GameObject.Find(GM.gm.playerStrategy[j].selectedAttack.attackName));
+                        GM.gm.playerStrategy.Remove(GM.gm.playerStrategy[j]);
+                        count--;
+                    }
+
+                    if (count == 0)
+                    {
+                        break;
+                    }
+                }
+            }
+        }
         Selected.interactable = false;
     }
 
     public void endTurn()
     {
-        //We count every attack we have for characters in battle and if there's 2 or more attacks for one character, we remove all of them except the last one. :)
-        //We go to instantiate the actions :)
+        for (int i = 0; i < GM.gm.charactersInBattle.Count; i++)
+        {
+            foreach (playerStrategy player in GM.gm.playerStrategy)
+            {
+                if (player.activeCharacter == GM.gm.charactersInBattle[i].battleCharacter)
+                {
+                    GameObject go = GameObject.Find(player.activeCharacter.characterName + "Player");
+                    PlayerStateManager psm = go.GetComponent<PlayerStateManager>();
+                    psm.MP.x = psm.MP.x - player.selectedAttack.MPCost;
+                    break;
+                }
+            }
+        }
+        currentState = BattleStates.PlayerAction;
     }
 
     void DrawLine(Vector2 Starter, Vector2 Target)
@@ -317,6 +368,105 @@ public class BattleStateManager : MonoBehaviour
         pointsArray[0] = (Vector3)Starter;
         pointsArray[1] = (Vector3)Target;
         this.lineRenderer.SetPositions(pointsArray);
+    }
+
+    void showActions()
+    {
+        for (int g = 0; g < GM.gm.enemiesInBattle.Count; g++)
+        {
+            GameObject go = GameObject.Find(GM.gm.enemiesInBattle[g].enemyName + "Enemy" + g.ToString());
+            EnemyStateManager enemyStateManager = go.GetComponent<EnemyStateManager>();
+            enemyStateManager.activeCharacter.SetActive(false);
+        }
+        EndTurn.interactable = false;
+        DestroyBattleWindow();
+
+        foreach (playerStrategy strategy in GM.gm.playerStrategy)
+        {
+            if (strategy.selectedAttack.attackType == AttackType.Attack)
+            {
+                for (int i = 0; i < strategy.activeEnemy.Count; i++)
+                {
+                    StartCoroutine(Attack(strategy.selectedAttack.turnAmount, strategy.selectedAttack.attackDamage, strategy.activeEnemy[i].originalEnemyInt, strategy.activeEnemy[i].battleEnemy, strategy.activeCharacter));
+                }
+            }
+
+            if (strategy.selectedAttack.attackType == AttackType.Support)
+            {
+                
+            }
+
+            if (strategy.selectedAttack.attackType == AttackType.Defence)
+            {
+                
+            }
+
+            if (strategy.selectedAttack.attackType == AttackType.Strategist)
+            {
+                
+            }
+        }
+        currentState = BattleStates.EnemySelect;
+    }
+
+    IEnumerator Attack(int turnAmount, int attackDamage, int enemyInt, Enemy enemy, Character character)
+    {
+        GameObject go = GameObject.Find(enemy.enemyName + "Enemy" + enemyInt.ToString());
+        EnemyStateManager ESM = go.GetComponent<EnemyStateManager>();
+        ESM.HP.x -= attackDamage;
+        if (character.elementalType.Strongerthan == enemy.elementalType)
+        {
+            ESM.HP.x -= attackDamage * 0.4f;
+            ESM.damageTaken.text = (attackDamage + (int)(attackDamage * 0.4f)).ToString();
+            ESM.Damage.SetActive(true);
+            yield return new WaitForSeconds(6f);
+            ESM.Damage.SetActive(false);
+        }
+        else if (character.elementalType.Weakerthan == enemy.elementalType)
+        {
+            ESM.HP.x += attackDamage * 0.4f;
+            ESM.damageTaken.text = (attackDamage - (int)(attackDamage * 0.4f)).ToString();
+            ESM.Damage.SetActive(true);
+            yield return new WaitForSeconds(6f);
+            ESM.Damage.SetActive(false);
+        }
+        else
+        {
+            ESM.damageTaken.text = (attackDamage).ToString();
+            ESM.Damage.SetActive(true);
+            yield return new WaitForSeconds(6f);
+            ESM.Damage.SetActive(false);
+        }
+        
+        if (turnAmount > 1)
+        {
+            ///We'll think later.
+        }
+
+        if (ESM.HP.x == 0)
+        {
+            Destroy(go);
+            GM.gm.enemiesInBattle.Remove(enemy);
+            enemyListUpdate();
+        }
+        yield return new WaitForSeconds(1f);
+    }
+
+    void enemyListUpdate()
+    {
+        enemyList.Clear();
+        for (int i = 0; i < GM.gm.enemiesInBattle.Count; i++)
+        {
+            GameObject eb = Instantiate(enemySelectionButton);
+            eb.transform.SetParent(contentAreaEnemy.transform);
+            eb.GetComponent<RectTransform>().localScale = new Vector3(1,1,1);
+            EnemySelectionButton ESB = eb.GetComponent<EnemySelectionButton>();
+            ESB.characterSprite.sprite = GM.gm.enemiesInBattle[i].profilePic;
+            ESB.enemyName = GM.gm.enemiesInBattle[i].enemyName;
+            ESB.GMint = i;
+            ESB.BSM = this;
+            enemyList.Add(eb);
+        }
     }
 
     void WhoStarts()
@@ -356,6 +506,6 @@ public class BattleStateManager : MonoBehaviour
     {
         contentAreaEnemy.SetActive(false);
         contentAreaPlayer.SetActive(false);
-        Destroy(attackSystem);
+        Destroy(GameObject.Find(attackSystem.name + "(Clone)"));
     }
 }

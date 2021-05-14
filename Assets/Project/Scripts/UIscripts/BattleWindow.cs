@@ -49,6 +49,10 @@ public class BattleWindow : MonoBehaviour
             AN.attackDescription = attack[i].Description;
             AN.MPCost = attack[i].MPCost;
             AN.DMGAmount = attack[i].attackDamage;
+            if (attack[i].MPCost > GM.gm.activeCharacter.MP)
+            {
+                go.SetActive(false);
+            }
             AN.BW = this;
             attacksList.Add(go);
         }
@@ -85,6 +89,10 @@ public class BattleWindow : MonoBehaviour
             AN.attackDescription = support[i].Description;
             AN.MPCost = support[i].MPCost;
             AN.DMGAmount = support[i].attackDamage;
+            if (support[i].MPCost > GM.gm.activeCharacter.MP)
+            {
+                go.SetActive(false);
+            }
             AN.BW = this;
             attacksList.Add(go);
         }
@@ -121,6 +129,10 @@ public class BattleWindow : MonoBehaviour
             AN.attackDescription = defence[i].Description;
             AN.MPCost = defence[i].MPCost;
             AN.DMGAmount = defence[i].attackDamage;
+            if (defence[i].MPCost > GM.gm.activeCharacter.MP)
+            {
+                go.SetActive(false);
+            }
             AN.BW = this;
             attacksList.Add(go);
         }
